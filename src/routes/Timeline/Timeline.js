@@ -3,7 +3,8 @@ import "./Timeline.scss"
 
 const Timeline = () => {
   return (
-    <div className="timeline">Timeline</div>
+    <div className="timeline">Timeline
+    1234</div>
   )
 }
 
