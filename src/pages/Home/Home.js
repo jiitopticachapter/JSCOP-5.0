@@ -3,9 +3,7 @@ import LandingPage from '../../components/LandingPage/LandingPage'
 
 const Home = () => {
     return (
-
         <div>
-
             <LandingPage />
         </div>
     )
