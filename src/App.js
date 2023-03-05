@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
 import "./index.css";
-import Events from './routes/Events/Events';
-import Home from './routes/Home/Home';
-import Timeline from './routes/Timeline/Timeline';
+import Events from './components/Events/Events';
+import Home from './pages/Home/Home';
+import Timeline from './components/Timeline/Timeline';
 import "./index.css"
 // import { Route, Routes } from "react-router-dom";
 
