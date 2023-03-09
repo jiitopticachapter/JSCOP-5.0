@@ -10,5 +10,5 @@ const EventDetails = () => {
       </motion.div>
     )
 }
-  
+
 export default EventDetails
