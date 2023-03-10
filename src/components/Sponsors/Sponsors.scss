@@ -9,10 +9,8 @@ $animationSpeed: 40s;
 	0% { transform: translateX(0); }
 	100% { transform: translateX(calc(-250px * 7))}
 }
-
-
 // Styling
-.Sponsors_slider {
+.Sponsors_slider{
 	background: white;
 	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
 	height: 100px;

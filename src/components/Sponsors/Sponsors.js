@@ -1,5 +1,6 @@
 import React from 'react'
 import'./Sponsors.scss'
+
 const Sponsors = () => {
   return (
     <div className="Sponsors_slider">
