@@ -1,11 +1,12 @@
 import './App.css';
 import React from "react"
 
-import Register from './Pages/Register/Register';
-import EventDetails from './Pages/EventDetails/EventDetails';
-import Home from './Pages/Home/Home';
-import PageNotFound from './Pages/PageNotFound/PageNotFound'
-import Navbar from './Components/Navbar/Navbar';
+import Register from './pages/Register/Register';
+import EventDetails from './pages/EventDetails/EventDetails';
+import Home from './pages/Home/Home';
+import PageNotFound from './pages/PageNotFound/PageNotFound'
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer'
 
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
@@ -19,6 +20,7 @@ function App() {
             <Route path='/eventdetails' element={<EventDetails/>}></Route>
             <Route path='*' element={<PageNotFound/>}></Route>
           </Routes>
+          <Footer/>
       </BrowserRouter>
     );
 }
