@@ -1,6 +1,6 @@
 import React from 'react'
 import './Events.scss'
-import { useEffect } from 'react'
+// import { useEffect } from 'react'
 
 const Events = () => {
 
@@ -27,9 +27,9 @@ const animate = () => {
   $items.forEach((item, index) => displayItems(item, index, active))
 }
 
-useEffect(() => {
-animate();
-}, []);
+// useEffect(() => {
+// animate();
+// }, []);
 
 
 $items.forEach((item, i) => {
