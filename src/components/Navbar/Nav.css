@@ -45,9 +45,13 @@
 }
 
 .nav-item {
-    height: 80px;
+    height: 10vh;
+    overflow-y: hidden;
 }
-
+.nav-item:hover {
+    border-bottom: 4px solid #fff;
+    transition: all 0.3s ease-out;
+}
 .nav-links {
     color: #fff;
     font-family: 'Genos', sans-serif;
@@ -60,10 +64,10 @@
     height: 100%;
 }
 
-.nav-links:hover {
+/* .nav-links:hover {
     border-bottom: 4px solid #fff;
     transition: all 0.2s ease-out;
-}
+} */
 
 .fa-bars {
     color: #fff;
@@ -123,6 +127,7 @@
         padding: 2rem;
         width: 100%;
         display: table;
+        
     }
 
     .nav-links:hover {
@@ -166,6 +171,7 @@
         padding: 14px 20px;
         border: 1px solid #fff;
         transition: all 0.3s ease-out;
+        font-family: 'Genos', sans-serif;
     }
 
     .nav-links-mobile:hover {
