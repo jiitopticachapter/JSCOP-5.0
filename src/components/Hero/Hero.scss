@@ -1,6 +1,6 @@
 .hero-container {
     /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -12,18 +12,19 @@
     video {
         object-fit: cover;
         width: 100%;
-        height: 100%;
+        height: 110vh;
         position: fixed;
         z-index: -1;
     }
 
     h1 {
-        font-size: 10rem;
-        font-family: 'Bebas Neue', cursive;
+        // font-size: 10rem;
+        // font-family: 'Bebas Neue', cursive;
+        font-family: 'Stargaze';
+        font-size: 9rem;
         color: white;
         overflow-y: hidden;
         margin-top: -100px;
-        font-family: 'Bebas Neue';
         letter-spacing: 5px;
 
         span {
@@ -41,6 +42,7 @@
         text-transform: uppercase;
         font-size: 2rem;
         font-family: 'Genos', sans-serif;
+        padding : 0 10px;
     }
 }
 
