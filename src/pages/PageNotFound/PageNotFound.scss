@@ -1,0 +1,100 @@
+$white: #EDEDED;
+$gray: #BFC0C0;
+$dark: #585959;
+$light: #000000;
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato');
+
+$big: 'Abril Fatface', serif;
+$body: 'Lato', sans-serif;
+
+body {
+  background-image: url("./bg5.jpg");
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    overflow-y : hidden;
+}
+
+.top {
+  margin-top: 30px;
+  animation: float 2s ease-out infinite;
+}
+
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes float {
+  50% {
+     transform: translateY(15px);
+  }
+}
+
+.bottom {
+  margin-top: 50px;
+}
+
+/*text styling*/
+h1 {
+  font-family: $big;
+  color: $white;
+  text-align: center;
+  font-size: 9em;
+  margin: 0;
+  text-shadow: -1px 0 $gray, 0 1px $gray, 1px 0 $gray, 0 -1px $gray;
+}
+h3 {
+  font-family: $body;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  color: $gray;
+  margin-top: -20px;
+  font-weight: 900;
+}
+p {
+  text-align: center;
+  font-family: $body;
+  color: $dark;
+  font-size: .6em;
+  margin-top: -20px;
+  text-transform: uppercase;
+}
+
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+
+
+
+.btn {
+  background: $white;
+  padding: 15px 20px;
+  margin: 5px;
+  color: $dark;
+  font-family: $body;
+  text-transform: uppercase;
+  font-size: .6em;
+  letter-spacing: 1px;
+  border: 0;
+  &:hover {
+    background: $gray;
+    transition: all .4s ease-out;
+  }
+}
