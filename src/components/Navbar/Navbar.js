@@ -57,17 +57,16 @@ const Navbar = () => {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Services
+              Events
             </Link>
           </li>
           <li className='nav-item'>
-            <Link
-              to='/products'
+            <a href ='#timeline'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Products
-            </Link>
+              Timeline
+            </a>
           </li>
 
           <li>
@@ -76,11 +75,11 @@ const Navbar = () => {
               className='nav-links-mobile'
               onClick={closeMobileMenu}
             >
-              Sign Up
+              REGISTER NOW!
             </Link>
           </li>
         </ul>
-        {button && <Button buttonStyle='btn--outline'>REGISTER</Button>}
+        {button && <Button buttonStyle='btn--outline'>REGISTER NOW</Button>}
 
 
 

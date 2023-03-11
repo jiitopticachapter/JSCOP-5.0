@@ -92,7 +92,7 @@ const Timeline = () => {
   })
   return (
     <>
-      <div className="ag-timeline-block">
+      <div className="ag-timeline-block" id="timeline">
         <div className="ag-timeline_title-box">
           <div className="ag-timeline_tagline">Timeline</div>
           <div className="ag-timeline_title">No Flex</div>

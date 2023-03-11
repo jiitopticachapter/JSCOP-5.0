@@ -14,7 +14,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 function App() {
     return (
       <BrowserRouter>
-        <Navbar/>
+        {/* <Navbar/> */}
         {/* <LandingPage/> */}
           <Routes>
             <Route path='/' element={<Home />}></Route>
