@@ -18,26 +18,3 @@ a {
 li {
     list-style: none;
 }
-/* 
-.cursor {
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    position: fixed;
-    border-radius: 50%;
-    pointer-events: none;
-    mix-blend-mode: difference;
-
-}
-
-a:hover~.cursor {
-    width: 70px;
-}
-
-li:hover~.cursor {
-    transform: scale(5);
-}
-
-.univ{
-    height : 500vh;
-} */

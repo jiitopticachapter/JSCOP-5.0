@@ -151,7 +151,7 @@
     font-family: "ESL Legend", sans-serif;
     font-size: 20px;
     color: #fff;
-  
+    overflow: hidden;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -159,6 +159,7 @@
   .js-ag-active .ag-timeline-card_point {
     color: #1d1d1b;
     background-color: #ff0;
+    overflow: hidden;
   }
   .ag-timeline-card_meta-box {
     display: inline-block;
