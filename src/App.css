@@ -3,6 +3,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,200;0,300;0,400;0,700;1,400;1,700&display=swap');
 /* font-family: 'Genos', sans-serif; */
+@font-face {
+    font-family: Stargaze;
+    src: url("./assets/fonts/stargaze_reg.woff");
+  }
+
 * {
     margin: 0;
     padding: 0;
