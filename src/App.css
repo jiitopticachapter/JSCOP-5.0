@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 a {
@@ -17,7 +18,7 @@ a {
 li {
     list-style: none;
 }
-
+/* 
 .cursor {
     width: 30px;
     height: 30px;
@@ -39,4 +40,4 @@ li:hover~.cursor {
 
 .univ{
     height : 500vh;
-}
+} */
