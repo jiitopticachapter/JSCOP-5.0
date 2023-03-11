@@ -1,7 +1,7 @@
 import React from 'react'
 import PageName from '../../components/PageName/PageName'
 import "./EventDetails.css";
-
+import Faq from '../../components/FAQ/faq';
 const EventDetails = () => {
   return (
     <div className="EventsDetails">
@@ -41,6 +41,9 @@ const EventDetails = () => {
            </div>
         </div>
 
+
+
+   <Faq />
     </div>
   )
 }
