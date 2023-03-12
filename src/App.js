@@ -20,7 +20,7 @@ function App() {
             <Route path='/' element={<Home />}></Route>
             <Route path='/register' element={<Register/>}></Route>
             <Route path='/eventdetails' element={<EventDetails/>}></Route>
-            <Route path='*' element={<PageNotFound/>}></Route>
+            <Route path='/pagenotfound' element={<PageNotFound/>}></Route>
           </Routes>
           <Footer/>
       </BrowserRouter>
