@@ -1,7 +1,7 @@
-$white: #EDEDED;
-$gray: #BFC0C0;
-$dark: #585959;
-$light: #000000;
+// $white: #EDEDED;
+// $gray: #BFC0C0;
+// $dark: #585959;
+// $light: #000000;
 
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato');
 
@@ -48,25 +48,25 @@ body {
 /*text styling*/
 h1 {
   font-family: $big;
-  color: $white;
+  color: white;
   text-align: center;
   font-size: 9em;
   margin: 0;
-  text-shadow: -1px 0 $gray, 0 1px $gray, 1px 0 $gray, 0 -1px $gray;
+  text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
 }
 h3 {
   font-family: $body;
   font-size: 2em;
   text-transform: uppercase;
   text-align: center;
-  color: $gray;
+  color: gray;
   margin-top: -20px;
   font-weight: 900;
 }
 p {
   text-align: center;
   font-family: $body;
-  color: $dark;
+  color: #585959;
   font-size: .6em;
   margin-top: -20px;
   text-transform: uppercase;
@@ -84,17 +84,17 @@ p {
 
 
 .btn {
-  background: $white;
+  background: white;
   padding: 15px 20px;
   margin: 5px;
-  color: $dark;
+  color: #585959;
   font-family: $body;
   text-transform: uppercase;
   font-size: .6em;
   letter-spacing: 1px;
   border: 0;
   &:hover {
-    background: $gray;
+    background: gray;
     transition: all .4s ease-out;
   }
 }
