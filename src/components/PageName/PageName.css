@@ -2,7 +2,8 @@
 
 .page_body{
     height : 60vh;
-    background-color: white;
+    background-color: transparent;
+    
 }
 .page{
     width : 100%;
