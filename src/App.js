@@ -19,8 +19,8 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />}></Route>
             <Route path='/register' element={<Register/>}></Route>
-            <Route path='/eventdetails' element={EventDetails}>
-            <Route path='*' element={PageNotFound}>
+            <Route path='/eventdetails' element={EventDetails}/>
+            <Route path='*' element={PageNotFound}/>
           </Routes>
           <Footer/>
       </BrowserRouter>
