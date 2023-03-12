@@ -2,6 +2,8 @@ import React from 'react'
 import PageName from '../../components/PageName/PageName'
 import "./EventDetails.css";
 import Faq from '../../components/FAQ/faq';
+import OrgTeam from '../../components/orgteam/orgteam';
+
 const EventDetails = () => {
   return (
     <div className="EventsDetails">
@@ -21,15 +23,15 @@ const EventDetails = () => {
            <div className="detail_images">
               <div className="Event_register_details">
                 <div className='Event_date'>
-                   <i class="fa-regular fa-calendar-days days_icon "></i>
+                   <i className="fa-regular fa-calendar-days days_icon "></i>
                   6th March 2023
                 </div>
                 <div className='Event_location'>
-                <i class="fa-solid fa-location-dot location_icon"></i>
+                <i className="fa-solid fa-location-dot location_icon"></i>
                 LT-4
                 </div>
                 <div className="Event_time">
-                <i class="fa-sharp fa-solid fa-clock time_icon"></i>
+                <i className="fa-sharp fa-solid fa-clock time_icon"></i>
                 12:00 pm
                 </div>
                 <div className='Event_deadline'><b>Reg-deadline:</b><br /> 1-March-2023,11:59 pm </div>
@@ -42,7 +44,7 @@ const EventDetails = () => {
         </div>
 
 
-
+    <OrgTeam />
    <Faq />
     </div>
   )

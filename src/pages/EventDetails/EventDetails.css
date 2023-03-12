@@ -150,7 +150,8 @@ hr{
         flex-direction: column;
         justify-content: center;
         object-fit: cover;
-        width: 82vw;
+        width: 85vw;
+        padding-right: 0;;
         /* margin: auto; */
     }
 
@@ -171,7 +172,7 @@ hr{
 
     .Event_container_right{
         padding: 2rem 0;
-        width: 82vw;
+        width: 85vw;
         height: auto;
         display: flex;
         flex-direction: column;
