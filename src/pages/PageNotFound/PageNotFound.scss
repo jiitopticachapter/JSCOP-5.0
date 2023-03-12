@@ -8,28 +8,84 @@
 $big: 'Abril Fatface', serif;
 $body: 'Lato', sans-serif;
 
-body {
+.pnf {
   background-image: url("./bg5.jpg");
   background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    overflow-y : hidden;
+  .top {
+    margin-top: 30px;
+    animation: float 2s ease-out infinite;
+
+    h1 {
+      font-family: $big;
+      color: white;
+      text-align: center;
+      font-size: 9em;
+      margin: 0;
+      text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+    }
+
+    h3 {
+      font-family: $body;
+      font-size: 2em;
+      text-transform: uppercase;
+      text-align: center;
+      color: gray;
+      margin-top: -20px;
+      font-weight: 900;
+    }
+  }
+
+  .bottom {
+    margin-top: 50px;
+
+    .buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+
+      .btn {
+        background: rgba(255, 255, 255, 0);
+        padding: 15px 20px;
+        margin: 5px;
+        color: #ffffff;
+        font-family: $body;
+        font-size: 1em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: 2px solid white;
+
+        &:hover {
+          background: gray;
+          transition: all .4s ease-out;
+        }
+      }
+    }
+
+
+  }
 }
 
-.top {
-  margin-top: 30px;
-  animation: float 2s ease-out infinite;
-}
 
 
 @keyframes scale {
   0% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(1.1);
   }
+
   100% {
     transform: scale(1);
   }
@@ -37,64 +93,6 @@ body {
 
 @keyframes float {
   50% {
-     transform: translateY(15px);
-  }
-}
-
-.bottom {
-  margin-top: 50px;
-}
-
-/*text styling*/
-h1 {
-  font-family: $big;
-  color: white;
-  text-align: center;
-  font-size: 9em;
-  margin: 0;
-  text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
-}
-h3 {
-  font-family: $body;
-  font-size: 2em;
-  text-transform: uppercase;
-  text-align: center;
-  color: gray;
-  margin-top: -20px;
-  font-weight: 900;
-}
-p {
-  text-align: center;
-  font-family: $body;
-  color: #585959;
-  font-size: .6em;
-  margin-top: -20px;
-  text-transform: uppercase;
-}
-
-
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
-}
-
-
-
-
-.btn {
-  background: white;
-  padding: 15px 20px;
-  margin: 5px;
-  color: #585959;
-  font-family: $body;
-  text-transform: uppercase;
-  font-size: .6em;
-  letter-spacing: 1px;
-  border: 0;
-  &:hover {
-    background: gray;
-    transition: all .4s ease-out;
+    transform: translateY(15px);
   }
 }
