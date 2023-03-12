@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Ubuntu:wght@400;500&display=swap');
+.org_team{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.organizing_team {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    // flex-direction: column;
+    align-items: center;
+    padding:10px;
+
+    font-family: 'Roboto Mono', monospace;
+    // background: radial-gradient(circle, rgba(0,11,64,1) 0%, rgba(0,0,0,1) 100%);
+  }
+
+  .org_heading{
+    font-size: 40px;
+    margin-bottom: 2%;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .wave {
+    float: left;
+    margin: 20px;
+    animation: wave  ease-in-out 0.5s infinite alternate;
+    transform-origin: center -36px;
+  }
+  
+  .wave:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+  }
+  
+  .wave img {
+    border: 5px solid #f8f8f8;
+    display: block;
+    width: 200px;
+    height: 250px;
+  }
+  
+  .wave figcaption {
+    text-align: center;
+  }
+  
+  .wave:after{
+    content: '';
+    position: absolute;
+    width: 20px; 
+    height: 20px;
+    border: 1.5px solid #ffffff;
+    top: -10px; 
+    left: 50%;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(35deg);
+  }
+         
+  .wave:before{
+    content: '';
+    position: absolute;
+    top: -23px;
+    left: 50%;
+    display: block;
+    height: 44px;
+    width: 47px;
+    background-image: url(https://cdn.hashnode.com/res/hashnode/image/upload/v1602040503586/FW6g79WBY.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    z-index: 16;
+  }
+          
+  @keyframes wave {
+    0% { transform: rotate(10deg); }
+    100% { transform: rotate(-10deg); }
+  }
+  
+
+  @media only screen and (max-width:768px){
+  .organizing_team{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    // background: radial-gradient(circle, rgba(0,11,64,1) 0%, rgba(0,0,0,1) 100%);
+  }
+  }
+
+  @media only screen and (max-width:560px){
+    .organizing_team{
+        display: flex;
+        flex-direction: column;
+    }
+  }
