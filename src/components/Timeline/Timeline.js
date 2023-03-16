@@ -93,10 +93,10 @@ const Timeline = () => {
   return (
     <>
       <div className="ag-timeline-block" id="timeline">
-        <div className="ag-timeline_title-box">
+        {/* <div className="ag-timeline_title-box">
           <div className="ag-timeline_tagline">Timeline</div>
           <div className="ag-timeline_title">No Flex</div>
-        </div>
+        </div> */}
         <section className="ag-section">
           <div className="ag-format-container">
             <div className="js-timeline ag-timeline">

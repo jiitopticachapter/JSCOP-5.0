@@ -59,15 +59,16 @@
   }
   
   .ag-timeline-block {
-    padding: 300px 0;
+    padding: 100px 0;
     background-color: #000;
   
     overflow-x: hidden;
   }
   .ag-timeline_title-box {
-    padding: 0 0 30px;
+    // padding: 0 0 30px;
   
-    text-align: center;
+    // text-align: center;
+    display : none;
   }
   .ag-timeline_tagline {
     font-size: 40px;
