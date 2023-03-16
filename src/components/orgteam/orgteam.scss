@@ -1,95 +1,191 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Ubuntu:wght@400;500&display=swap');
-.org_team{
-  display: flex;
-  flex-direction: column;
-  margin-top: 3rem;
+@import url('https://fonts.googleapis.com/css?family=Mr+Dafoe');
+
+.orgteam-section{
+  width: 100wh;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  color: #fff;
+  font-size: 50px;
+}
+.orgteam-container{
+  overflow-x: none;
+  font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  align-items: center;
+  justify-content: center;
+  // height: 100vh;
+  background: transparent;
+  max-width: 100wh;
+  margin: auto;
 }
 
-.organizing_team {
-    color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    // flex-direction: column;
-    align-items: center;
-    padding:10px;
+.orgteam-grid-row {
+  overflow-x: visible;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 280px));
+  grid-gap: 150px 60px;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+}
 
-    font-family: 'Roboto Mono', monospace;
-    // background: radial-gradient(circle, rgba(0,11,64,1) 0%, rgba(0,0,0,1) 100%);
-  }
-
-  .org_heading{
-    font-size: 40px;
-    margin-bottom: 2%;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  .wave {
-    float: left;
-    margin: 20px;
-    animation: wave  ease-in-out 0.5s infinite alternate;
-    transform-origin: center -36px;
-  }
-  
-  .wave:hover {
-    animation-play-state: paused;
-    cursor: pointer;
-  }
-  
-  .wave img {
-    border: 5px solid #f8f8f8;
-    display: block;
-    width: 200px;
-    height: 250px;
-  }
-  
-  .wave figcaption {
-    text-align: center;
-  }
-  
-  .wave:after{
-    content: '';
-    position: absolute;
-    width: 20px; 
-    height: 20px;
-    border: 1.5px solid #ffffff;
-    top: -10px; 
-    left: 50%;
-    border-bottom: none;
-    border-right: none;
-    transform: rotate(35deg);
-  }
-         
-  .wave:before{
-    content: '';
-    position: absolute;
-    top: -23px;
-    left: 50%;
-    display: block;
-    height: 44px;
-    width: 47px;
-    background-image: url(https://cdn.hashnode.com/res/hashnode/image/upload/v1602040503586/FW6g79WBY.png);
-    background-size: 20px 20px;
-    background-repeat: no-repeat;
-    z-index: 16;
-  }
-          
-  @keyframes wave {
-    0% { transform: rotate(10deg); }
-    100% { transform: rotate(-10deg); }
-  }
-  
-
-  @media only screen and (max-width:768px){
-  .organizing_team{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    // background: radial-gradient(circle, rgba(0,11,64,1) 0%, rgba(0,0,0,1) 100%);
-  }
-  }
-
-  @media only screen and (max-width:560px){
-    .organizing_team{
-        display: flex;
-        flex-direction: column;
+.orgteam-frame {
+  overflow-x: visible;
+  position: relative;
+  z-index: 1;
+  transition:0.8s all ease;
+  &:hover {
+    &:after {
+      transform:rotate(-3deg);    
+    }
+    &:before {
+      transform:rotate(15deg);
+    }
+    & img {
+      transform:rotate(6deg)
     }
   }
+&:after {
+  content:'';
+  height:310px;
+  width:300px;
+  display:block;
+  position: absolute;
+  top:0;
+  left:-2%;
+  z-index: -1;
+  transition:0.4s all ease;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 90 90'%3E%3Ccircle fill='%23ffffff' fill-opacity='0.8' cx='45' cy='45' r='10'/%3E%3Cg fill='%23ffffff' fill-opacity='0.8'%3E%3Ccircle cx='0' cy='90' r='10'/%3E%3Ccircle cx='90' cy='90' r='10'/%3E%3Ccircle cx='90' cy='0' r='10'/%3E%3Ccircle cx='0' cy='0' r='10'/%3E%3C/g%3E%3C/svg%3E");
+}
+&:before {
+  content:'';
+  height:102%;
+  width:95%;
+  display:block;
+  position: absolute;
+  top:-5px;
+  left:9%;
+  z-index: -1;
+  transition:0.6s all ease;
+  background: #B1CFE4;
+  transform:rotate(10deg);
+}
+    img {
+    transform:rotate(5deg);
+    transition:0.2s all ease;
+    border:4px double #E77470;
+    height:300px;
+    width:300px;
+    overflow-x: visible;
+    }
+}
+
+[data-tooltip][tabindex="0"] {
+  display: inline-block;
+  position: relative;
+  color: #141931;
+  font-family: "Mr Dafoe", cursive;
+  font-size:24px;
+  overflow-x: visible;
+  
+  &::after {
+    display: none;
+    position: absolute;
+    bottom: 110%;
+    left: 50%;
+    padding: 20px;
+    max-width: 300px;
+    transform: translateX(-50%);
+    border: 1px solid #E77470;
+    border-radius: 3px;
+    // You can also use a fixed width and ommit the white-sapce.
+    white-space: nowrap;
+    background-color: #fff;
+    // Make sure tooltips don't block each others trigger.
+    pointer-events: none;
+    content: attr(data-tooltip);
+  }
+  
+  // Create a neat little arrow
+  &::before {
+    display: none;
+    position: absolute;
+    bottom: 110%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, 50%) rotate(45deg);
+    width: 6px;
+    height: 6px;
+    border: solid #E77470;
+    border-width: 0 1px 1px 0;
+    background-color: #fff;
+    content: '';
+  }
+  
+  // Activate tooltip
+  &:focus,
+  &:hover {
+    text-decoration: underline;
+    
+    &::after,
+    &::before {
+      display: block;
+    }
+  }
+ 
+  
+  &[data-side="bottom"] {
+    &::after,
+    &::before {
+      bottom: auto;
+      top: 110%;
+    }
+    
+    &::after {
+      transform: translate(-50%, 0);
+    }
+    
+    &::before {
+      transform: translate(-50%, -50%) rotate(225deg);
+    }
+  }
+}
+
+@media screen and (max-width:540px)
+{
+  .orgteam-frame{
+        &:after {
+      height:248px;
+      width:240px;
+      
+    }
+  }
+  .orgteam-section{
+    font-size: 20px;
+  }
+  
+  .orgteam-frame img{
+    height:240px;
+    width:240px;
+  }
+}
+
+@media screen and (max-width:350px)
+{
+  .orgteam-frame{
+        &:after {
+      height:223.2px;
+      width:216px;
+      
+    }
+  }
+  .orgteam-section{
+    font-size: 18px;
+  }
+  .orgteam-frame img{
+    height:216px;
+    width:216px;
+  }
+}
