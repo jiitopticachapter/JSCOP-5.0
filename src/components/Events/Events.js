@@ -27,9 +27,7 @@ const animate = () => {
   $items.forEach((item, index) => displayItems(item, index, active))
 }
 
-// useEffect(() => {
-// animate();
-// }, []);
+animate();
 
 
 $items.forEach((item, i) => {
