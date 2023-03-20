@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+
+.heading_main  {
+    margin: 0 auto;
+    background: url("https://media3.giphy.com/media/dGgRUxjoTQTVEQTd0w/giphy.gif?cid=ecf05e47vri60le89twmcg3fid0acdaj0gv9cwon3vwoqv78&rid=giphy.gif&ct=g") left top no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 7rem;
+    letter-spacing: 7px;
+    background-size: cover;
+    color: transparent;
+    height: 30vh;
+    font-family: 'Tilt Warp', cursive;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width : 1080px) {
+    .heading_main {
+        height: 15vh;
+        font-size: 3.5rem;
+        padding: 0 5px;
+        // height : 20vh;
+    }
+
+}

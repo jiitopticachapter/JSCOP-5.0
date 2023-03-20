@@ -1,11 +1,11 @@
 import React from 'react'
-import Heading from '../heading/Heading';
+// import Heading from '../heading/Heading';
 import './Speaker.scss';
 
 const Speakers = () => {
   return (
     <>
-      <Heading title="Speakers" size="5rem"/>
+      {/* <Heading title="Speakers" size="5rem"/> */}
       <section className="hero-section">
         <div className="card-grid">
           <a className="card" href="/">

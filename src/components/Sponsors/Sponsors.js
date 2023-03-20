@@ -1,11 +1,11 @@
 import React from 'react'
-import Heading from '../heading/Heading'
+// import Heading from '../heading/Heading'
 import'./Sponsors.scss'
 
 const Sponsors = () => {
   return (
     <>
-      <Heading title="Sponsors" size="5rem"/>
+      {/* <Heading title="Sponsors" size="5rem"/> */}
         <div className="Sponsors_slider">
         <div className="Sponsors_slide-track">
           <div className="Sponsors_slide">
