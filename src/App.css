@@ -2,11 +2,28 @@
 /* font-family: 'Bebas Neue', cursive; */
 
 @import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,200;0,300;0,400;0,700;1,400;1,700&display=swap');
+
 /* font-family: 'Genos', sans-serif; */
+@font-face {
+    font-family: Stargaze;
+    src: url("./assets/fonts/stargaze_reg.woff");
+}
+
 * {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    box-sizing: border-box;
+   
+}
+html{
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+
+    scroll-behavior: smooth;
 }
 
 a {
@@ -18,25 +35,6 @@ li {
     list-style: none;
 }
 
-.cursor {
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    position: fixed;
-    border-radius: 50%;
-    pointer-events: none;
-    mix-blend-mode: difference;
-
-}
-
-a:hover~.cursor {
-    width: 70px;
-}
-
-li:hover~.cursor {
-    transform: scale(5);
-}
-
-.univ{
-    height : 500vh;
+html{
+    scroll-behavior: smooth;
 }

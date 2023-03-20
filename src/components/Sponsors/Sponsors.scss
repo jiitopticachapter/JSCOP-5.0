@@ -1,5 +1,5 @@
 @mixin white-gradient {
-	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 40%);
+	background: linear-gradient(to right,  rgb(0, 0, 0) 0%,rgba(255,255,255,0) 40%);
 }
 
 $animationSpeed: 40s;
@@ -11,13 +11,14 @@ $animationSpeed: 40s;
 }
 // Styling
 .Sponsors_slider{
-	background: white;
+	// background: rgb(0, 0, 0);
+	background: transparent;
 	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
 	height: 100px;
 	margin: auto;
 	overflow:hidden;
 	position: relative;
-	width: 1300px;
+	width: 100vw;
 	
 	&::before,
 	&::after {
@@ -44,6 +45,12 @@ $animationSpeed: 40s;
 		animation: scroll $animationSpeed linear infinite;
 		display: flex;
 		width: calc(250px * 14);
+
+		.Sponsors_slide{
+			img {
+				mix-blend-mode: difference;
+			}
+		}
 	}
 	
 	//.Sponsors_slide {

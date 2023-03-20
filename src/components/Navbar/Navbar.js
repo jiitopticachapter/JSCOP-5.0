@@ -1,31 +1,91 @@
-import React from 'react'
-import "./Navbar.scss"
-import { useState } from 'react';
+import React, { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
+import { Button } from './Button';
+import './Nav.css'
+
+
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
-  const handleclick = () => setClick(!click);
+  const [button, setButton] = useState(true);
+  const handleClick = () => setClick(!click)
+    // if (click === true) {
+    //    document.getElementsByClassName(".navbar").style.height = "100vh";
+    // }
+
+    // else{
+    //   document.getElementsByClassName(".navbar").style.height = "10vh";
+    // }
+
+
+
+  const closeMobileMenu = () => setClick(false);
+
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
+
+  useEffect(() => {
+    showButton();
+  }, []);
+
+  window.addEventListener('resize', showButton);
 
   return (
-    <div className="navbar">
-      <div className="navbar_left">
-        JSCOP 5.0
-      </div>
-      <div className="navbar_right">
-        <ul className={click ? "mobile" : "nav-menu"}>
-          <li><a href="/">Home</a></li>
-          <li><a href="/">Events</a></li>
-          <li><a href="/">Organiser</a></li>
-          <li><a href="/">Passes</a></li>
-        </ul>
-        <div className="hamburger" onClick={handleclick}>
-          {click ?
-            <i className='fa-solid fa-times' /> :
-            <i className='fa-solid fa-bars' />
-          }
+    <div className={click ? 'navbar new' : 'navbar'}>
+      <div className="navbar-container">
+        <Link to="/" className="navbar-logo">
+          JSCOP 5.0
+        </Link>
+        <div className='menu-icon' onClick={handleClick}>
+          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
+
+        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+          <li className='nav-item'>
+            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              Home
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link
+              to='/eventdetails'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Events
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <a href ='#timeline'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Timeline
+            </a>
+          </li>
+
+          <li>
+            <Link
+              to='/sign-up'
+              className='nav-links-mobile'
+              onClick={closeMobileMenu}
+            >
+              REGISTER NOW!
+            </Link>
+          </li>
+        </ul>
+        {button && <Button buttonStyle='btn--outline'>REGISTER NOW</Button>}
+
+
+
       </div>
     </div>
   )
 }
+
 export default Navbar

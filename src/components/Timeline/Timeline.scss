@@ -59,15 +59,16 @@ img {
 }
 
 .ag-timeline-block {
-  padding: 300px 0;
-  background-color: #000;
+  padding: 100px 0;
+  // background-color: #000;
 
   overflow-x: hidden;
 }
 .ag-timeline_title-box {
-  padding: 0 0 30px;
+  // padding: 0 0 30px;
 
-  text-align: center;
+  // text-align: center;
+  display : none;
 }
 .ag-timeline_tagline {
   font-size: 40px;
@@ -151,7 +152,7 @@ img {
   font-family: "ESL Legend", sans-serif;
   font-size: 20px;
   color: #fff;
-
+  overflow: hidden;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -159,6 +160,7 @@ img {
 .js-ag-active .ag-timeline-card_point {
   color: #1d1d1b;
   background-color: #ff0;
+  overflow: hidden;
 }
 .ag-timeline-card_meta-box {
   display: inline-block;

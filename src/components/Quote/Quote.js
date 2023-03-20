@@ -1,8 +1,8 @@
 import React from 'react'
-
+import "./Quote.scss"
 const Quote = () => {
   return (
-    <div>Quote</div>
+    <div className='quote'>Quote</div>
   )
 }
 

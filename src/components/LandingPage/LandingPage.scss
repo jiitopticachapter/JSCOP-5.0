@@ -1,0 +1,44 @@
+.landing {
+    background-image: url("/assets/images/bg5.jpg");
+    // background-image: linear-gradient(rgba(0, 0, 0, 0.449),rgba(0, 0, 0, 0.449)) ,url("/assets/images/bg3.jpg");
+
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    // filter: blur(2px);
+    // -webkit-filter: blur(2px);
+    overflow-y : hidden;
+
+    .landing_content {
+        padding: 4rem;
+        height: 73vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .landing_heading {
+            font-size: 10rem;
+            font-family: 'Bebas Neue', cursive;
+            color: white;
+            height: 27vh;
+            overflow-y: hidden;
+
+            span{
+                -webkit-text-fill-color: rgba(255, 255, 255, 0); /* Will override color (regardless of order) */
+                -webkit-text-stroke-width: 2px;
+                -webkit-text-stroke-color: white;
+            }
+        }
+
+        .landing_subhead {
+            font-size: 3rem;
+            font-family: "Genos", sans-serif;
+            font-weight: lighter;
+            text-transform: uppercase;
+            color: white;
+        }
+
+    }
+
+}
