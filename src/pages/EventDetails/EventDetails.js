@@ -3,6 +3,7 @@ import PageName from '../../components/PageName/PageName'
 import "./EventDetails.css";
 import Faq from '../../components/FAQ/faq';
 import OrgTeam from '../../components/orgteam/orgteam';
+import Heading from '../../components/heading/Heading';
 
 const EventDetails = () => {
   return (
@@ -17,7 +18,8 @@ const EventDetails = () => {
 
            <div className='Event_container_right'>
                
-              <div className="Event_title">About the event</div>
+              {/* <div className="Event_title">About the event</div> */}
+            <Heading title="About the event" size="2rem" marginTop="0" marginBottom="1rem"/>
               <div className="Event_desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic perspiciatis nisi vero inventore. Totam deserunt repellendus eius neque a fuga officia. Maiores facere incidunt reprehenderit dolore, ipsum magnam quos, aliquam eligendi tenetur laborum laboriosam atque. Similique laborum neque maiores reprehenderit eum, libero a at dolorem dolor deleniti, rem totam veritatis ipsam illo ut voluptatibus earum nam omnis incidunt consequuntur obcaecati. Facilis mollitia autem magnam quia, nesciunt iste obcaecati vel, hic tempora excepturi soluta ipsa eaque? Possimus, a modi. Deserunt facilis harum enim totam, numquam quam nihil odio eligendi facere nisi nesciunt molestiae quo debitis, qui necessitatibus quisquam tempora quidem praesentium.</div>
               <hr />
            <div className="detail_images">

@@ -7,8 +7,8 @@ import Timeline from '../../components/Timeline/Timeline'
 import Speakers from '../../components/Speakers/Speakers'
 import Sponsors from '../../components/Sponsors/Sponsors'
 import Hero from '../../components/Hero/Hero'
-import Heading from '../../components/heading/Heading'
 // import Navbar from '../../components/Navbar/Navbar'
+import './Home.scss'
 
 const Home = () => {
     return (
@@ -16,16 +16,14 @@ const Home = () => {
         className='' 
       >
         <Hero />
-        <Heading title="EVENTS"/>
-        <Events/>
-        {/* <Heading title="QUOTE"/>
-        <Quote/> */}
-        <Heading title="TIMELINE"/>
-        <Timeline/>
-        <Heading title="SPEAKERS"/>
-        <Speakers/>
-        <Heading title="SPONSORS"/>
-        <Sponsors/>
+        <div className="home-sections">
+          <Events/>
+          {/* <Heading title="QUOTE"/>
+          <Quote/> */}
+          <Timeline/>
+          <Speakers/>
+          <Sponsors/>
+        </div>
       </motion.div>
     )
 }
