@@ -21,8 +21,7 @@ const Events = [
               open: false
             },
             {
-              question:
-                "How many questions does it take to makes a succesful FAQ Page?",
+              question: "How many questions does it take to makes a succesful FAQ Page?",
               answer: "This many!",
               open: false
             }

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Heading from "../heading/Heading";
 import "./faq.scss";
 // import Header from "./Header";
 import FAQ from "./faqtoggle";
@@ -39,15 +40,18 @@ export default function Faq() {
   };
 
   return (
-    <div className="FAQS">
-      {/* <Header /> */}
-      
-      <div className="faqs">
-      <h1 className='faq_heading'>FAQs</h1>
-        {faqs.map((faq, index) => (
-          <FAQ faq={faq} index={index} key={index} toggleFAQ={toggleFAQ} />
-        ))}
+    <>
+      <Heading title="FAQS" size="5rem"/>
+      <div className="FAQS">
+        {/* <Header /> */}
+        
+        <div className="faqs">
+        {/* <h1 className='faq_heading'>FAQs</h1> */}
+          {faqs.map((faq, index) => (
+            <FAQ faq={faq} index={index} key={index} toggleFAQ={toggleFAQ} />
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 }
