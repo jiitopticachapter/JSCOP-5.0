@@ -5,7 +5,7 @@ import "./Timeline.scss";
 import $ from "jquery";
 import "jquery-ui-dist/jquery-ui";
 import { useEffect } from "react";
-import Heading from "../heading/Heading";
+// import Heading from "../heading/Heading";
 
 const Timeline = () => {
   useEffect(() => {
@@ -98,7 +98,7 @@ const Timeline = () => {
           <div className="ag-timeline_tagline">Timeline</div>
           <div className="ag-timeline_title">No Flex</div>
         </div> */}
-        <Heading title="TIMELINE" size="5rem"/>
+        {/* <Heading title="TIMELINE" size="5rem"/> */}
         <section className="ag-section">
           <div className="ag-format-container">
             <div className="js-timeline ag-timeline">
