@@ -12,8 +12,8 @@ const Heading = (props) => {
     //   </video>
     //   <h1 className="heading_main_title">{props.title}</h1>
     // </div>
-    <div className="heading-section">
-      <h3 class="animate-charcter" style={{fontSize:`${props.size}`,marginTop:`${props.marginTop}`,marginBottom:`${props.marginBottom}`,fontFamily:`${props.fontFamily}`}}> {props.title}</h3>
+    <div className="heading-section" style={{marginTop:`${props.marginTop}`,marginBottom:`${props.marginBottom}`,fontFamily:`${props.fontFamily}`}}>
+      <h3 class="animate-charcter" style={{fontSize:`${props.size}`,}}> {props.title}</h3>
     </div>
   )
 }
