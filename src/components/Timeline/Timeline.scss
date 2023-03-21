@@ -47,6 +47,37 @@
   font-weight: bold;
 }
 
+.daywise_buttons{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  height: fit-content;
+}
+.day1_button,.day2_button{
+  background:transparent;
+  padding: 0;
+  font-family: "ESL Legend", sans-serif;
+  border-color: transparent;
+  color: white;
+  height: 42px;
+  width:70px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  overflow: hidden;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.day1_button:hover{
+  border-bottom: 1px solid #ff0;
+  color: #ff0;
+}.day2_button:hover{
+  border-bottom: 1px solid #ff0;
+  color: #ff0;
+}
+
 img {
   max-width: 100%;
 }

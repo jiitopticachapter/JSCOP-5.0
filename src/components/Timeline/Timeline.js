@@ -100,6 +100,10 @@ const Timeline = () => {
         </div> */}
         <Heading title="TIMELINE" size="5rem"/>
         <section className="ag-section">
+        <div className='daywise_buttons'>
+          <button className="day1_button">Day 1</button>
+          <button className="day2_button">Day 2</button>
+        </div>
           <div className="ag-format-container">
             <div className="js-timeline ag-timeline">
               <div className="js-timeline_line ag-timeline_line">
