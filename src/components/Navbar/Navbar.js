@@ -52,13 +52,12 @@ const Navbar = () => {
             </Link>
           </li>
           <li className='nav-item'>
-            <Link
-              to='/eventdetails'
+          <a href ='#Events'
               className='nav-links'
               onClick={closeMobileMenu}
             >
               Events
-            </Link>
+            </a>
           </li>
           <li className='nav-item'>
             <a href ='#timeline'
@@ -71,7 +70,7 @@ const Navbar = () => {
 
           <li>
             <Link
-              to='/sign-up'
+              to='/register'
               className='nav-links-mobile'
               onClick={closeMobileMenu}
             >
