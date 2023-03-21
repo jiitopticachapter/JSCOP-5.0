@@ -1,88 +1,33 @@
 import React from 'react'
-// import Heading from '../heading/Heading'
+import Heading from '../heading/Heading'
 import './Events.scss'
-
-
+// import questionMark from '../../assets/images/question-mark.png';
+import EventsData from '../../assets/Data/EventsData'
+import { Link } from 'react-router-dom'
 
 const Events = () => {
 
-
   return (
     <>
-      {/* <Heading title="EVENTS" size="5rem"/> */}
-      <div class="events-section">
-        
+      <Heading title="EVENTS" size="5rem" />
+      <div className="events-section">
 
-  <a class="event-card" href="#!">
-    <div class="front" style={{backgroundImage: "url(//source.unsplash.com/300x401)"}}>
-      <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
-    </div>
-    <div class="back" style={{backgroundImage: "url(//source.unsplash.com/300x401)"}}>
-      <div>
-        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
-        <button class="eventCard-button">Click Here</button>
-      </div>
-    </div></a>
-  <a class="event-card" href="#!">
-    <div class="front" style={{backgroundImage: "url(//source.unsplash.com/300x401)"}}>
-      <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
-    </div>
-    <div class="back">
-      <div>
-        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
-        <button class="eventCard-button">Click Here</button>
-      </div>
-    </div></a>
-  
-  <a class="event-card" href="#!">
-    <div class="front" style={{backgroundImage: "url(//source.unsplash.com/300x401)"}}>
-      <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
-    </div>
-    <div class="back">
-      <div>
-        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
-        <button class="eventCard-button">Click Here</button>
-      </div>
-    </div></a>
-  
-  <a class="event-card" href="#!">
-    <div class="front" style={{backgroundImage: "url(//source.unsplash.com/300x401)"}}>
-      <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
-    </div>
-    <div class="back">
-      <div>
-        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
-        <button class="eventCard-button">Click Here</button>
-      </div>
-    </div></a>
-  
-  <a class="event-card" href="#!">
-    <div class="front" style={{backgroundImage: "url(//source.unsplash.com/300x401)"}}>
-      <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
-    </div>
-    <div class="back">
-      <div>
-        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
-        <button class="eventCard-button">Click Here</button>
-      </div>
-    </div></a>
-  
-  <a class="event-card" href="#!">
-    <div class="front" style={{backgroundImage: "url(//source.unsplash.com/300x401)"}}>
-      <p>Lorem ipsum dolor sit amet consectetur adipisi.</p>
-    </div>
-    <div class="back">
-      <div>
-        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
-        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
-        <button class="eventCard-button">Click Here</button>
-      </div>
-    </div></a>
+        {EventsData.map((val, ind) => {
+          return (
+            <div className="event-card">
+              <div className="event-card-front " style={{ backgroundImage: "url(https://elements-video-cover-images-0.imgix.net/files/80585e24-4c28-4de2-96a3-c55c4452ddff/inline_image_preview.jpg?auto=compress%2Cformat&fit=min&h=394&w=700&s=c610a4ba0680b56314f26df337997f25)" }}>
+                <i className="fa-solid fa-question fa-7x event-question-mark bounce2"></i>
+              </div>
+              <div className="event-card-back" style={{ backgroundImage: `url(${val.imgsrc})` }}>
+                <div>
+                  <Link to={`/eventdetails/${val.id}`}><button className="eventCard-button">Click Here</button></Link>
+                </div>
+              </div>
+            </div>
+          )
+        })}
+
+
       </div>
     </>
   )

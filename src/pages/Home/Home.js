@@ -9,7 +9,7 @@ import Sponsors from '../../components/Sponsors/Sponsors'
 import Hero from '../../components/Hero/Hero'
 // import Navbar from '../../components/Navbar/Navbar'
 import './Home.scss'
-import Heading2 from '../../components/heading/Heading2'
+// import Heading2 from '../../components/heading/Heading2'
 
 const Home = () => {
   return (
@@ -22,15 +22,15 @@ const Home = () => {
 
         {/* <Heading title="EVENTS"/> */}
         <div className="home">
-        <Heading2 title = "EVENTS"/>
+        {/* <Heading2 title = "EVENTS"/> */}
         <Events />
         {/* <Heading title="QUOTE"/>
         <Quote/> */}
-        <Heading2 title="TIMELINE" />
+        {/* <Heading2 title="TIMELINE" /> */}
         <Timeline />
-        <Heading2 title="SPEAKERS" />
+        {/* <Heading2 title="SPEAKERS" /> */}
         <Speakers />
-        <Heading2 title="SPONSORS" />
+        {/* <Heading2 title="SPONSORS" /> */}
         <Sponsors />
       </div>
     </motion.div>
