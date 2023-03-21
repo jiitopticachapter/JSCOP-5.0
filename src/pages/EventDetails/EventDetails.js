@@ -4,7 +4,7 @@ import "./EventDetails.css";
 import Faq from '../../components/FAQ/faq';
 import OrgTeam from '../../components/orgteam/orgteam';
 import Heading from '../../components/heading/Heading';
-
+// import Marquee from '../../components/marquee/Marquee';
 const EventDetails = () => {
   return (
     <div className="EventsDetails">
@@ -45,8 +45,9 @@ const EventDetails = () => {
            </div>
         </div>
 
-
+    {/* <Marquee /> */}
     <OrgTeam />
+
    <Faq />
     </div>
   )
