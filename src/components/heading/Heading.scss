@@ -46,6 +46,8 @@
 
 // }
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
+
 
 .heading-section {
   width: 100wh;
@@ -54,14 +56,15 @@
   margin-bottom: 3rem;
 }
 .animate-charcter {
-  font-family: "Libre Baskerville", serif;
+  // font-family: "Libre Baskerville", serif;
+  font-family: 'Orbitron', sans-serif;
   text-transform: uppercase;
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
+  background-image: radial-gradient(
+    // -225deg,
+    #c7d5e0 25%,
+    #517692 50%,
+    #8da4e0 75%,
+    #83a3ba 100%
   );
   background-size: auto auto;
   background-clip: border-box;

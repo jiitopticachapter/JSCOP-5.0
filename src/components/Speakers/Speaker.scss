@@ -34,6 +34,7 @@
   list-style: none;
   position: relative;
   overflow: hidden;
+  border-radius: var(--spacing-l);
 }
 
 .speaker-card:before {
@@ -59,7 +60,7 @@
 }
 
 .speaker-card:hover .speaker-card__background {
-  transform: scale(1.05) translateZ(0);
+  transform: scale(1.25) translateZ(0);
 }
 
 .speaker-card-grid:hover > .speaker-card:not(:hover) .speaker-card__background {
