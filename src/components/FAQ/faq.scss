@@ -32,7 +32,8 @@
     // max-width: 768px;
     margin: 0 auto;
     padding: 15px;
-    color: #ebe6d0;
+    // color: #ebe6d0;
+    color: white;
     // background-color: black;
     // background: radial-gradient(circle, rgba(0,11,64,1) 0%, rgba(0,0,0,1) 100%);
     font-family: 'Montserrat', sans-serif;
@@ -66,7 +67,7 @@
     overflow: hidden;
     font-size: 21px;
     letter-spacing: 0.1rem;
-    opacity: 50%;
+    // opacity: 50%;
     font-weight: 600;
   }
   
@@ -100,9 +101,10 @@
   
   .faqs .faq.open .faq-answer {
     max-height: 1000px;
-    opacity: 1;
+    opacity: 100%;
     padding-top: 0.75rem;
-    color: hsla(49,40%,87%,.5);
+    // color: hsla(49,40%,87%,.5);
+    color: white;
   }
   
 
