@@ -9,8 +9,8 @@
 .page{
     width : 100%;
     /* background-color:white; */
-    background-color: #04031c; 
-    /* background: url("/src/assets/images/bg5.jpg"); */
+    /* background-color: #04031c;  */
+    background-image: linear-gradient(to bottom,rgb(4, 3, 28,0),rgb(4, 3, 28,1)),url("/src/assets/images/bg5.jpg");
     height : 50vh;
     position : relative;
     background-size: cover;
