@@ -10,7 +10,7 @@ import Hero from '../../components/Hero/Hero'
 // import Navbar from '../../components/Navbar/Navbar'
 import './Home.scss'
 // import Heading2 from '../../components/heading/Heading2'
-
+import Gallery from '../../components/Gallery/Gallery'
 const Home = () => {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 2 }}
@@ -30,6 +30,7 @@ const Home = () => {
         <Timeline />
         {/* <Heading2 title="SPEAKERS" /> */}
         <Speakers />
+        <Gallery/>
         {/* <Heading2 title="SPONSORS" /> */}
         <Sponsors />
       </div>

@@ -1,6 +1,5 @@
 import './App.css';
 import React from "react"
-
 import Register from './pages/Register/Register';
 import EventDetails from './pages/EventDetails/EventDetails';
 import Home from './pages/Home/Home';

@@ -1,0 +1,36 @@
+.gallery-container{
+    overflow: hidden;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #000;
+      .gallery-slider {
+    // position: relative;
+    z-index: 1;
+    height: 70vw;
+    width: 100vw;
+    overflow: hidden;
+  
+    &__item {
+      // position: absolute;
+      z-index: 1;
+      clip-path: polygon(-5% 0%, 15% 0%, 5% 100%, 0% 100%);
+      
+      img {
+        width: 100vw;
+        height: auto;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+    
