@@ -1,0 +1,87 @@
+.orgteam_marquee
+{
+    overflow: hidden;
+    height: fit-content;
+    // position: absolute;
+}
+.promo-lines {
+    position: relative;
+    min-height: 247px;
+    overflow: hidden;
+
+}
+
+.line-text {
+    font-family: StingerWide-Bold;
+    font-size: 70px;
+    text-align: center;
+    color: #1D1932;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding: 0 0px;   //0 40
+    animation: animate-first-screen 40s -40s linear infinite;
+    will-change: transform;
+    display: flex;
+    align-items: center;
+    min-width: 144%;
+}
+
+.line-text:nth-child(2) {
+    animation: animate-second-screen 40s -20s linear infinite;
+}
+
+.line {
+    position: absolute;
+    display: flex;
+    width: 117%;
+}
+
+.line-violet {
+    background: #A0AAFF;
+    height: 120px;
+    line-height: 100px;
+    z-index: 1;
+    transform: rotate(-5deg) translate(-200px, 100px);
+    top: -41px;
+
+}
+
+.line-violet .line-text {
+    background: #A0AAFF;
+}
+
+@keyframes animate-first-screen {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes animate-second-screen {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
+@media (max-width: 769px){
+      .promo-lines {
+        min-height: 195px;
+    }
+    .line-red {
+        top: -73px;
+        height: 95px;
+    }
+    .line-violet {
+        top: -115px;
+        height: 95px;
+    }
+    .line-text {
+        font-size: 40px;
+        line-height: 76px;
+    }
+}

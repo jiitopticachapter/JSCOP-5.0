@@ -3,8 +3,9 @@ import Heading from "../heading/Heading";
 import "./faq.scss";
 // import Header from "./Header";
 import FAQ from "./faqtoggle";
+// import { useEffect } from "react";
 
-export default function Faq() {
+export default function Faq(props) {
   const [faqs, setFaqs] = useState([
     {
       question: "How many programmers does it take to screw a lightbulb?",
@@ -24,7 +25,17 @@ export default function Faq() {
       open: false
     }
   ]);
+  
+  // const[faqs,setFaqs] = useState({});
+  // useEffect(()=>{
+  //   setFaqs(props.Faqs);
+  //   console.log(1);
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // },[]);
 
+
+
+  // console.log(Faqs);
   const toggleFAQ = (index) => {
     setFaqs(
       faqs.map((faq, i) => {
