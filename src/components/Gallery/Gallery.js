@@ -3,21 +3,21 @@
 // const Gallery = () => {
 //   return (
 //     <>
-//      <div class="main">
-//      <div class="slider">
-//         <div class="gallery-slider__item">
+//      <div className="main">
+//      <div className="slider">
+//         <div className="gallery-slider__item">
 //           <img src="https://images.unsplash.com/photo-1529686342540-1b43aec0df75?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&h=1280" />
 //         </div>
-//         <div class="gallery-slider__item">
+//         <div className="gallery-slider__item">
 //           <img src="https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&h=1280" />
 //         </div>
-//         <div class="gallery-slider__item">
+//         <div className="gallery-slider__item">
 //           <img src="https://images.unsplash.com/photo-1517971053567-8bde93bc6a58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1280" />
 //         </div>
 //       </div>
 
 //       <div
-//         class="bg"
+//         className="bg"
 //         style="background-image:url(https://images.unsplash.com/photo-1529686342540-1b43aec0df75?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&h=1280)"
 //       />
 //      </div>
@@ -68,14 +68,14 @@ const Gallery = () => {
   return (
     <>
       <div className="gallery-container">
-        <div class="gallery-slider">
-          <div class="gallery-slider__item">
+        <div className="gallery-slider">
+          <div className="gallery-slider__item">
             <img src="https://images.unsplash.com/photo-1529686342540-1b43aec0df75?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&h=1280" />
           </div>
-          <div class="gallery-slider__item">
+          <div className="gallery-slider__item">
             <img src="https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&h=1280" />
           </div>
-          <div class="gallery-slider__item">
+          <div className="gallery-slider__item">
             <img src="https://images.unsplash.com/photo-1517971053567-8bde93bc6a58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1280" />
           </div>
         </div>
