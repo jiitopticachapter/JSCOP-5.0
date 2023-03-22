@@ -208,8 +208,8 @@ img {
   display: inline-block;
   width: 45%;
   margin: -77px 0 0;
-  background-color: #282828;
-
+  background-color: #fff;
+  padding: 1rem;
   opacity: 0;
 
   -webkit-border-radius: 6px;
@@ -279,11 +279,22 @@ img {
   right: auto;
   left: 0;
 }
+
+.ag-timeline-card_inner{
+  border:2px solid brown;
+
+}
 .ag-timeline-card_img {
   width: 100%;
+  
+}
+
+.ag-timeline-card_img-box{
+  display: flex;
+  justify-content: center;
 }
 .ag-timeline-card_info {
-  padding: 20px 30px;
+  padding: 20px 15px;
 }
 .ag-timeline-card_title {
   display: none;
@@ -295,9 +306,10 @@ img {
   color: #ff0;
 }
 .ag-timeline-card_desc {
-  line-height: 1.45;
-  font-size: 16px;
-  color: #fff;
+  line-height: 1.2;
+  font-size: 20px;
+  color: black;
+  text-align: left;
 }
 
 @media only screen and (max-width: 979px) {
@@ -305,6 +317,18 @@ img {
     left: 30px;
   }
 
+  .ag-timeline-card_item{
+    width:80%;
+    padding: 1rem;
+  }
+
+  
+
+  .ag-timeline-card_info {
+    padding: 20px 15px;
+  }
+
+  
   .ag-timeline_item:nth-child(2n) {
     text-align: left;
   }
@@ -354,9 +378,24 @@ img {
     width: 96%;
   }
 
+  .ag-timeline-card_item{
+    width:80%;
+    padding: 1rem;
+  }
+  .ag-timeline-card_info {
+    padding: 20px 15px;
+  }
+
+  .ag-timeline-card_info {
+    padding: 20px 15px;
+  }
+  
+  
+
   .ag-timeline-card_img {
     height: auto;
     width: auto;
+    // width: 80%;
   }
 }
 
@@ -365,25 +404,44 @@ img {
     font-size: 60px;
   }
 
+  .ag-timeline-card_item{
+    width:80%;
+    padding: 1rem;
+  }
+
   .ag-timeline-card_info {
     padding: 10px 15px;
   }
   .ag-timeline-card_desc {
-    font-size: 14px;
+    font-size: 20px;
+  
   }
 }
 
 @media only screen and (max-width: 479px) {
+  .ag-timeline-card_item{
+    width:80%;
+    padding: 1rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
   .ag-format-container {
     width: 750px;
   }
+  .ag-timeline-card_item{
+    width:80%;
+    padding: 1rem;
+  }
 }
 
 @media (min-width: 980px) and (max-width: 1161px) {
   .ag-format-container {
     width: 960px;
+  }
+
+  .ag-timeline-card_item{
+    width:80%;
+    padding: 1rem;
   }
 }

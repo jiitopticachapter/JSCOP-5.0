@@ -6,15 +6,18 @@ import EventDetails from './pages/EventDetails/EventDetails';
 import Home from './pages/Home/Home';
 import PageNotFound from './pages/PageNotFound/PageNotFound'
 import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer'
+import Footer from './components/Footer/Footer';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 // import LandingPage from './components/LandingPage/LandingPage';
 
 function App() {
     return (
+     
       <BrowserRouter>
         <Navbar/>
+        <ScrollToTop />
         {/* <LandingPage/> */}
           <Routes>
             <Route path='/' element={<Home />}></Route>
