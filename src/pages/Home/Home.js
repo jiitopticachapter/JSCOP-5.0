@@ -5,10 +5,11 @@ import { motion } from 'framer-motion'
 import Events from '../../components/Events/Events'
 import Timeline from '../../components/Timeline/Timeline'
 import Speakers from '../../components/Speakers/Speakers'
-import Sponsors from '../../components/Sponsors/Sponsors'
+// import Sponsors from '../../components/Sponsors/Sponsors'
 import Hero from '../../components/Hero/Hero'
 // import Navbar from '../../components/Navbar/Navbar'
 import './Home.scss'
+// import Gallery from '../../components/Gallery/Gallery'
 // import Heading2 from '../../components/heading/Heading2'
 
 const Home = () => {
@@ -19,19 +20,19 @@ const Home = () => {
      
         <Hero />
 
-
         {/* <Heading title="EVENTS"/> */}
         <div className="home">
         {/* <Heading2 title = "EVENTS"/> */}
+        <Speakers />
         <Events />
         {/* <Heading title="QUOTE"/>
         <Quote/> */}
         {/* <Heading2 title="TIMELINE" /> */}
         <Timeline />
         {/* <Heading2 title="SPEAKERS" /> */}
-        <Speakers />
+        {/* <Gallery/> */}
         {/* <Heading2 title="SPONSORS" /> */}
-        <Sponsors />
+        {/* <Sponsors /> */}
       </div>
     </motion.div>
   )
