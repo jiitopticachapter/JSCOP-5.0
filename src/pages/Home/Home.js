@@ -1,16 +1,10 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-// import LandingPage from '../../components/LandingPage/LandingPage'
-// import Quote from '../../components/Quote/Quote'
 import Events from '../../components/Events/Events'
 import Timeline from '../../components/Timeline/Timeline'
 import Speakers from '../../components/Speakers/Speakers'
-// import Sponsors from '../../components/Sponsors/Sponsors'
 import Hero from '../../components/Hero/Hero'
-// import Navbar from '../../components/Navbar/Navbar'
 import './Home.scss'
-// import Gallery from '../../components/Gallery/Gallery'
-// import Heading2 from '../../components/heading/Heading2'
 
 const Home = () => {
   return (

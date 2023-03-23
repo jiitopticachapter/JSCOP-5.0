@@ -1,0 +1,73 @@
+.countdown {
+    color: #fff;
+    margin: 15vh 0 0 0;
+    width: 60vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    // backdrop-filter: blur(16px) saturate(180%);
+    // -webkit-backdrop-filter: blur(16px) saturate(180%);
+    // background-color: rgba(17, 25, 40, 0.575);
+    // border-radius: 12px;
+    // border: 1px solid rgba(255, 255, 255, 0.125);
+
+        h1{
+            font-size:2rem;
+            font-family: 'Bebas Neue', sans-serif;
+    }
+
+
+    .value_box {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .value {
+            display: flex;
+            align-items: center;
+            margin: 0 25px;
+            // justify-content: space-between;
+
+            .num {
+                font-family: 'Bebas Neue', cursive;
+                // font-family: 'Stargaze', 'Bebas Neue', cursive;
+                font-size: 4rem;
+                margin: 0 4px;
+            }
+
+            .text {
+                font-family: 'Genos', sans-serif;
+                font-size: 2rem;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .countdown {
+
+        width: 95vw;
+        height: 35vh;
+
+        .value_box {
+            display: grid;
+            grid-template-columns: auto auto;
+
+
+            .value {
+                .num {
+                    font-size: 3rem;
+                    margin: 0 4px;
+                }
+
+                .text {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+}
