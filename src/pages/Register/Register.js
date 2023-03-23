@@ -3,8 +3,11 @@ import { motion } from 'framer-motion'
 import "./Register.scss"
 import PageName from '../../components/PageName/PageName'
 import img from '../../assets/images/Register.png'
+// import $ from "jquery";
+// import "jquery-ui-dist/jquery-ui";
 
 const Register = () => {
+
     return (
       <motion.div initial = {{opacity:0}} animate = {{opacity:1}} exit = {{opacity: 0}} transition = {{duration: 2}}
       className=''>
