@@ -2,6 +2,7 @@
 /* font-family: 'Bebas Neue', cursive; */
 
 @import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,200;0,300;0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
 
 /* font-family: 'Genos', sans-serif; */
 @font-face {
@@ -15,6 +16,10 @@
     overflow-x: hidden;
     box-sizing: border-box;
    
+}
+:root{
+    --bgColor1:#091335;
+    --fontfamily:'Orbitron', sans-serif;
 }
 html{
     user-select: none;

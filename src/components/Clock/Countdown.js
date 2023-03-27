@@ -36,7 +36,7 @@ function Countdown() {
     }
 
     timerComponents.push(
-      <div className="value">
+      <div key={interval} className="value">
         <div className="num">{timeLeft[interval]}{" "} </div>
         <div className="text">{interval}{" "}</div>
       </div>

@@ -1,17 +1,17 @@
-html {
-    height: 100%;
-    width: 100%;
-}
+// html {
+//     height: 100%;
+//     width: 100%;
+// }
 
-body {
-    //background: url("https://images.unsplash.com/photo-1485802007047-7774de7208e5?dpr=1&auto=compress,format&fit=crop&w=1800&h") no-repeat center center fixed;
-    background-size: cover;
-    font-family: 'Droid Serif', serif;
-	background-color: #04031c;
-}
+// body {
+//     //background: url("https://images.unsplash.com/photo-1485802007047-7774de7208e5?dpr=1&auto=compress,format&fit=crop&w=1800&h") no-repeat center center fixed;
+//     background-size: cover;
+//     font-family: 'Droid Serif', serif;
+// 	background-color: #04031c;
+// }
 
-#container {
-    background: rgba(3, 3, 55, 0.5);
+.register-form-container {
+    // background: rgba(3, 3, 55, 0.5);
     // position:relative; right:80px; top:2px;
     display: flex;
     justify-content: space-around;
@@ -29,14 +29,32 @@ body {
 }
 
 form{
-    width: 50%;
+    width: 40%;
+    background: rgba(17, 17, 36, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    border-radius: 2rem;
     //margin-right: 100px;
 }
-
+.register-heading{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+.register-page{
+    background-color: var(--bgColor1);
+}
 .Register-Image
 {
-    width: 30%;
-     
+    width: 50%;
+     img{
+        width: 700px;
+     }
+     margin-left: 2rem;
 }
 
 header {
@@ -52,14 +70,19 @@ header {
 fieldset {
     border: 0;
     text-align: center;
-    margin-right: 50px;
+    width: 100%;
+    // margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 input[type="submit"] {
     background: #6cb8e7;
     border: 0;
     display: block;
-    width: 70%;
+    // width: 70%;
     margin: 0 auto;
     color: white;
     padding: 0.7rem;
@@ -69,11 +92,32 @@ input[type="submit"] {
 input {
     background: transparent;
     border: 0;
-    border-left: 4px solid;
+    border: 2px solid;
     border-color: #86d1ff;
     padding: 10px;
     color: white;
+    width: 21rem;
+}
+
+.screenshot-label{
+    background: transparent;
+    border: 0;
+    border: 2px solid;
+    border-color: #86d1ff;
+    padding: 10px;
+    color: #d3d3d3;
     width: 20rem;
+    display: block;
+    text-align: left;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.file-tick{
+    margin-right: 4px;
+}
+.check-color{
+    color: #56bd58;
 }
 
 input[type="text"]:focus,
@@ -82,23 +126,44 @@ input[type="enroll"]:focus,
 input[type="branch"]:focus,
 input[type="year"]:focus,
 input[type="mob"]:focus {
-    outline: 0;
+    // outline: 0;
     background: rgba(30, 228, 235, 0.3);
     border-radius: 1.2rem;
-    border-color: transparent;
+    // border-color: transparent;
+    border:0.5px #86d1ff;
+    box-shadow: 3.5px 3.5px 3.5px rgba(208, 213, 213, 0.6), 0 2.5px 2.5px rgba(192, 199, 201, 0.6);
 }
+// input[type="file"]{
+//     display: none;
+// }
 
 ::placeholder {
     color: #d3d3d3;
 }
 
-/*Media queries */
+// input[type="text"]:focus::-webkit-input-placeholder,
+// input[type="email"]:focus::-webkit-input-placeholder,
+// input[type="enroll"]:focus::-webkit-input-placeholder,
+// input[type="branch"]:focus::-webkit-input-placeholder,
+// input[type="year"]:focus::-webkit-input-placeholder,
+// input[type="mob"]:focus::-webkit-input-placeholder{
+//     color:transparent;
+// }
 
+
+
+/*Media queries */
+@media screen and (max-width:976px){
+    input{
+        width: 13rem;
+    }
+}
 @media screen and (max-width: 568px) {
-    #container {
+    .register-form-container {
         margin-top: 10%;
         margin-bottom: 10%;
         justify-content: center;
+        flex-direction: column-reverse;
         form{
             width:100%;
         }
@@ -106,29 +171,19 @@ input[type="mob"]:focus {
             margin-left: 0;
             margin-right: 0;
         }
+        input{
+            width:18rem;
+        }
         .Register-Image{
-            display: none;
-
+            // display: none;
+            width: 100%;
+            align-items: center;
+            margin-left:0
         }
     }
-    // #Entry
-    // {
-    //     margin-top: 10%;
-    //     margin-bottom: 10%;
-    // }
 }
-    // @media screen and (max-width: 768px) {
-    //     #container {
-    //         margin-top: 5%;
-    //         margin-bottom: 5%;
-    //         justify-content: center;
-    //         fieldset {
-    //             margin-left: 0;
-    //         }
-    // }
-//     #Entry
-//     {
-//         margin-top: 5%;
-//         margin-bottom: 5%;
-//     }
-// }
+@media screen and (max-width: 376px){
+    input{
+        width: 18rem;
+    }
+}

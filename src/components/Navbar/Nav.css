@@ -93,6 +93,7 @@
 
     .navbar.new{
         height : 100vh;
+        background:#12122d;
     }
 /* .navbar-logo{
     color : black;
@@ -115,7 +116,7 @@
     }
 
     .nav-menu.active {
-        background: #000000;
+        /* background: #12122d; */
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;

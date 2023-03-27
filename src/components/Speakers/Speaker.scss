@@ -75,6 +75,9 @@
   text-align: center;
   backdrop-filter: blur(15px);
 }
+.speaker-card-container{
+  width: 100%;
+}
 
 .speaker-card__heading {
   color: var(--text-lighter);
@@ -88,6 +91,9 @@
   .speaker-card-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+  .speaker-card{
+    width: 300px;
+  }
 }
 
 @media (max-width: 760px) {
@@ -99,5 +105,9 @@
 @media (max-width: 540px) {
   .speaker-card-grid {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .speaker-card-container{
+    display: flex;
+    justify-content: center;
   }
 }

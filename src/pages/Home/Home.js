@@ -4,6 +4,7 @@ import Events from '../../components/Events/Events'
 import Timeline from '../../components/Timeline/Timeline'
 import Speakers from '../../components/Speakers/Speakers'
 import Hero from '../../components/Hero/Hero'
+import Gallery from '../../components/Gallery/Gallery'
 import './Home.scss'
 
 const Home = () => {
@@ -24,7 +25,7 @@ const Home = () => {
         {/* <Heading2 title="TIMELINE" /> */}
         <Timeline />
         {/* <Heading2 title="SPEAKERS" /> */}
-        {/* <Gallery/> */}
+        <Gallery/>
         {/* <Heading2 title="SPONSORS" /> */}
         {/* <Sponsors /> */}
       </div>
