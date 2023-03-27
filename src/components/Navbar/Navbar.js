@@ -52,7 +52,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className='nav-item'>
-          <a href ='#Events'
+          <a href ='/#Events'
               className='nav-links'
               onClick={closeMobileMenu}
             >
@@ -60,7 +60,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className='nav-item'>
-            <a href ='#timeline'
+            <a href ='/#timeline'
               className='nav-links'
               onClick={closeMobileMenu}
             >
@@ -79,8 +79,6 @@ const Navbar = () => {
           </li>
         </ul>
         {button && <Button buttonStyle='btn--outline'>REGISTER NOW</Button>}
-
-
 
       </div>
     </div>

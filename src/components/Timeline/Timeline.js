@@ -139,7 +139,7 @@ useEffect(() => {
               
               {dayevents.map((val,ind)=>{
                 return(
-                  <div className="js-timeline_item ag-timeline_item">
+                  <div key={ind} className="js-timeline_item ag-timeline_item">
                   <div className="ag-timeline-card_box">
                     <div className="js-timeline-card_point-box ag-timeline-card_point-box">
                       <div className="ag-timeline-card_point">{i++}</div>
