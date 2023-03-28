@@ -19,7 +19,7 @@ const [uploaded,setUploaded] = useState(false);
                <h1 className='register-heading'>Registration Form</h1>
                <fieldset>
                   <br />
-                  <input type="text" name="username" id="username" placeholder="USERNAME" required  />
+                  <input type="text" name="name" id="name" placeholder="NAME" required  />
                   <br />
                   <input type="email" name="email" id="email" placeholder="E-MAIL" required />
                   <br />
@@ -31,8 +31,8 @@ const [uploaded,setUploaded] = useState(false);
                   <br />
                   <input type="Mob" name="Mob" id="Mob" placeholder="MOBILE NUMBER" required />
                   <br />
-                  <input type="file" name="screenshot" id="screenshot" required />
-                  {/* <label className='screenshot-label' htmlFor="screenshot"><i className={`fa-solid ${uploaded===false?"fa-check check-color":"fa-circle"} file-tick`}></i>PAYMENT SCREENSHOT</label> */}
+                  <input type="file" name="screenshot" id="screenshot" style={{display:"none"}} required />
+                  <label className='screenshot-label' htmlFor="screenshot"><i className={`fa-solid ${uploaded===true?"fa-check check-color":"fa-circle"} file-tick`}></i>PAYMENT SCREENSHOT</label>
                   <br /> <br />
 
                   <label htmlFor="submit"></label>
