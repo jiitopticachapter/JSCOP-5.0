@@ -41,7 +41,7 @@ const Register = () => {
       }
    }
    
-const [uploaded,setUploaded] = useState(false);
+// const [uploaded,setUploaded] = useState(false);
 
    return (
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 2 }}
