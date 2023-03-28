@@ -37,7 +37,7 @@
 }
 
 .page h1{
-    font-size : 4rem;
+    font-size : 6rem;
     font-family: 'Orbitron', sans-serif;
     padding: 0.6rem 0 1.5rem;
     font-weight: 700;
@@ -46,9 +46,10 @@
     overflow-y: hidden;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 650px) {
     .page{
         background-position: center;
+        height:45vh;
         
     }
     .page_heading{
@@ -57,7 +58,7 @@
         top: 40%;
     }
     .page_body{
-        height: 50vh;
+        height: 45vh;
     }
     .page h1{
         font-size : 3rem;

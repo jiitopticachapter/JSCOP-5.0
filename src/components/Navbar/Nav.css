@@ -1,5 +1,5 @@
 .navbar {
-    background:rgba(0, 0, 0, 0.304);
+    background:rgba(0, 0, 0, 0.504);
     height: 10vh;
     width : 100vw;
     display: flex;
@@ -11,6 +11,7 @@
     z-index: 999;
     overflow-y: hidden;
     position: fixed;
+    backdrop-filter:blur(4px);
 }
 
 .navbar-container {

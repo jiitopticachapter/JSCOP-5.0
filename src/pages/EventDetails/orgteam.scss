@@ -85,8 +85,8 @@
 [data-tooltip][tabindex="0"] {
   display: inline-block;
   position: relative;
-  color: #141931;
-  font-family: "Mr Dafoe", cursive;
+  color: #fbfbfe;
+  font-family: "Genos", cursive;
   font-size:24px;
   overflow-x: visible;
   
@@ -95,42 +95,46 @@
     position: absolute;
     bottom: 110%;
     left: 50%;
-    padding: 20px;
+    padding: 10px;
     max-width: 300px;
     transform: translateX(-50%);
-    border: 1px solid #E77470;
-    border-radius: 3px;
+    border: 0.5px solid rgb(177, 207, 228,0.6);
+    border-radius: 1.2rem;
     // You can also use a fixed width and ommit the white-sapce.
     white-space: nowrap;
-    background-color: #fff;
+    // background-color: #fff;
+    background-image: radial-gradient(circle, rgb(9, 19, 53,0.4) 50%, rgb(177, 207, 228,0.4) 100%);
     // Make sure tooltips don't block each others trigger.
     pointer-events: none;
     content: attr(data-tooltip);
   }
   
   // Create a neat little arrow
-  &::before {
-    display: none;
-    position: absolute;
-    bottom: 110%;
-    left: 50%;
-    z-index: 2;
-    transform: translate(-50%, 50%) rotate(45deg);
-    width: 6px;
-    height: 6px;
-    border: solid #E77470;
-    border-width: 0 1px 1px 0;
-    background-color: #fff;
-    content: '';
-  }
+  // &::before {
+  //   display: none;
+  //   position: absolute;
+  //   bottom: 110%;
+  //   left: 50%;
+  //   z-index: 2;
+  //   transform: translate(-50%, 50%) rotate(45deg);
+  //   width: 6px;
+  //   height: 6px;
+  //   border: solid #E77470;
+  //   border-width: 0 1px 1px 0;
+  //   background-color: #fff;
+  //   content: '';
+  // }
   
   // Activate tooltip
   &:focus,
   &:hover {
     text-decoration: underline;
     
-    &::after,
-    &::before {
+    // &::after,
+    // &::before {
+    //   display: block;
+    // }
+    &::after{
       display: block;
     }
   }

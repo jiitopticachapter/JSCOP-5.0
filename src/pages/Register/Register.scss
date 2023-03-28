@@ -106,7 +106,7 @@ input {
     border-color: #86d1ff;
     padding: 10px;
     color: #d3d3d3;
-    width: 20rem;
+    width: 21rem;
     display: block;
     text-align: left;
     cursor: pointer;
@@ -157,6 +157,9 @@ input[type="mob"]:focus {
     input{
         width: 13rem;
     }
+    .screenshot-label{
+        width: 13rem;
+    }
 }
 @media screen and (max-width: 568px) {
     .register-form-container {
@@ -174,6 +177,9 @@ input[type="mob"]:focus {
         input{
             width:18rem;
         }
+        .screenshot-label{
+            width: 18rem;
+        }
         .Register-Image{
             // display: none;
             width: 100%;
@@ -186,4 +192,7 @@ input[type="mob"]:focus {
     input{
         width: 18rem;
     }
+    .screenshot-label{
+        width:18rem;
+    };
 }

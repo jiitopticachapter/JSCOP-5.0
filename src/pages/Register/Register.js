@@ -17,18 +17,33 @@ const Register = () => {
       mobile:""
    })
 
+   const [uploaded,setUploaded] = useState(false);
+   const [filename,setFilename] = useState("PAYMENT SCREENSHOT");
+   const [file,setFile] = useState(null);
+
+   const handleFileChange = (e) =>{
+      setFile(e.target.files[0]);
+      setUploaded(true);
+      console.log(e.target.files[0]);
+      setFilename(e.target.files[0].name);
+   }
+
    const handleChange=e=>{
       const {name,value}=e.target;
       setData({
          ...data,
          [name]:value
       })
-
+      console.log(e);
    }
 
    const postData=async(e)=>{
       console.log(data)
       e.prevenDefault();
+      if(data && file)
+      {
+         // react toastify notification of success
+      }
 
       try{
 
@@ -40,6 +55,7 @@ const Register = () => {
 
       }
    }
+
    
 // const [uploaded,setUploaded] = useState(false);
 
@@ -52,7 +68,7 @@ const Register = () => {
                <h1 className='register-heading'>Registration Form</h1>
                <fieldset>
                   <br />
-                  <input type="text" name="username" value={data.username}  onChange={handleChange} id="username" placeholder="USERNAME" required  />
+                  <input type="text" name="username" value={data.username}  onChange={handleChange} id="username" placeholder="NAME" required  />
                   <br />
                   <input type="email" name="email" id="email" value={data.email} onChange={handleChange} placeholder="E-MAIL" required />
                   <br />
@@ -64,8 +80,8 @@ const Register = () => {
                   <br />
                   <input type="number" name="mobile" id="Mob" value={data.mobile} onChange={handleChange} placeholder="MOBILE NUMBER" required />
                   <br />
-                  <input type="file" name="screenshot" id="screenshot" required />
-                  {/* <label className='screenshot-label' htmlFor="screenshot"><i className={`fa-solid ${uploaded===false?"fa-check check-color":"fa-circle"} file-tick`}></i>PAYMENT SCREENSHOT</label> */}
+                  <input type="file" id="screenshot" onChange={handleFileChange} style={{display:"none"}} accept="image/*" required />
+                  <label className='screenshot-label' htmlFor="screenshot"><i className={`fa-solid ${uploaded===true?"fa-check check-color":"fa-circle"} file-tick`}></i>{filename}</label>
                   <br /> <br />
 
                   <label htmlFor="submit"></label>

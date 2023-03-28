@@ -117,10 +117,6 @@ useEffect(() => {
   return (
     <>
       <div className="ag-timeline-block" id="timeline">
-        {/* <div className="ag-timeline_title-box">
-          <div className="ag-timeline_tagline">Timeline</div>
-          <div className="ag-timeline_title">No Flex</div>
-        </div> */}
         <Heading title="TIMELINE" size="5rem"/>
         <section className="ag-section">
         <div className='daywise_buttons'>
@@ -134,9 +130,6 @@ useEffect(() => {
               </div>
               <div className="ag-timeline_list">
 
-              
-              
-              
               {dayevents.map((val,ind)=>{
                 return(
                   <div key={ind} className="js-timeline_item ag-timeline_item">
@@ -145,37 +138,21 @@ useEffect(() => {
                       <div className="ag-timeline-card_point">{i++}</div>
                     </div>
                     <div className="ag-timeline-card_meta-box">
-                      {/* <div className="ag-timeline-card_meta">Season 13</div> */}
                     </div>
                   </div>
                   <div className="ag-timeline-card_item">
                     <div className="ag-timeline-card_inner">
                       <div className="ag-timeline-card_img-box">
-                        {/* <img
-                          src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-13.png"
-                          className="ag-timeline-card_img"
-                          width="140"
-                          height="140"
-                          alt=""
-                        /> */}
-
                         <h2 className="eventTitle">{val.title}</h2>
                       </div>
                       <div className="ag-timeline-card_info">
-                        {/* <div className="ag-timeline-card_title">Season 13</div> */}
-                        <div className="ag-timeline-card_desc">
-                          {/* Lorem ipsum dolor sit amet, consectetuer adipiscing
-                          elit. Aenean commodo ligula eget dolor. Aenean
-                          massa. Cum sociis natoque penatibus et magnis dis
-                          parturient montes, nascetur ridiculus mus. Donec
-                          quam felis, ultricies nec, pellentesque eu, pretium
-                          quis, sem. Nulla consequat massa quis enim. Donec
-                          pede justo, fringilla vel, aliquet nec, vulputate
-                          eget, arcu. */}
+
+                        <div className="ag-timeline-card_desc"> 
                            <h6>{val.time}</h6>
                           <h6>{val.venue}</h6>
                           <h6>{val.tagline}</h6>
                         </div>
+
                       </div>
                     </div>
                     <div className="ag-timeline-card_arrow"></div>
