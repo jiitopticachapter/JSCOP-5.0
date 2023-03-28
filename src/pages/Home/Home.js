@@ -5,7 +5,6 @@ import Timeline from '../../components/Timeline/Timeline'
 import Speakers from '../../components/Speakers/Speakers'
 import Hero from '../../components/Hero/Hero'
 import Gallery from '../../components/Gallery/Gallery'
-import ComingSoon from '../../components/ComingSoon/ComingSoon'
 import './Home.scss'
 
 
@@ -20,7 +19,6 @@ const Home = () => {
         {/* <Heading title="EVENTS"/> */}
         <div className="home">
         {/* <Heading2 title = "EVENTS"/> */}
-        <ComingSoon />
         <Speakers />
         <Events />
         {/* <Heading title="QUOTE"/>
