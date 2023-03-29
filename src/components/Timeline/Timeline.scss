@@ -374,6 +374,9 @@ img {
 }
 
 @media only screen and (max-width: 767px) {
+  .ag-timeline-block{
+    padding:50px 0;
+  }
   .ag-format-container {
     width: 96%;
   }
