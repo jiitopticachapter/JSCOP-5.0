@@ -1,0 +1,39 @@
+.mySwiper{
+  margin-bottom: 5rem;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-3d .swiper-wrapper{
+  overflow-x:visible ;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 400px !important;
+  height: 400px !important;
+  overflow-x: visible;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  overflow-x: visible;
+}
+
+.swiper-slide-shadow-left{
+  overflow-x: visible;
+}
+.swiper-slide-shadow-right{
+  overflow-x: visible;
+}
+
+@media screen and (max-width:756px) {
+  .swiper-slide{
+    width: 300px !important;
+    height: 300px !important;
+  }
+}
