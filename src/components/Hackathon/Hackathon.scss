@@ -14,7 +14,7 @@
         text-transform: uppercase;
         letter-spacing: 5px;
         font-family: 'Orbitron';
-
+        margin-bottom: 1.5rem;
     }
 
     h2::before {
@@ -65,10 +65,14 @@
 
     .hackathon_button:hover {
         cursor: pointer;
+        // background-image: linear-gradient(#0F5BB2,#177BF2,#3E97FF,#63ACFF,#709CCC);
     }
 
-}
 
+}
+.apply-button{
+    background-color: blue!important;
+}
 @keyframes animate {
 
     0%,

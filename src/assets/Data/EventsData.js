@@ -1,8 +1,8 @@
 const Events = [
     {
         id:1,
-        title:"Harsh",
-        imgsrc:"https://tryst-bucket.s3.amazonaws.com/events/posters/CEF___3.webp",
+        title:"CODE OF DUTY",
+        imgsrc:"https://drive.google.com/uc?export=view&id=1acC7OaToJHrz_nshc0UuUjzfzwdqgp1s",
         description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic perspiciatis nisi vero inventore. Totam deserunt repellendus eius neque a fuga officia. Maiores facere incidunt reprehenderit dolore, ipsum magnam quos, aliquam eligendi tenetur laborum laboriosam atque. Similique laborum neque maiores reprehenderit eum, libero a at dolorem dolor deleniti, rem totam veritatis ipsam illo ut voluptatibus earum nam omnis incidunt consequuntur obcaecati. Facilis mollitia autem magnam quia, nesciunt iste obcaecati vel, hic tempora excepturi soluta ipsa eaque? Possimus, a modi. Deserunt facilis harum enim totam, numquam quam nihil odio eligendi facere nisi nesciunt molestiae quo debitis, qui necessitatibus quisquam tempora quidem praesentium.",
         date:"6th March 2023",
         location:"LT-4",
@@ -28,27 +28,27 @@ const Events = [
           ],
           OrgTeam: [
             {
-              imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+              imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
               name:"Luv Chadda",
             },
             {
-              imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+              imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
               name:"Luv Chadda",
             },
             {
-              imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+              imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
               name:"Luv Chadda",
             },
             {
-              imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+              imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
               name:"Luv Chadda",
             },
           ]
     },
     {
         id:2,
-        title:"Dipti",
-        imgsrc:"https://tryst-bucket.s3.amazonaws.com/events/posters/CEF___3.webp",
+        title:"COMING SOON",
+        imgsrc:"https://drive.google.com/uc?export=view&id=1SpKm_NT3lU6nVQIYzCGW9j_eeJulqiFn",
         description:"Dipti Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic perspiciatis nisi vero inventore. Totam deserunt repellendus eius neque a fuga officia. Maiores facere incidunt reprehenderit dolore, ipsum magnam quos, aliquam eligendi tenetur laborum laboriosam atque. Similique laborum neque maiores reprehenderit eum, libero a at dolorem dolor deleniti, rem totam veritatis ipsam illo ut voluptatibus earum nam omnis incidunt consequuntur obcaecati. Facilis mollitia autem magnam quia, nesciunt iste obcaecati vel, hic tempora excepturi soluta ipsa eaque? Possimus, a modi. Deserunt facilis harum enim totam, numquam quam nihil odio eligendi facere nisi nesciunt molestiae quo debitis, qui necessitatibus quisquam tempora quidem praesentium.",
         date:"6th March 2023",
         location:"LT-4",
@@ -75,19 +75,19 @@ const Events = [
           ],
           OrgTeam: [
             {
-              imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+              imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
               name:"Luv Chadda",
             },
             {
-              imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+              imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
               name:"Luv Chadda",
             },
             {
-              imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+              imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
               name:"Luv Chadda",
             },
             {
-              imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+              imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
               name:"Luv Chadda",
             },
           ]
@@ -96,8 +96,8 @@ const Events = [
     },
     {
         id:3,
-        title:"Nemo",
-        imgsrc:"https://tryst-bucket.s3.amazonaws.com/events/posters/CEF___3.webp",
+        title:"COMING SOON",
+        imgsrc:"https://drive.google.com/uc?export=view&id=1SpKm_NT3lU6nVQIYzCGW9j_eeJulqiFn",
         description:"Nemo Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic perspiciatis nisi vero inventore. Totam deserunt repellendus eius neque a fuga officia. Maiores facere incidunt reprehenderit dolore, ipsum magnam quos, aliquam eligendi tenetur laborum laboriosam atque. Similique laborum neque maiores reprehenderit eum, libero a at dolorem dolor deleniti, rem totam veritatis ipsam illo ut voluptatibus earum nam omnis incidunt consequuntur obcaecati. Facilis mollitia autem magnam quia, nesciunt iste obcaecati vel, hic tempora excepturi soluta ipsa eaque? Possimus, a modi. Deserunt facilis harum enim totam, numquam quam nihil odio eligendi facere nisi nesciunt molestiae quo debitis, qui necessitatibus quisquam tempora quidem praesentium.",
         date:"6th March 2023",
         location:"LT-4",
@@ -124,27 +124,27 @@ const Events = [
           ],
           OrgTeam: [
             {
-              imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+              imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
               name:"Luv Chadda",
             },
             {
-              imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+              imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
               name:"Luv Chadda",
             },
             {
-              imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+              imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
               name:"Luv Chadda",
             },
             {
-              imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+              imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
               name:"Luv Chadda",
             },
           ]
     },
     {
         id:4,
-        title:"Kaavya",
-        imgsrc:"https://tryst-bucket.s3.amazonaws.com/events/posters/CEF___3.webp",
+        title:"COMING SOON",
+        imgsrc:"https://drive.google.com/uc?export=view&id=1SpKm_NT3lU6nVQIYzCGW9j_eeJulqiFn",
         description:"Kaavya Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic perspiciatis nisi vero inventore. Totam deserunt repellendus eius neque a fuga officia. Maiores facere incidunt reprehenderit dolore, ipsum magnam quos, aliquam eligendi tenetur laborum laboriosam atque. Similique laborum neque maiores reprehenderit eum, libero a at dolorem dolor deleniti, rem totam veritatis ipsam illo ut voluptatibus earum nam omnis incidunt consequuntur obcaecati. Facilis mollitia autem magnam quia, nesciunt iste obcaecati vel, hic tempora excepturi soluta ipsa eaque? Possimus, a modi. Deserunt facilis harum enim totam, numquam quam nihil odio eligendi facere nisi nesciunt molestiae quo debitis, qui necessitatibus quisquam tempora quidem praesentium.",
         date:"6th March 2023",
         location:"LT-4",
@@ -171,27 +171,27 @@ const Events = [
           ],
           OrgTeam: [
             {
-              imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+              imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
               name:"Luv Chadda",
             },
             {
-              imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+              imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
               name:"Luv Chadda",
             },
             {
-              imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+              imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
               name:"Luv Chadda",
             },
             {
-              imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+              imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
               name:"Luv Chadda",
             },
           ]
     },
     {
         id:5,
-        title:"Aryan",
-        imgsrc:"https://tryst-bucket.s3.amazonaws.com/events/posters/CEF___3.webp",
+        title:"COMING SOON",
+        imgsrc:"https://drive.google.com/uc?export=view&id=1SpKm_NT3lU6nVQIYzCGW9j_eeJulqiFn",
         description:"Aryan Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic perspiciatis nisi vero inventore. Totam deserunt repellendus eius neque a fuga officia. Maiores facere incidunt reprehenderit dolore, ipsum magnam quos, aliquam eligendi tenetur laborum laboriosam atque. Similique laborum neque maiores reprehenderit eum, libero a at dolorem dolor deleniti, rem totam veritatis ipsam illo ut voluptatibus earum nam omnis incidunt consequuntur obcaecati. Facilis mollitia autem magnam quia, nesciunt iste obcaecati vel, hic tempora excepturi soluta ipsa eaque? Possimus, a modi. Deserunt facilis harum enim totam, numquam quam nihil odio eligendi facere nisi nesciunt molestiae quo debitis, qui necessitatibus quisquam tempora quidem praesentium.",
         date:"6th March 2023",
         location:"LT-4",
@@ -218,27 +218,27 @@ const Events = [
           ],
           OrgTeam: [
             {
-              imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+              imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
               name:"Luv Chadda",
             },
             {
-              imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+              imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
               name:"Luv Chadda",
             },
             {
-              imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+              imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
               name:"Luv Chadda",
             },
             {
-              imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+              imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
               name:"Luv Chadda",
             },
           ]
     },
     {
       id:6,
-      title:"Nancy",
-      imgsrc:"https://tryst-bucket.s3.amazonaws.com/events/posters/CEF___3.webp",
+      title:"COMING SOON",
+      imgsrc:"https://drive.google.com/uc?export=view&id=1SpKm_NT3lU6nVQIYzCGW9j_eeJulqiFn",
       description:"Nancy Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic perspiciatis nisi vero inventore. Totam deserunt repellendus eius neque a fuga officia. Maiores facere incidunt reprehenderit dolore, ipsum magnam quos, aliquam eligendi tenetur laborum laboriosam atque. Similique laborum neque maiores reprehenderit eum, libero a at dolorem dolor deleniti, rem totam veritatis ipsam illo ut voluptatibus earum nam omnis incidunt consequuntur obcaecati. Facilis mollitia autem magnam quia, nesciunt iste obcaecati vel, hic tempora excepturi soluta ipsa eaque? Possimus, a modi. Deserunt facilis harum enim totam, numquam quam nihil odio eligendi facere nisi nesciunt molestiae quo debitis, qui necessitatibus quisquam tempora quidem praesentium.",
       date:"6th March 2023",
       location:"LT-4",
@@ -265,19 +265,19 @@ const Events = [
         ],
         OrgTeam: [
           {
-            imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+            imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
             name:"Luv Chadda",
           },
           {
-            imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+            imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
             name:"Luv Chadda",
           },
           {
-            imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+            imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
             name:"Luv Chadda",
           },
           {
-            imgsrc:"https://jiitopticachapter.in/images/core%20team%20img/luv%20chadha.png",
+            imgsrc:"https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
             name:"Luv Chadda",
           },
         ]

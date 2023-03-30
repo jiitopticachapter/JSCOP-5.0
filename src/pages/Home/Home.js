@@ -2,10 +2,9 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import Events from '../../components/Events/Events'
 import Timeline from '../../components/Timeline/Timeline'
-// import Speakers from '../../components/Speakers/Speakers'
+import Speakers from '../../components/Speakers/Speakers'
 import Hero from '../../components/Hero/Hero'
 import Gallery from '../../components/Gallery/Gallery'
-// import ComingSoon from '../../components/ComingSoon/ComingSoon'
 import './Home.scss'
 import Sponsors from '../../components/Sponsors/Sponsors'
 
@@ -19,6 +18,8 @@ const Home = () => {
         <Hero />
 
         <div className="home">
+        {/* <Heading2 title = "EVENTS"/> */}
+        <Speakers />
         <Events />
         <Timeline />
         <Gallery/>

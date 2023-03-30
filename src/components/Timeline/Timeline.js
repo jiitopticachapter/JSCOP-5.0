@@ -1,16 +1,13 @@
-
 import React from "react";
 import "./Timeline.scss";
 // import ReactDOM from "react-dom";
 // import $ from "jquery";
-import "jquery-ui-dist/jquery-ui";
+// import "jquery-ui-dist/jquery-ui";
 // import { useEffect } from "react";
-import Heading from "../heading/Heading";
 // import {day1,day2} from "../../assets/Data/Timelinedata";
 // import { useState } from "react";
+import Heading from "../heading/Heading";
 import ComingSoon from "../ComingSoon/ComingSoon";
-
-
 
 
 
@@ -115,11 +112,11 @@ const Timeline = () => {
 //       });
 //     })($);
 //   })
+
   return (
     <>
       <div className="ag-timeline-block" id="timeline">
         <Heading title="TIMELINE" size="5rem"/>
-        <ComingSoon />
         {/* <section className="ag-section">
         <div className='daywise_buttons'>
           <button className="day1_button" onClick={()=>setDay(1)}>Day 1</button>
@@ -162,14 +159,13 @@ const Timeline = () => {
                 </div>
                 )
               })}
-                
-             
-             
-             
+
               </div>
             </div>
           </div>
         </section> */}
+
+        <ComingSoon />
       </div>
     </>
   );

@@ -1,12 +1,14 @@
 import React from 'react'
 import Heading from '../../components/heading/Heading';
+import ComingSoon from '../ComingSoon/ComingSoon';
 import './Speaker.scss';
 
 const Speakers = () => {
   return (
     <>
-      <Heading title="Speakers" size="5rem"/>
-      <section className="speaker-hero-section">
+      <Heading title="Speakers" size="5rem" />
+      <ComingSoon />
+      {/* <section className="speaker-hero-section">
         <div className="speaker-card-grid">
           
   <div className="speaker-card-container">
@@ -79,9 +81,9 @@ const Speakers = () => {
 
 
         </div>
-      </section>
+      </section> */}
     </>
-    )
+  )
 }
 
 export default Speakers;
