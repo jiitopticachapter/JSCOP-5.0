@@ -13,7 +13,7 @@
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 800px !important;
+  width: 700px !important;
   height: 360px !important;
   overflow-x: visible;
 }
@@ -33,7 +33,7 @@
 
 @media screen and (max-width:756px) {
   .swiper-slide{
-    width: 300px !important;
+    width: 500px !important;
     height: 300px !important;
   }
 }

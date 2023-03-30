@@ -6,7 +6,8 @@ import './Speaker.scss';
 const Speakers = () => {
   return (
     <>
-      <Heading title="Speakers" size="5rem"/>
+      <Heading title="Speakers" size="5rem" />
+      <ComingSoon />
       {/* <section className="speaker-hero-section">
         <div className="speaker-card-grid">
           
@@ -81,9 +82,8 @@ const Speakers = () => {
 
         </div>
       </section> */}
-      <ComingSoon />
     </>
-    )
+  )
 }
 
 export default Speakers;

@@ -41,28 +41,28 @@ function Gallery() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt=""/>
+          <img src="https://drive.google.com/uc?export=view&id=1nXnml8EAjZv-4MLD_yJf81kIN1O11twO" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt=""/>
+          <img src="https://drive.google.com/uc?export=view&id=1nWuB-TOI_tTMsYu4cwW11m8MtG4_uLeL" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt=""/>
+          <img src="https://drive.google.com/uc?export=view&id=1gu0kDorDmjjP-nVcoUKr3ihswMwjlRH9" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt=""/>
+          <img src="https://drive.google.com/uc?export=view&id=1a1hHy7pmBo6-i-SheEUsCGWdF2iR78Yb" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt=""/>
+          <img src="https://drive.google.com/uc?export=view&id=1AmKT6ERmNdmF4qoB6WiMHFCLYH8IhYMh" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" alt=""/>
+          <img src="https://drive.google.com/uc?export=view&id=1zgD-Iooc29iGtzKaE_rx4ncbaGgDrA8J" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" alt=""/>
+          <img src="https://drive.google.com/uc?export=view&id=1Fdxj44m8lLqmrU5CJrsQ0uRztMrnlBsl" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" alt=""/>
+          <img src="https://drive.google.com/uc?export=view&id=1iV1IvvxpfdXN9VeMhEDIULquX6RLw78c" alt=""/>
         </SwiperSlide>
       </Swiper>
 
