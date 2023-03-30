@@ -68,7 +68,7 @@ const Navbar = () => {
             </a>
           </li>
 
-          <li>
+          {/* <li>
             <Link
               to='/register'
               className='nav-links-mobile'
@@ -76,7 +76,7 @@ const Navbar = () => {
             >
               REGISTER NOW!
             </Link>
-          </li>
+          </li> */}
         </ul>
         {/* {button && <Button buttonStyle='btn--outline'>REGISTER NOW</Button>} */}
 
