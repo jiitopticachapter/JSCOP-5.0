@@ -1,53 +1,129 @@
-.coming-soon-container {
-    display: flex;
-  /*   border:1px solid red; */
-    height: 100%;
-    align-items: center;
-    margin-bottom: 10rem;
-  }
+// .cs {
+//     height: 50vh;
+
+//     .cs_text {
+//         padding: 20px;
+//         color: white;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         flex-direction: column;
+//         font-family: 'Stargaze', 'Orbitron';
+//         font-size: 3rem;
+//         letter-spacing: 4px;
+//         animation: float 2s ease-out infinite;
+
+//         .soon {
+//             -webkit-text-fill-color: rgba(255, 255, 255, 0);
+//             -webkit-text-stroke-width: 2px;
+//             -webkit-text-stroke-color: white;
+//         }
+//     }
+
+// }
+
+// @media screen and (max-width : 768px) {
+//     .cs{
+//         .cs_text{
+//             font-size: 2rem;
+//         }
+//     }
+    
+// }
+
+// @keyframes float {
+//     50% {
+//         transform: translateY(15px);
+//     }
+// }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+.cs{
+    height: 40vh;
+    overflow: visible;
+}
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 60px;
+//   margin:2rem auto 4rem;
+  height: 8rem;
+  align-items: center;
+//   font-family: 'Stargaze', 'Orbitron';
+  display: flex;
+  justify-content: center;
+  margin-top:7rem;
+  overflow: hidden;
+}
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  top:10px;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+//   animation: waviy 1s infinite;
+//   animation-delay: calc(.1s * var(--i));
   
-  svg {
-      display: block;
-      font: 8.5em 'Montserrat';
-      width: 960px;
-      height: 300px;
-      margin: 0 auto;
+}
+
+.waviy span:nth-child(1){
+    animation: waviy 1s infinite;
+  animation-delay: calc(.1s * 1);
+}
+.waviy span:nth-child(2){
+    animation: waviy 1s infinite;
+  animation-delay: calc(.1s * 2);
+}
+.waviy span:nth-child(3){
+    animation: waviy 1s infinite;
+  animation-delay: calc(.1s * 3);
+}
+.waviy span:nth-child(4){
+    animation: waviy 1s infinite;
+  animation-delay: calc(.1s * 4);
+}
+.waviy span:nth-child(5){
+    animation: waviy 1s infinite;
+  animation-delay: calc(.1s * 5);
+}
+.waviy span:nth-child(6){
+    animation: waviy 1s infinite;
+  animation-delay: calc(.1s * 6);
+}
+.waviy span:nth-child(7){
+    animation: waviy 1s infinite;
+  animation-delay: calc(.1s * 7);
+}
+.waviy span:nth-child(8){
+    animation: waviy 1s infinite;
+  animation-delay: calc(.1s * 8);
+}
+.waviy span:nth-child(9){
+    animation: waviy 1s infinite;
+  animation-delay: calc(.1s * 9);
+}
+.waviy span:nth-child(10){
+    animation: waviy 1s infinite;
+  animation-delay: calc(.1s * 10);
+}
+
+@media only screen and (max-width:768px){
+    .waviy{
+        font-size: 40px;
+    }
+}
+
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
   }
-  
-  .text-copy {
-      fill: none;
-      stroke: white;
-      stroke-dasharray: 6% 29%;
-      stroke-width: 5px;
-      stroke-dashoffset: 0%;
-      animation: stroke-offset 5.5s infinite linear;
+  20% {
+    transform: translateY(-20px)
   }
-  
-  .text-copy:nth-child(1){
-      stroke: #4D163D;
-      animation-delay: -1;
-  }
-  
-  .text-copy:nth-child(2){
-      stroke: #840037;
-      animation-delay: -2s;
-  }
-  
-  .text-copy:nth-child(3){
-      stroke: #BD0034;
-      animation-delay: -3s;
-  }
-  
-  .text-copy:nth-child(4){
-      stroke: #BD0034;
-      animation-delay: -4s;
-  }
-  
-  .text-copy:nth-child(5){
-      stroke: #FDB731;
-      animation-delay: -5s;
-  }
-  
-  @keyframes stroke-offset{
-      100% {stroke-dashoffset: -35%;}
-  }
+}
+
+
+
