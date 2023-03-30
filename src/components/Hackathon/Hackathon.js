@@ -23,7 +23,7 @@ const Hackathon = () => {
             </a> */}
             <div
                 className="apply-button"
-                data-hackathon-slug="codeofduty.devfolio.co/"
+                data-hackathon-slug="codeofduty"
                 data-button-theme="light"
                 style={{height: "44px", width: "312px", marginTop: "2rem"}}
             ></div>
