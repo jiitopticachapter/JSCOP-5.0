@@ -2,7 +2,7 @@ const Events = [
     {
         id:1,
         title:"CODE OF DUTY",
-        imgsrc:"https://drive.google.com/uc?export=view&id=1acC7OaToJHrz_nshc0UuUjzfzwdqgp1s",
+        imgsrc:"https://drive.google.com/uc?export=view&id=1312uUdgDQBo0wRS-X6AaSp4yT3JoA2iF",
         description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic perspiciatis nisi vero inventore. Totam deserunt repellendus eius neque a fuga officia. Maiores facere incidunt reprehenderit dolore, ipsum magnam quos, aliquam eligendi tenetur laborum laboriosam atque. Similique laborum neque maiores reprehenderit eum, libero a at dolorem dolor deleniti, rem totam veritatis ipsam illo ut voluptatibus earum nam omnis incidunt consequuntur obcaecati. Facilis mollitia autem magnam quia, nesciunt iste obcaecati vel, hic tempora excepturi soluta ipsa eaque? Possimus, a modi. Deserunt facilis harum enim totam, numquam quam nihil odio eligendi facere nisi nesciunt molestiae quo debitis, qui necessitatibus quisquam tempora quidem praesentium.",
         date:"6th March 2023",
         location:"LT-4",
