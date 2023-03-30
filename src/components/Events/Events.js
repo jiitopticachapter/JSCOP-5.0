@@ -2,15 +2,17 @@ import React from 'react'
 import Heading from '../heading/Heading'
 import './Events.scss'
 // import questionMark from '../../assets/images/question-mark.png';
-import EventsData from '../../assets/Data/EventsData'
-import { Link } from 'react-router-dom'
+// import EventsData from '../../assets/Data/EventsData'
+// import { Link } from 'react-router-dom'
+import ComingSoon from '../ComingSoon/ComingSoon'
 
 const Events = () => {
 
   return (
     <>
       <Heading title="EVENTS" size="5rem" ID="Events"/>
-      <div className="events-section" id="Events">
+      <ComingSoon />
+      {/* <div className="events-section" id="Events">
 
         {EventsData.map((val, ind) => {
           return (
@@ -27,7 +29,7 @@ const Events = () => {
           )
         })}
         
-      </div>
+      </div> */}
     </>
   )
 }
