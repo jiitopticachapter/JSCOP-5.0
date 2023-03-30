@@ -7,6 +7,7 @@ import Hero from '../../components/Hero/Hero'
 import Gallery from '../../components/Gallery/Gallery'
 // import ComingSoon from '../../components/ComingSoon/ComingSoon'
 import './Home.scss'
+import Sponsors from '../../components/Sponsors/Sponsors'
 
 
 const Home = () => {
@@ -17,20 +18,12 @@ const Home = () => {
      
         <Hero />
 
-        {/* <Heading title="EVENTS"/> */}
         <div className="home">
-        {/* <Heading2 title = "EVENTS"/> */}
-        {/* <ComingSoon /> */}
-        {/* <Speakers /> */}
         <Events />
-        {/* <Heading title="QUOTE"/>
-        <Quote/> */}
-        {/* <Heading2 title="TIMELINE" /> */}
         <Timeline />
-        {/* <Heading2 title="SPEAKERS" /> */}
         <Gallery/>
-        {/* <Heading2 title="SPONSORS" /> */}
-        {/* <Sponsors /> */}
+        <Sponsors />
+
         
       </div>
     </motion.div>
