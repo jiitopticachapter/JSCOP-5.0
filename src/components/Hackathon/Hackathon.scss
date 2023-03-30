@@ -33,7 +33,7 @@
         -webkit-text-stroke: 0vw #FFFFFF;
         border-right: 3px solid #EF4C72;
         overflow: hidden;
-        animation: animate 6s linear infinite;
+        animation: animate 4s linear infinite;
     }
 
 
@@ -80,7 +80,7 @@
     100% {
         width: 0%;
     }
-
+    60%,
     70%,
     90% {
         width: 100%;
