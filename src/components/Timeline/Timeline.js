@@ -1,124 +1,123 @@
-
 import React from "react";
 import "./Timeline.scss";
 // import ReactDOM from "react-dom";
-import $ from "jquery";
-import "jquery-ui-dist/jquery-ui";
-import { useEffect } from "react";
+// import $ from "jquery";
+// import "jquery-ui-dist/jquery-ui";
+// import { useEffect } from "react";
+// import {day1,day2} from "../../assets/Data/Timelinedata";
+// import { useState } from "react";
 import Heading from "../heading/Heading";
-import {day1,day2} from "../../assets/Data/Timelinedata";
-import { useState } from "react";
-
-
+import ComingSoon from "../ComingSoon/ComingSoon";
 
 
 
 
 const Timeline = () => {
 
-   let i=1;
+//    let i=1;
 
-  const [day,setDay]=useState(1);
+//   const [day,setDay]=useState(1);
 
-const [dayevents,setDayEvents]=useState(day1);
+// const [dayevents,setDayEvents]=useState(day1);
 
-useEffect(() => {
-  if(day===1){
-     setDayEvents(day1);
-  }
-  else if(day===2){
-     setDayEvents(day2);
-  }
-}, [day])
+// useEffect(() => {
+//   if(day===1){
+//      setDayEvents(day1);
+//   }
+//   else if(day===2){
+//      setDayEvents(day2);
+//   }
+// }, [day])
 
-  useEffect(() => {
-    (function ($) {
-      $(function () {
-        $(window).on("scroll", function () {
-          fnOnScroll();
-        });
+//   useEffect(() => {
+//     (function ($) {
+//       $(function () {
+//         $(window).on("scroll", function () {
+//           fnOnScroll();
+//         });
 
-        $(window).on("resize", function () {
-          fnOnResize();
-        });
+//         $(window).on("resize", function () {
+//           fnOnResize();
+//         });
 
-        var agTimeline = $(".js-timeline"),
-          agTimelineLine = $(".js-timeline_line"),
-          agTimelineLineProgress = $(".js-timeline_line-progress"),
-          agTimelinePoint = $(".js-timeline-card_point-box"),
-          agTimelineItem = $(".js-timeline_item"),
-          agOuterHeight = $(window).outerHeight(),
-          agHeight = $(window).height(),
-          f = -1,
-          agFlag = false,
-          agPosY,i,a,n;
+//         var agTimeline = $(".js-timeline"),
+//           agTimelineLine = $(".js-timeline_line"),
+//           agTimelineLineProgress = $(".js-timeline_line-progress"),
+//           agTimelinePoint = $(".js-timeline-card_point-box"),
+//           agTimelineItem = $(".js-timeline_item"),
+//           agOuterHeight = $(window).outerHeight(),
+//           agHeight = $(window).height(),
+//           f = -1,
+//           agFlag = false,
+//           agPosY,i,a,n;
 
-        function fnOnScroll() {
-          agPosY = $(window).scrollTop();
+//         function fnOnScroll() {
+//           agPosY = $(window).scrollTop();
 
-          fnUpdateFrame();
-        }
+//           fnUpdateFrame();
+//         }
 
-        function fnOnResize() {
-          agPosY = $(window).scrollTop();
-          agHeight = $(window).height();
+//         function fnOnResize() {
+//           agPosY = $(window).scrollTop();
+//           agHeight = $(window).height();
 
-          fnUpdateFrame();
-        }
+//           fnUpdateFrame();
+//         }
 
-        function fnUpdateWindow() {
-          agFlag = false;
+//         function fnUpdateWindow() {
+//           agFlag = false;
 
-          agTimelineLine.css({
-            top:
-              agTimelineItem.first().find(agTimelinePoint).offset().top -
-              agTimelineItem.first().offset().top,
-            bottom:
-              agTimeline.offset().top +
-              agTimeline.outerHeight() -
-              agTimelineItem.last().find(agTimelinePoint).offset().top,
-          });
+//           agTimelineLine.css({
+//             top:
+//               agTimelineItem.first().find(agTimelinePoint).offset().top -
+//               agTimelineItem.first().offset().top,
+//             bottom:
+//               agTimeline.offset().top +
+//               agTimeline.outerHeight() -
+//               agTimelineItem.last().find(agTimelinePoint).offset().top,
+//           });
 
-       return   f !== agPosY && ((f = agPosY), agHeight, fnUpdateProgress());
-        }
+//        return   f !== agPosY && ((f = agPosY), agHeight, fnUpdateProgress());
+//         }
 
-        function fnUpdateProgress() {
-          var agTop = agTimelineItem
-            .last()
-            .find(agTimelinePoint)
-            .offset().top;
+//         function fnUpdateProgress() {
+//           var agTop = agTimelineItem
+//             .last()
+//             .find(agTimelinePoint)
+//             .offset().top;
 
-          i = agTop + agPosY - $(window).scrollTop();
-          a =
-            agTimelineLineProgress.offset().top +
-            agPosY -
-            $(window).scrollTop();
-          n = agPosY - a + agOuterHeight / 2;
-          i <= agPosY + agOuterHeight / 2 && (n = i - a);
-          agTimelineLineProgress.css({ height: n + "px" });
+//           i = agTop + agPosY - $(window).scrollTop();
+//           a =
+//             agTimelineLineProgress.offset().top +
+//             agPosY -
+//             $(window).scrollTop();
+//           n = agPosY - a + agOuterHeight / 2;
+//           i <= agPosY + agOuterHeight / 2 && (n = i - a);
+//           agTimelineLineProgress.css({ height: n + "px" });
 
-          agTimelineItem.each(function () {
-            var agTop = $(this).find(agTimelinePoint).offset().top;
+//           agTimelineItem.each(function () {
+//             var agTop = $(this).find(agTimelinePoint).offset().top;
 
-            agTop + agPosY - $(window).scrollTop() <
-            agPosY + 0.5 * agOuterHeight
-              ? $(this).addClass("js-ag-active")
-              : $(this).removeClass("js-ag-active");
-          });
-        }
+//             agTop + agPosY - $(window).scrollTop() <
+//             agPosY + 0.5 * agOuterHeight
+//               ? $(this).addClass("js-ag-active")
+//               : $(this).removeClass("js-ag-active");
+//           });
+//         }
 
-        function fnUpdateFrame() {
-          agFlag || requestAnimationFrame(fnUpdateWindow);
-          agFlag = true;
-        }
-      });
-    })($);
-  })
+//         function fnUpdateFrame() {
+//           agFlag || requestAnimationFrame(fnUpdateWindow);
+//           agFlag = true;
+//         }
+//       });
+//     })($);
+//   })
+
   return (
     <>
       <div className="ag-timeline-block" id="timeline">
         <Heading title="TIMELINE" size="5rem"/>
-        <section className="ag-section">
+        {/* <section className="ag-section">
         <div className='daywise_buttons'>
           <button className="day1_button" onClick={()=>setDay(1)}>Day 1</button>
           <button className="day2_button" onClick={()=>setDay(2)}>Day 2</button>
@@ -160,14 +159,13 @@ useEffect(() => {
                 </div>
                 )
               })}
-                
-             
-             
-             
+
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
+
+        <ComingSoon />
       </div>
     </>
   );

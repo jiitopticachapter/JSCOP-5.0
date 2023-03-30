@@ -31,7 +31,7 @@ function Gallery() {
           modifier: 1,
           slideShadows: true,
         }}
-        navigation={true}
+        // navigation={true}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
