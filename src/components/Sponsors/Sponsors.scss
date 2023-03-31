@@ -2,12 +2,12 @@
 	background: linear-gradient(to right, var(--bgColor1) 0%,rgba(255,255,255,0) 40%);
 }
 
-$animationSpeed: 30s;
+$animationSpeed: 15s;
 
 // Animation
 @keyframes scroll {
 	0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-250px * 12))}
+	100% { transform: translateX(calc(-250px * 4))}
 }
 // Styling
 .Sponsors_slider{
@@ -47,7 +47,7 @@ $animationSpeed: 30s;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		width: calc(250px * 14);
+		width: calc(250px * 5);
 
 		.Sponsors_slide{
 			margin : 0 20px;
