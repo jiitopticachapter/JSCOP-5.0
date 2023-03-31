@@ -1,0 +1,39 @@
+.hackathon-themes-container {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    max-width:760px;
+  }
+  .theme-card {
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    margin: 20px 15px;
+    border:1px solid #CCD1D1;
+    border-radius: 10px;
+    box-shadow:5px 5px 10px gray;
+    // background-image:linear-gradient(red, orangered,yellow);
+    z-index:-1;
+    transition: transform .2s;
+    overflow-x: visible;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+  }
+  .theme-card:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  .theme-item-name {
+    position:relative;
+    top:15px;
+    border:1px solid white;
+    background-color:rgb(232, 232, 232);
+    text-align:center;
+    padding:15px 10px;
+    border-radius: 10px;
+    box-shadow:5px 5px 10px gray;
+    margin-top:184px;
+  }
