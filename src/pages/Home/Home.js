@@ -19,8 +19,8 @@ const Home = () => {
 
         <div className="home">
         {/* <Heading2 title = "EVENTS"/> */}
-        <Speakers />
         <Events />
+        <Speakers />
         <Timeline />
         <Gallery/>
         <Sponsors />
