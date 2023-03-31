@@ -2,23 +2,24 @@
 	background: linear-gradient(to right, var(--bgColor1) 0%,rgba(255,255,255,0) 40%);
 }
 
-$animationSpeed: 40s;
+$animationSpeed: 30s;
 
 // Animation
 @keyframes scroll {
 	0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-250px * 7))}
+	100% { transform: translateX(calc(-250px * 12))}
 }
 // Styling
 .Sponsors_slider{
 	// background: rgb(0, 0, 0);
 	background: transparent;
-	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
-	height: 100px;
+	// box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	height: 120px;
 	margin: auto;
 	overflow:hidden;
 	position: relative;
 	width: 100vw;
+	margin-bottom:5rem;
 	
 	&::before,
 	&::after {
