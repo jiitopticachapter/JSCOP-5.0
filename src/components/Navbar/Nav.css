@@ -33,7 +33,9 @@
     display: flex;
     align-items: center;
 }
-
+.Logo-image{
+    width: 150px;
+}
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -143,6 +145,7 @@
         top: 0;
         left: 0;
         transform: translate(25%, 50%);
+        overflow-x: visible;
     }
 
     .menu-icon {
@@ -180,5 +183,8 @@
         background: #fff;
         color: #242424;
         transition: 250ms;
+    }
+    .Logo-image{
+        margin-bottom:-30px;
     }
 }

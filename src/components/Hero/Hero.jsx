@@ -21,7 +21,6 @@ const Hero = () => {
         <source src={clip} type='video/mp4' />
         <source src={clip} type="video/ogg" />
       </video>
-
       <h1>JSCOP <span>5.0</span></h1>
       <p>JIIT Student conference for optics and photonics</p>
       {/* <Countdown /> */}

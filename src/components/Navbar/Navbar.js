@@ -2,6 +2,7 @@ import React, { useState} from 'react'
 import { Link } from 'react-router-dom'
 // import { Button } from './Button';
 import './Nav.css'
+import Logo from '../../assets/images/JSCOP_LOGO2.png'
 
 
 
@@ -39,7 +40,8 @@ const Navbar = () => {
     <div className={click ? 'navbar new' : 'navbar'}>
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          JSCOP 5.0
+          {/* JSCOP 5.0 */}
+          <img className="Logo-image" src={Logo} alt="" />
         </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
