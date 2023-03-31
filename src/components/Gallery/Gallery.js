@@ -41,28 +41,28 @@ function Gallery() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://drive.google.com/uc?export=view&id=1nXnml8EAjZv-4MLD_yJf81kIN1O11twO" alt=""/>
+          <img src="/images/Gallery/1.jpg" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://drive.google.com/uc?export=view&id=1nWuB-TOI_tTMsYu4cwW11m8MtG4_uLeL" alt=""/>
+          <img src="/images/Gallery/2.jpg" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://drive.google.com/uc?export=view&id=1gu0kDorDmjjP-nVcoUKr3ihswMwjlRH9" alt=""/>
+          <img src="/images/Gallery/3.jpg" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://drive.google.com/uc?export=view&id=1a1hHy7pmBo6-i-SheEUsCGWdF2iR78Yb" alt=""/>
+          <img src="/images/Gallery/4.jpg" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://drive.google.com/uc?export=view&id=1AmKT6ERmNdmF4qoB6WiMHFCLYH8IhYMh" alt=""/>
+          <img src="/images/Gallery/5.jpg" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://drive.google.com/uc?export=view&id=1zgD-Iooc29iGtzKaE_rx4ncbaGgDrA8J" alt=""/>
+          <img src="/images/Gallery/6.jpg" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://drive.google.com/uc?export=view&id=1Fdxj44m8lLqmrU5CJrsQ0uRztMrnlBsl" alt=""/>
+          <img src="/images/Gallery/7.jpg" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://drive.google.com/uc?export=view&id=1iV1IvvxpfdXN9VeMhEDIULquX6RLw78c" alt=""/>
+          <img src="/images/Gallery/8.jpg" alt=""/>
         </SwiperSlide>
       </Swiper>
 

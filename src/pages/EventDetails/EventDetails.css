@@ -27,9 +27,12 @@
 
 .Event_container_left{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     padding-right: 8%;
     height: 100%;
+
+    flex-direction: column;
+    align-items: center;
 }
 
 .Events_img{
@@ -124,10 +127,31 @@ hr{
     row-gap: 1rem;
     
 }
+.events-rules {
+	margin-top: 2rem;
+	border-radius: 2px;
+	background: rgba(277, 207, 228, 1);
+	color: #000;
+	cursor: pointer;
+	padding: 0.2rem 1rem;
+	border: 1px solid rgba(172, 235, 246, 1);
+	margin-top: 20px;
 
+	font-family: 'genos';
+	font-size: 1.2rem;
+	font-weight: 700;
+	line-height: 2rem;
+	letter-spacing: 0em;
+}
+.events-rules-anchor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .days_icon
 ,.location_icon,.time_icon{
     margin-right: 1rem;
+    overflow-x: visible;
 }
 
 .Event_date,.Event_location{
@@ -135,12 +159,41 @@ hr{
     display: flex;
     align-items: center;
     padding: 1%;
+    overflow-x:visible;
    
 }
 
 .Event_location{
     margin-right: 2rem;
 }
+
+.join_disco {
+    width: 15rem;
+    background: linear-gradient(90deg, #9796f0 0%, #fbc7d4 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:3rem;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+  }
+  .join_dis_anchor{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .join_disco i {
+    margin-right: 10px;
+  }
+  /* .fa-discord{
+    font-family: 'orbitron';
+  } */
+  
+  /* .join_dis {
+    margin-bottom: 29px;
+    margin-top: 19px;
+  } */
 
 
 
@@ -153,6 +206,22 @@ hr{
         
      
        
+    }
+    .events-rules {
+        margin-top: 2rem;
+        border-radius: 2px;
+        background: rgba(172, 235, 246, 1);
+        color: #000;
+        cursor: pointer;
+        padding: 0.2rem 1rem;
+        border: 1px solid rgba(172, 235, 246, 1);
+        margin-top: 20px;
+    
+        font-family: Poppins;
+        font-size: 1.2rem;
+        font-weight: 700;
+        line-height: 2rem;
+        letter-spacing: 0em;
     }
 
     .Event_container_left{
