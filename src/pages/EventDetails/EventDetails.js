@@ -107,7 +107,9 @@ const EventDetails = () => {
               </div>
             </div>
           </div>
-          <a href={events.register_link} target="_blank" rel="noreferrer"><button className="Event_register_button">Register now</button></a>
+          <a className="Event_register_button_anchor" href={events.register_link} target="_blank" rel="noreferrer">
+            <button className="Event_register_button">Register now</button>
+          </a>
         </div>
       </div>
 

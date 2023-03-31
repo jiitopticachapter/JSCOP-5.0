@@ -12,9 +12,13 @@ const Events = [
     rules:"/",
     faq: [
       {
-        question: "I am alone and got no one on my team!",
-        answer:
-          "Don’t worry we've got you covered. Fill out a form attached to our discord handle and we’ll do the team assigning for you.",
+        question: "Registration costs?",
+        answer: "Nope",
+        open: false
+      },
+      {
+        question: "Team Size?",
+        answer: "2-4",
         open: false
       },
       {
@@ -33,25 +37,13 @@ const Events = [
         open: false
       },
       {
-        question: "Team Size?",
-        answer: "2-4",
+        question: "I am alone and got no one on my team!",
+        answer:
+          "Don’t worry we've got you covered. Fill out a form attached to our discord handle and we’ll do the team assigning for you.",
         open: false
-      },
-      {
-        question: "Registration costs?",
-        answer: "Nope",
-        open: false
-      },
+      }, 
     ],
     OrgTeam: [
-      {
-        imgsrc: "/images/Harshul-hackathon.jpg",
-        name: "HARSHUL VARSHNEY",
-      },
-      {
-        imgsrc: "/images/Aryan-hackathon.jpg",
-        name: "ARYAN GOYAL",
-      },
       {
         imgsrc: "/images/ronit-hackathon.jpg",
         name: "RONIT KHATRI",
@@ -59,6 +51,14 @@ const Events = [
       {
         imgsrc: "/images/naman.jpg",
         name: "NAMAN GUPTA",
+      },
+      {
+        imgsrc: "/images/shreya.jpg",
+        name: "Shreya Khosla",
+      },
+      {
+        imgsrc: "/images/Harshul-hackathon.jpg",
+        name: "HARSHUL VARSHNEY",
       },
     ]
   },
