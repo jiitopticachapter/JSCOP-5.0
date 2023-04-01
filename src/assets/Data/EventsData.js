@@ -9,16 +9,16 @@ const Events = [
     time: "-",
     deadline: "12-April-2023, 11:59 pm",
     register_link:"https://codeofduty.devfolio.co",
-    rules:"/",
+    rules:"https://docs.google.com/document/d/16FQ9ccotl9odfv6eNKsgkIcxLwBdxjdDj2aKFxJ7O0w/edit?usp=sharing",
     faq: [
       {
-        question: "Registration costs?",
-        answer: "Nope",
+        question: "Is there any cost for registration?",
+        answer: "There is no cost of registration.",
         open: false
       },
       {
-        question: "Team Size?",
-        answer: "2-4",
+        question: "What is the allowed team size?",
+        answer: "You can only submit one project per group.",
         open: false
       },
       {
@@ -28,12 +28,12 @@ const Events = [
       },
       {
         question: "Can I apply for more than one topics?",
-        answer: "One project at a time",
+        answer: "You can only submit one project per group.",
         open: false
       },
       {
         question: "Can student from other colleges can take part?",
-        answer: "One project at a time",
+        answer: "Students from other colleges can participate.",
         open: false
       },
       {
@@ -54,7 +54,7 @@ const Events = [
       },
       {
         imgsrc: "/images/shreya.jpg",
-        name: "Shreya Khosla",
+        name: "SHREYA KHOSLA",
       },
       {
         imgsrc: "/images/Harshul-hackathon.jpg",
