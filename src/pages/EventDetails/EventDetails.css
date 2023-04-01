@@ -134,19 +134,22 @@ hr{
 }
 .events-rules {
 	margin-top: 2rem;
-	border-radius: 2px;
-	background: rgba(277, 207, 228, 1);
-	color: #000;
-	cursor: pointer;
-	padding: 0.2rem 1rem;
-	border: 1px solid rgba(172, 235, 246, 1);
-	margin-top: 20px;
-
-	font-family: 'genos';
-	font-size: 1.2rem;
-	font-weight: 700;
-	line-height: 2rem;
-	letter-spacing: 0em;
+        border-radius: 2px;
+        background: rgba(172, 235, 246, 1);
+        color: #000;
+        cursor: pointer;
+        padding: 0.2rem 1rem;
+        border: 1px solid rgba(172, 235, 246, 1);
+        margin-top: 20px;
+    
+        font-family: Poppins;
+        font-size: 1.2rem;
+        font-weight: 700;
+        line-height: 2rem;
+        letter-spacing: 0em;
+}
+.events-rules:hover{
+    box-shadow: 5px 2.5px 2.5px rgb(157, 152, 193);
 }
 .events-rules-anchor{
     display: flex;
@@ -181,7 +184,7 @@ hr{
     border-radius:3rem;
     height: 40px;
     cursor: pointer;
-    color: white;
+    color: #091335;
   }
   .join_dis_anchor{
     display: flex;

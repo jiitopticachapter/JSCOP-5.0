@@ -17,7 +17,7 @@ const HackathonThemes = () => {
                     <div className="theme-item-name">BLOCKCHAIN</div>
                 </div>
                 <div className="theme-card" style={{backgroundImage:"url('/images/criminalogy.webp')"}}>
-                    <div className="theme-item-name">CRIMINALOGY</div>
+                    <div className="theme-item-name">CRIMINOLOGY</div>
                 </div>
                 <div className="theme-card" style={{backgroundImage:"url('/images/open-innovation.jpg')"}}>
                     <div className="theme-item-name">OPEN INNOVATION</div>
