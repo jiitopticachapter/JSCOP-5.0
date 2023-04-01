@@ -79,7 +79,7 @@ const EventDetails = () => {
               <a className="join_dis_anchor" rel="noreferrer" target="_blank" href="https://dsc.gg/jscop">
                 <button className="join_disco" fdprocessedid="0c5l1">
                   <i className="fab fa-2x fa-discord" aria-hidden="true"></i>
-                  JOIN OUT DISCORD
+                  JOIN OUR DISCORD
                 </button>
               </a>
             </div>
