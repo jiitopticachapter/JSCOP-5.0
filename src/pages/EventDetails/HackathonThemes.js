@@ -5,13 +5,13 @@ import './HackathonThemes.scss'
 const HackathonThemes = () => {
     return (
         <>
-            <Heading title="Themes" />
+            <Heading title="Domains" />
             <div className="hackathon-themes-container">
                 <div className="theme-card"  style={{backgroundImage:"url('/images/Ai-ml-themes.jpg')"}}>
                     <div className="theme-item-name">AI/ML</div>
                 </div>
-                <div className="theme-card" style={{backgroundImage:"url('/images/cyber-security.jpeg')"}}>
-                    <div className="theme-item-name">CYBER SECURITY</div>
+                <div className="theme-card" style={{backgroundImage:"url('/images/web-dev-img.jpeg')"}}>
+                    <div className="theme-item-name">WEB/APP</div>
                 </div>
                 <div className="theme-card" style={{backgroundImage:"url('/images/blockchain.jpg')"}}>
                     <div className="theme-item-name">BLOCKCHAIN</div>
