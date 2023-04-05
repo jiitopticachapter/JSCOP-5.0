@@ -4,10 +4,10 @@ const Events = [
     title: "CODE OF DUTY",
     imgsrc: "https://drive.google.com/uc?export=view&id=1xOkfAxUZlOM3mUNK7ShRffARoAAybKUq",
     description: `THE JIIT OPTICA STUDENT CHAPTER IS THRILLED TO ANNOUNCE THEIR UPCOMING HACKATHON EVENT, "CODE OF DUTY", WHICH INVITES TECH ENTHUSIASTS FROM ALL BACKGROUNDS TO COME TOGETHER, COLLABORATE, AND WORK TOWARDS SOLVING A PROBLEM. THIS EVENT IS OPEN TO EVERYONE, REGARDLESS OF PRIOR HACKATHON EXPERIENCE, OFFERING A UNIQUE OPPORTUNITY TO COLLABORATE WITH LIKE-MINDED INDIVIDUALS, BUILD INNOVATIVE SOLUTIONS, AND COMPETE FOR AMAZING PRIZES. PARTICIPANTS WILL HAVE THE CHANCE TO SHOWCASE THEIR SKILLS AND CREATIVITY, AND MAKE A REAL-WORLD IMPACT.\nTHIS INTENSE AND FAST-PACED HACKATHON PROMISES TO BE BOTH CHALLENGING AND REWARDING, WHILE ALSO PROVIDING A FUN AND ENJOYABLE EXPERIENCE FOR ALL. REGISTER TODAY AND JOIN US FOR AN UNFORGETTABLE HACKATHON!\n\nTO REGISTER FOR A DOMAIN JOIN OUR DISCORD SERVER.`,
-    date: "12-14th April 2023",
+    date: "13-16th April 2023",
     location: "Online",
-    time: "-",
-    deadline: "12-April-2023, 11:59 pm",
+    time: "12:00 AM",
+    deadline: "11-April-2023, 10:00 pm",
     register_link:"https://codeofduty.devfolio.co",
     rules:"https://docs.google.com/document/d/16FQ9ccotl9odfv6eNKsgkIcxLwBdxjdDj2aKFxJ7O0w/edit?usp=sharing",
     faq: [
@@ -18,7 +18,7 @@ const Events = [
       },
       {
         question: "What is the allowed team size?",
-        answer: "You can only submit one project per group.",
+        answer: "Allowed team size : 2-4 ",
         open: false
       },
       {
