@@ -3,7 +3,10 @@ const Events = [
     id: 1,
     title: "CODE OF DUTY",
     imgsrc: "https://drive.google.com/uc?export=view&id=1xOkfAxUZlOM3mUNK7ShRffARoAAybKUq",
-    description: `THE JIIT OPTICA STUDENT CHAPTER IS THRILLED TO ANNOUNCE THEIR UPCOMING HACKATHON EVENT, "CODE OF DUTY", WHICH INVITES TECH ENTHUSIASTS FROM ALL BACKGROUNDS TO COME TOGETHER, COLLABORATE, AND WORK TOWARDS SOLVING A PROBLEM. THIS EVENT IS OPEN TO EVERYONE, REGARDLESS OF PRIOR HACKATHON EXPERIENCE, OFFERING A UNIQUE OPPORTUNITY TO COLLABORATE WITH LIKE-MINDED INDIVIDUALS, BUILD INNOVATIVE SOLUTIONS, AND COMPETE FOR AMAZING PRIZES. PARTICIPANTS WILL HAVE THE CHANCE TO SHOWCASE THEIR SKILLS AND CREATIVITY, AND MAKE A REAL-WORLD IMPACT.\nTHIS INTENSE AND FAST-PACED HACKATHON PROMISES TO BE BOTH CHALLENGING AND REWARDING, WHILE ALSO PROVIDING A FUN AND ENJOYABLE EXPERIENCE FOR ALL. REGISTER TODAY AND JOIN US FOR AN UNFORGETTABLE HACKATHON!\n\nTO REGISTER FOR A DOMAIN JOIN OUR DISCORD SERVER.`,
+    description: `HACKATHON DETAILS:\n\nSTEP 1:    Register yourself on Devfolio.\nFill out your details mentioned. 
+    - If you have team ready with you (you can register max upto 4 teammates altogether) 
+    - generate your team code on devfolio (will be generated if you create team) 
+    - when created team code share it with your teammates and join the team.\n\nSTEP 2:    After registration join the discord server. Joining discord server is mandatory as further instructions will be provided on discord only.\n\nSTEP 3:    After joining discord server, please mention which team you belong. If you are alone please mention that as well. Also fill out form pinned in discord channel.\n\nSTEP 4:    Idea submission: Fill out the Idea-submission form pinned in discord server (Team leader should do it). Make a ppt containing your idea and(ppt should contain all the necessary features you will use. Do mention the resources you will use in your project)\nPpt also contains certain evaluation points.\n\nYou have to pitch the ppt so make sure you make all good and awesome :)`,
     date: "13-16th April 2023",
     location: "Online",
     time: "12:00 AM",
