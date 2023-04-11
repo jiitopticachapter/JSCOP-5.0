@@ -99,6 +99,31 @@ input {
     width: 21rem;
 }
 
+select{
+    background: transparent;
+    border: 0;
+    border: 2px solid;
+    cursor: pointer;
+    border-color: #86d1ff;
+    padding: 10px;
+    color: white;
+    width: 21rem;
+}
+
+.branch_dropdown{
+    // background: transparent;
+    border: 0;
+    background-color: rgba(3, 3, 26, 0.936);
+    color: white;
+    cursor: pointer;
+    // font-size: 1rem;
+    border-color: #86d1ff;
+    padding: 10px;
+    // background-color: rgba(17, 17, 36, 0.5);
+    // color: white;
+    // width: 21rem;
+}
+
 .screenshot-label{
     background: transparent;
     border: 0;
@@ -123,7 +148,7 @@ input {
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="enroll"]:focus,
-input[type="branch"]:focus,
+// input[type="branch"]:focus,
 input[type="year"]:focus,
 input[type="mob"]:focus {
     // outline: 0;
@@ -157,6 +182,9 @@ input[type="mob"]:focus {
     input{
         width: 13rem;
     }
+    select{
+        width: 13rem;
+    }
     .screenshot-label{
         width: 13rem;
     }
@@ -175,6 +203,9 @@ input[type="mob"]:focus {
             margin-right: 0;
         }
         input{
+            width:18rem;
+        }
+        select{
             width:18rem;
         }
         .screenshot-label{

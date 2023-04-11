@@ -75,9 +75,16 @@ const Register = () => {
                   <input type="email" name="email" id="email" value={data.email} onChange={handleChange} placeholder="E-MAIL" required />
                   <br />
                   <input type="number" name="enrol" id="enroll" value={data.enrol} onChange={handleChange} placeholder="ENROLLMENT NUMBER" required />
-                  <br />
-                  <input type="text" name="branch" id="branch" value={data.branch} onChange={handleChange} placeholder="BRANCH" required />
-                  <br />
+                  <br /> */} */
+                  {/* <input type="text" name="branch" id="branch" value={data.branch} onChange={handleChange} placeholder="BRANCH" required /> */}
+                  {/* <select name="branch" id="branch" value={data.branch} onChange={handleChange} required >
+                     <option className="branch_dropdown" value="" disabled selected hidden>SELECT YOUR BRANCH</option>
+                     <option  className="branch_dropdown" value="CSE">CSE</option>
+                     <option  className="branch_dropdown" value="IT">IT</option>
+                     <option  className="branch_dropdown" value="ECE">ECE</option>
+                     <option  className="branch_dropdown" value="BIOTECHNOLOGY">BIOTECHNOLOGY</option>
+                  </select> */}
+                  {/* <br />
                   <input type="text" name="year" id="year" value={data.year} onChange={handleChange} placeholder="YEAR" required />
                   <br />
                   <input type="number" name="mobile" id="Mob" value={data.mobile} onChange={handleChange} placeholder="MOBILE NUMBER" required />
@@ -89,8 +96,8 @@ const Register = () => {
                   <label htmlFor="submit"></label>
                   <input type="submit" name="submit" id="submit" onClick={postData} value="REGISTER" />
                </fieldset>
-            </form>
-            <div className="Register-Image">
+            </form> */}
+            {/* <div className="Register-Image">
                <img src={registerImg} alt=' ' />
             </div>
          </div> */}
