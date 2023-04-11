@@ -5,61 +5,61 @@ import PageName from '../../components/PageName/PageName'
 // import {useState} from 'react'
 // import registerImg from '../../assets/images/1.png'
 // import axios from 'axios'
+// import "jquery-ui-dist/jquery-ui";
+
 import ComingSoon from '../../components/ComingSoon/ComingSoon'
-// import $ from "jquery";
-import "jquery-ui-dist/jquery-ui";
 
 const Register = () => {
-//    const [data,setData]=useState({
-//       username:"",
-//       email:"",
-//       enrol:"",
-//       branch:"",
-//       year:"",
-//       mobile:""
-//    })
+   // const [data,setData]=useState({
+   //    username:"",
+   //    email:"",
+   //    enrol:"",
+   //    branch:"",
+   //    year:"",
+   //    mobile:""
+   // })
 
-//    // const [uploaded,setUploaded] = useState(false);
-//    const [filename,setFilename] = useState("PAYMENT SCREENSHOT");
-//    const [file,setFile] = useState(null);
+   // const [uploaded,setUploaded] = useState(false);
+   // const [filename,setFilename] = useState("PAYMENT SCREENSHOT");
+   // const [file,setFile] = useState(null);
 
-//    const handleFileChange = (e) =>{
-//       setFile(e.target.files[0]);
-//       setUploaded(true);
-//       console.log(e.target.files[0]);
-//       setFilename(e.target.files[0].name);
-//    }
+   // const handleFileChange = (e) =>{
+   //    setFile(e.target.files[0]);
+   //    setUploaded(true);
+   //    console.log(e.target.files[0]);
+   //    setFilename(e.target.files[0].name);
+   // }
 
-//    const handleChange=e=>{
-//       const {name,value}=e.target;
-//       setData({
-//          ...data,
-//          [name]:value
-//       })
-//       console.log(e);
-//    }
+   // const handleChange=e=>{
+   //    const {name,value}=e.target;
+   //    setData({
+   //       ...data,
+   //       [name]:value
+   //    })
+   //    console.log(e);
+   // }
 
-//    const postData=async(e)=>{
-//       console.log(data)
-//       e.prevenDefault();
-//       if(data && file)
-//       {
-//          // react toastify notification of success
-//       }
+   // const postData=async(e)=>{
+   //    console.log(data)
+   //    e.prevenDefault();
+   //    if(data && file)
+   //    {
+   //       // react toastify notification of success
+   //    }
 
-//       try{
+   //    try{
 
-//         await axios.post("http://localhost:5001/user/register",{
-//             data
-//          }).then(res=>console.log(res));
-//       }
-//       catch(err){console.log("Eror in sending daa from f->b")
+   //      await axios.post("http://localhost:5001/user/register",{
+   //          data
+   //       }).then(res=>console.log(res));
+   //    }
+   //    catch(err){console.log("Eror in sending daa from f->b")
 
-//       }
-//    }
+   //    }
+   // }
 
    
-// const [uploaded,setUploaded] = useState(false);
+
 
    return (
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 2 }}
@@ -99,10 +99,10 @@ const Register = () => {
             </form> */}
             {/* <div className="Register-Image">
                <img src={registerImg} alt=' ' />
-            </div> */}
-         {/* </div> */}
+            </div>
+         </div> */}
          <ComingSoon/>
-      </motion.div>
+       </motion.div>
    )
 }
 
