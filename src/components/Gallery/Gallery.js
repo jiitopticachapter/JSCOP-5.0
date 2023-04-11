@@ -16,9 +16,12 @@ import { Autoplay, EffectCoverflow, Pagination, Navigation } from "swiper";
 
 function Gallery() {
   return (
+   
     <>
+     <div className="gallery" id="gallery"></div>
       <Heading title="GALLERY" />
       <Swiper
+
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
@@ -41,29 +44,29 @@ function Gallery() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="/images/Gallery/1.jpg" alt=""/>
+          <img src="/images/Gallery/1.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Gallery/2.jpg" alt=""/>
+          <img src="/images/Gallery/2.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Gallery/3.jpg" alt=""/>
+          <img src="/images/Gallery/3.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Gallery/4.jpg" alt=""/>
+          <img src="/images/Gallery/4.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Gallery/5.jpg" alt=""/>
+          <img src="/images/Gallery/5.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Gallery/6.jpg" alt=""/>
+          <img src="/images/Gallery/6.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Gallery/7.jpg" alt=""/>
+          <img src="/images/Gallery/7.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Gallery/8.jpg" alt=""/>
-        </SwiperSlide>
+          <img src="/images/Gallery/8.jpg" alt="" />
+        </SwiperSlide>        
       </Swiper>
 
     </>

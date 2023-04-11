@@ -69,6 +69,14 @@ const Navbar = () => {
               Timeline
             </a>
           </li>
+          <li className='nav-item'>
+            <a href ='/#gallery'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Gallery
+            </a>
+          </li>
 
           {/* <li>
             <Link
