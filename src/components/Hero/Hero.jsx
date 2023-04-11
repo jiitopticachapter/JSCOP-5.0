@@ -2,8 +2,9 @@ import { React, useRef } from 'react'
 import "./Hero.scss"
 import clip from './vid-bg1.mp4';
 import Poster from './bg5.jpg';
-// import Countdown from '../Clock/Countdown';
-import Hackathon from '../Hackathon/Hackathon';
+import Countdown from '../Clock/Countdown';
+import { Link } from 'react-router-dom'
+// import Hackathon from '../Hackathon/Hackathon';
 
 const Hero = () => {
   const videoRef = useRef();
@@ -23,8 +24,13 @@ const Hero = () => {
       </video>
       <h1>JSCOP <span>5.0</span></h1>
       <p>JIIT Student conference for optics and photonics</p>
-      {/* <Countdown /> */}
-      <Hackathon />
+      <Countdown />
+      {/* <Hackathon /> */}
+  
+      <Link
+        to='/register' className="reg_button"> <h1>REGISTER NOW </h1>
+        </Link>
+
     </div>
   )
 }

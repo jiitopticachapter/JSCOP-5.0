@@ -1,6 +1,6 @@
 .countdown {
     color: #fff;
-    margin: 15vh 0 0 0;
+    margin: 7vh 0 0 0;
     width: 60vw;
     height: 30vh;
     display: flex;
@@ -13,9 +13,9 @@
     // border-radius: 12px;
     // border: 1px solid rgba(255, 255, 255, 0.125);
 
-        h1{
-            font-size:2rem;
-            font-family: 'Bebas Neue', sans-serif;
+    h1 {
+        font-size: 2rem;
+        font-family: 'Bebas Neue', sans-serif;
     }
 
 
@@ -26,8 +26,12 @@
 
         .value {
             display: flex;
+            flex-direction: column;
             align-items: center;
             margin: 0 25px;
+            border: 2px solid white;
+            border-radius: 15px;
+            width: 150px;
             // justify-content: space-between;
 
             .num {
@@ -48,19 +52,22 @@
 
 @media screen and (max-width: 1080px) {
     .countdown {
-        margin:0;
+        margin: 0;
         width: 95vw;
         height: 35vh;
 
         .value_box {
-            display: grid;
-            grid-template-columns: auto auto;
+            // width: 93vw;
 
 
             .value {
+                width: 78px;
+                margin: 0 5px;
+                padding: 4px;
+
                 .num {
                     font-size: 3rem;
-                    margin: 0 4px;
+                    margin: 0 2px;
                 }
 
                 .text {

@@ -45,7 +45,7 @@ function Countdown() {
   });
   return (
     <div className="countdown">
-      <h1>STARTS IN</h1>
+      {/* <h1>STARTS IN</h1> */}
       <div className="value_box">{timerComponents.length ? timerComponents : <span>HAPPENING NOW!</span>}</div>
     </div>
   );
