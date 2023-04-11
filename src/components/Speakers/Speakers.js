@@ -13,7 +13,7 @@ const Speakers = () => {
           
   <div className="speaker-card-container">
   <div className="speaker-card">
-  <a href="javascript:void(0)"></a>
+  <a href="#/"> </a>
     <img className="speaker-card-img" src='https://i.pinimg.com/564x/e2/a6/0f/e2a60fb7dd2dbe734557fb143c8f4d36.jpg' alt='' />
     <div className="speaker-card-overlay">
       <div className="speaker-card-title">
@@ -26,7 +26,7 @@ const Speakers = () => {
     </div>
   </div>
   <div className="speaker-card">
-  <a href="javascript:void(0)"></a>
+  <a href="#/"> </a>
     <img className="speaker-card-img" src='https://i.pinimg.com/564x/e2/a6/0f/e2a60fb7dd2dbe734557fb143c8f4d36.jpg' alt='' />
     <div className="speaker-card-overlay">
       <div className="speaker-card-title">
@@ -39,7 +39,7 @@ const Speakers = () => {
     </div>
   </div>
   <div className="speaker-card">
-  <a href="javascript:void(0)"></a>
+  <a href="#/"> </a>
     <img className="speaker-card-img" src='https://i.pinimg.com/564x/2f/bd/28/2fbd286632d562e56ab12c592169efda.jpg' alt='' />
     <div className="speaker-card-overlay">
       <div className="speaker-card-title">
@@ -52,7 +52,7 @@ const Speakers = () => {
     </div>
   </div>
   <div className="speaker-card">
-  <a href="javascript:void(0)"></a>
+  <a href="#/"> </a>
     <img className="speaker-card-img" src='https://i.pinimg.com/736x/44/00/9e/44009edaece2cef6daa7ee348e11761d.jpg' alt='' />
     <div className="speaker-card-overlay">
       <div className="speaker-card-title">
@@ -65,7 +65,7 @@ const Speakers = () => {
     </div>
   </div>
   <div className="speaker-card">
-  <a href="javascript:void(0)"></a>
+  <a href="#/"> </a>
     <img className="speaker-card-img" src='https://i.pinimg.com/736x/61/05/dc/6105dc8f9e77e2028c44e543fe373c0e.jpg' alt='' />
     <div className="speaker-card-overlay">
       <div className="speaker-card-title">
