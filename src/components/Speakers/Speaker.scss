@@ -15,7 +15,7 @@
   // // background-image: linear-gradient(15deg, #0f4667 0%, #2a6973 150%);
   // // background : black;
   // background: transparent;
-  // // display: flex;
+  // display: flex;
   // min-height: 100%;
   // justify-content: center;
   padding: var(--spacing-xxl) var(--spacing-l);
@@ -118,8 +118,8 @@
 
 .speaker-card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit,17rem);
-  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
 }
 .speaker-card {
   position: relative;
@@ -174,6 +174,7 @@
   object-fit: cover;
 }
 .speaker-card-overlay {
+  overflow-x: visible;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -210,12 +211,13 @@ display:grid;
 @media only screen and (max-width:768px){
  .speaker-card-container{
   display:grid;
- grid-template-columns:repeat(2,1fr)
+  grid-template-columns:repeat(1,1fr);
+  gap:2rem;
  }}
 
 @media only screen and (max-width:450px){
  .speaker-card-container{
-display:flex;
+ display:flex;
  flex-direction:column;}
 
  .speaker-card{
