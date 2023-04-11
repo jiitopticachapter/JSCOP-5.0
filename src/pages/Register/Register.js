@@ -2,9 +2,9 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import "./Register.scss"
 import PageName from '../../components/PageName/PageName'
-import {useState} from 'react'
-import registerImg from '../../assets/images/1.png'
-import axios from 'axios'
+// import {useState} from 'react'
+// import registerImg from '../../assets/images/1.png'
+// import axios from 'axios'
 import ComingSoon from '../../components/ComingSoon/ComingSoon'
 // import $ from "jquery";
 import "jquery-ui-dist/jquery-ui";
