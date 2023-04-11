@@ -76,8 +76,12 @@
   .card-bttn {
     display: flex;
     justify-content: center;
-    background: rgba(199, 135, 241, 0.912) ;
+    align-items: center;
+    background: rgba(23, 34, 166, 0.91) ;
     padding: 5px;
+    font-family: 'Genos', sans-serif;
+    font-size : 17px;
+    font-weight : bold;
     width: fit-content;
     align-items: center;
     border-radius: 3px;
