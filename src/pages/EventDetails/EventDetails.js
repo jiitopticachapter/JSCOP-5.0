@@ -26,6 +26,17 @@ const EventDetails = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
+
   const toggleFAQ = (index) => {
     setFaqs(
       faqs.map((faq, i) => {
@@ -74,7 +85,7 @@ const EventDetails = () => {
 
 
           {
-            events.title==="CODE OF DUTY" &&
+            events.title === "CODE OF DUTY" &&
             <div className="join_dis">
               <a className="join_dis_anchor" rel="noreferrer" target="_blank" href="https://dsc.gg/jscop">
                 <button className="join_disco" fdprocessedid="0c5l1">
@@ -107,9 +118,17 @@ const EventDetails = () => {
               </div>
             </div>
           </div>
-          <a className="Event_register_button_anchor" href={events.register_link} target="_blank" rel="noreferrer">
+          {events.title === "CODE OF DUTY" &&
+            <div
+              className="apply-button"
+              data-hackathon-slug="codeofduty"
+              data-button-theme="light"
+              style={{ height: "44px", width: "100%", marginTop: "2rem" }}
+            ></div>
+          }
+          {events.title !== "CODE OF DUTY" && <a className="Event_register_button_anchor" href={events.register_link} target="_blank" rel="noreferrer">
             <button className="Event_register_button">Register now</button>
-          </a>
+          </a>}
         </div>
       </div>
 

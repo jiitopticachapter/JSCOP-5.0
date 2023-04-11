@@ -75,7 +75,7 @@ const Register = () => {
                   <input type="email" name="email" id="email" value={data.email} onChange={handleChange} placeholder="E-MAIL" required />
                   <br />
                   <input type="number" name="enrol" id="enroll" value={data.enrol} onChange={handleChange} placeholder="ENROLLMENT NUMBER" required />
-                  <br /> */} */
+                  <br /> */} 
                   {/* <input type="text" name="branch" id="branch" value={data.branch} onChange={handleChange} placeholder="BRANCH" required /> */}
                   {/* <select name="branch" id="branch" value={data.branch} onChange={handleChange} required >
                      <option className="branch_dropdown" value="" disabled selected hidden>SELECT YOUR BRANCH</option>
