@@ -66,72 +66,65 @@ const Events = [
     ]
   },
   {
+    //blind coding
     id: 2,
     title: "COMING SOON",
     imgsrc: "https://drive.google.com/uc?export=view&id=1IMmZAv6NeAN3lbRAbxyTsTOS-3tUd4T5",
     description: "Dipti Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic perspiciatis nisi vero inventore. Totam deserunt repellendus eius neque a fuga officia. Maiores facere incidunt reprehenderit dolore, ipsum magnam quos, aliquam eligendi tenetur laborum laboriosam atque. Similique laborum neque maiores reprehenderit eum, libero a at dolorem dolor deleniti, rem totam veritatis ipsam illo ut voluptatibus earum nam omnis incidunt consequuntur obcaecati. Facilis mollitia autem magnam quia, nesciunt iste obcaecati vel, hic tempora excepturi soluta ipsa eaque? Possimus, a modi. Deserunt facilis harum enim totam, numquam quam nihil odio eligendi facere nisi nesciunt molestiae quo debitis, qui necessitatibus quisquam tempora quidem praesentium.",
-    date: "6th March 2023",
-    location: "LT-4",
-    time: "12:00 pm",
-    deadline: "1-March-2023,11:59 pm",
-    register_link:"codeofduty.devfolio.co",
-    rules:"/",
+    date: "15th April 2023",
+    location: "CL 1 - CL 4",
+    time: "2:00 PM",
+    deadline: "14-March-2023,11:59 pm",
+    register_link:"/register",
+    rules:"https://docs.google.com/document/d/1gT87Tn-DF7Q76PyWmiU0CoGCfOFZD_6ETpiYsD9K1Lw/edit?usp=sharing",
     faq: [
       {
-        question: "Dipti How many programmers does it take to screw a lightbulb?",
+        question: "Is this a team event?",
         answer:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra lorem eu dolor rhoncus, at scelerisque ligula gravida. Sed porta id mi sit amet convallis. Etiam iaculis massa sit amet lacus blandit sodales. Nulla ultrices velit a diam placerat congue. Pellentesque iaculis, ipsum quis eleifend dapibus, est dui eleifend ante, quis fermentum mi ligula quis nisl. Ut et ex dui. Integer id venenatis quam.",
+          " No, this is an individual participation event.",
         open: false
       },
       {
-        question: "Who is the most awesome person?",
-        answer: "You! The viewer!",
+        question: "How can I submit my solution?",
+        answer: " If you’re confident that you’ve correctly written the code, you can call a volunteer who will submit your solution by turning on your monitor. If the code is incorrect, you’ll get a 10-minute penalty. You can also use one of your lifelines to check the code before submitting ;)",
         open: false
       },
-      {
-        question:
-          "How many questions does it take to makes a succesful FAQ Page?",
-        answer: "This many!",
-        open: false
-      }
+      
     ],
     OrgTeam: [
       {
-        imgsrc: "https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
-        name: "Luv Chadda",
+        imgsrc: "/images/shreya.jpg",
+        name: "SHREYA KHOSLA",
       },
       {
-        imgsrc: "https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
-        name: "Luv Chadda",
+        imgsrc: "/images/ShreyaArora.jpg",
+        name: "SHREYA ARORA",
       },
       {
-        imgsrc: "https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
-        name: "Luv Chadda",
-      },
-      {
-        imgsrc: "https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
-        name: "Luv Chadda",
+        imgsrc: "/images/khushichauhan.jpg",
+        name: "KHUSHI CHAUHAN",
       },
     ]
 
 
   },
-  {
+  { //SQUID GAME
     id: 3,
     title: "COMING SOON",
+    // imgsrc: "/images/squidgame_long.jpeg",
     imgsrc: "https://drive.google.com/uc?export=view&id=1IMmZAv6NeAN3lbRAbxyTsTOS-3tUd4T5",
-    description: "Nemo Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic perspiciatis nisi vero inventore. Totam deserunt repellendus eius neque a fuga officia. Maiores facere incidunt reprehenderit dolore, ipsum magnam quos, aliquam eligendi tenetur laborum laboriosam atque. Similique laborum neque maiores reprehenderit eum, libero a at dolorem dolor deleniti, rem totam veritatis ipsam illo ut voluptatibus earum nam omnis incidunt consequuntur obcaecati. Facilis mollitia autem magnam quia, nesciunt iste obcaecati vel, hic tempora excepturi soluta ipsa eaque? Possimus, a modi. Deserunt facilis harum enim totam, numquam quam nihil odio eligendi facere nisi nesciunt molestiae quo debitis, qui necessitatibus quisquam tempora quidem praesentium.",
-    date: "6th March 2023",
-    location: "LT-4",
-    time: "12:00 pm",
-    deadline: "1-March-2023,11:59 pm",
-    register_link:"codeofduty.devfolio.co",
-    rules:"/",
+    description: "Are you ready for a life-and-death experience? Do you have what it takes to be a world-class champion? Optica brings to you their very first version of Squid Game. Squid game is a series of fun games where the participants need to make use of their brain, strength, and strategies. For all those risk-takers out there, join us in this thrilling chase for exciting cash prizes and many more.",
+    date: "16TH APRIL 2023",
+    location: "JBS",
+    time: "3:00 pm",
+    deadline: "14-APRIL-2023,11:59 pm",
+    register_link:"/register",
+    rules:"https://docs.google.com/document/d/1MzFBaccu_TsLL7wL-nszPANVkBuoWNtungoXdxsrVgQ/edit?usp=sharing",
     faq: [
       {
-        question: "Nemo How many programmers does it take to screw a lightbulb?",
+        question: "How many rounds will be there in this event?",
         answer:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra lorem eu dolor rhoncus, at scelerisque ligula gravida. Sed porta id mi sit amet convallis. Etiam iaculis massa sit amet lacus blandit sodales. Nulla ultrices velit a diam placerat congue. Pellentesque iaculis, ipsum quis eleifend dapibus, est dui eleifend ante, quis fermentum mi ligula quis nisl. Ut et ex dui. Integer id venenatis quam.",
+          "A total of 5 rounds will take place.",
         open: false
       },
       {
@@ -148,33 +141,36 @@ const Events = [
     ],
     OrgTeam: [
       {
-        imgsrc: "https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
-        name: "Luv Chadda",
+        imgsrc: "/images/naman.jpg",
+        name: "NAMAN GUPTA",
       },
       {
-        imgsrc: "https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
-        name: "Luv Chadda",
+        imgsrc: "/images/mehak.jpg",
+        name: "MEHAK MATHUR",
       },
       {
-        imgsrc: "https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
-        name: "Luv Chadda",
+        imgsrc: "/images/luv.jpg",
+        name: "LUV CHADDHA",
       },
       {
-        imgsrc: "https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
-        name: "Luv Chadda",
+        imgsrc: "/images/pallavi.jpg",
+        name: "PALLAVI",
       },
     ]
   },
   {
+    //CCC (Create-Check-Crack It)
     id: 4,
+    // title: "CCC (Create-Check-Crack It)",
     title: "COMING SOON",
+    // imgsrc: "/images/ccc.png",
     imgsrc: "https://drive.google.com/uc?export=view&id=1IMmZAv6NeAN3lbRAbxyTsTOS-3tUd4T5",
     description: "Kaavya Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic perspiciatis nisi vero inventore. Totam deserunt repellendus eius neque a fuga officia. Maiores facere incidunt reprehenderit dolore, ipsum magnam quos, aliquam eligendi tenetur laborum laboriosam atque. Similique laborum neque maiores reprehenderit eum, libero a at dolorem dolor deleniti, rem totam veritatis ipsam illo ut voluptatibus earum nam omnis incidunt consequuntur obcaecati. Facilis mollitia autem magnam quia, nesciunt iste obcaecati vel, hic tempora excepturi soluta ipsa eaque? Possimus, a modi. Deserunt facilis harum enim totam, numquam quam nihil odio eligendi facere nisi nesciunt molestiae quo debitis, qui necessitatibus quisquam tempora quidem praesentium.",
-    date: "6th March 2023",
-    location: "LT-4",
-    time: "12:00 pm",
-    deadline: "1-March-2023,11:59 pm",
-    register_link:"codeofduty.devfolio.co",
+    date: "15TH APRIL 2023",
+    location: "Communication Systems  Lab EL11",
+    time: "4:20 PM",
+    deadline: "14-APRIL-2023,11:59 pm",
+    register_link:"/register",
     rules:"/",
     faq: [
       {
@@ -197,33 +193,31 @@ const Events = [
     ],
     OrgTeam: [
       {
-        imgsrc: "https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
-        name: "Luv Chadda",
+        imgsrc: "/images/luv.jpg",
+        name: "LUV CHADDHA",
       },
       {
-        imgsrc: "https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
-        name: "Luv Chadda",
+        imgsrc: "/images/ayushthakur.jpg",
+        name: "AYUSH THAKUR",
       },
       {
-        imgsrc: "https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
-        name: "Luv Chadda",
-      },
-      {
-        imgsrc: "https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
-        name: "Luv Chadda",
+        imgsrc: "/images/Aditi.jpg",
+        name: "Aditi Aggarwal",
       },
     ]
   },
-  {
+  {//ideathon
     id: 5,
     title: "COMING SOON",
+    // imgsrc: "/images/ideathon_long.jpeg",
     imgsrc: "https://drive.google.com/uc?export=view&id=1IMmZAv6NeAN3lbRAbxyTsTOS-3tUd4T5",
+
     description: "Aryan Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic perspiciatis nisi vero inventore. Totam deserunt repellendus eius neque a fuga officia. Maiores facere incidunt reprehenderit dolore, ipsum magnam quos, aliquam eligendi tenetur laborum laboriosam atque. Similique laborum neque maiores reprehenderit eum, libero a at dolorem dolor deleniti, rem totam veritatis ipsam illo ut voluptatibus earum nam omnis incidunt consequuntur obcaecati. Facilis mollitia autem magnam quia, nesciunt iste obcaecati vel, hic tempora excepturi soluta ipsa eaque? Possimus, a modi. Deserunt facilis harum enim totam, numquam quam nihil odio eligendi facere nisi nesciunt molestiae quo debitis, qui necessitatibus quisquam tempora quidem praesentium.",
-    date: "6th March 2023",
-    location: "LT-4",
-    time: "12:00 pm",
-    deadline: "1-March-2023,11:59 pm",
-    register_link:"codeofduty.devfolio.co",
+    date: "16th APRIL 2023",
+    location: "AUDI / LT-4",
+    time: "1:30 pm",
+    deadline: "14-APRIL-2023,11:59 pm",
+    register_link:"/register",
     rules:"/",
     faq: [
       {
@@ -246,20 +240,16 @@ const Events = [
     ],
     OrgTeam: [
       {
-        imgsrc: "https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
-        name: "Luv Chadda",
+        imgsrc: "/images/luv.jpg",
+        name: "LUV CHADDHA",
       },
       {
-        imgsrc: "https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
-        name: "Luv Chadda",
+        imgsrc: "/images/ayushthakur.jpg",
+        name: "AYUSH THAKUR",
       },
       {
-        imgsrc: "https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
-        name: "Luv Chadda",
-      },
-      {
-        imgsrc: "https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg",
-        name: "Luv Chadda",
+        imgsrc: "/images/pallavi.jpg",
+        name: "PALLAVI",
       },
     ]
   },

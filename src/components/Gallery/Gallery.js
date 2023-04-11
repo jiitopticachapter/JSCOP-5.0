@@ -66,7 +66,7 @@ function Gallery() {
         </SwiperSlide>
         <SwiperSlide>
           <img src="/images/Gallery/8.jpg" alt="" />
-        </SwiperSlide>
+        </SwiperSlide>        
       </Swiper>
 
     </>
