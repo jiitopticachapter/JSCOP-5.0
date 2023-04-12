@@ -27,8 +27,7 @@ const Hero = () => {
       <p>JIIT Student conference for optics and photonics</p>
 
       <Link
-        // to='https://forms.gle/7ML4ouW38yro8scz9' target='_blank' className="reg_button"> <h1>REGISTER NOW </h1>
-        to='register' className="reg_button"> <h1>REGISTER NOW </h1>
+        to='https://forms.gle/7ML4ouW38yro8scz9' className="reg_button"> <h1>REGISTER NOW </h1>
       </Link>
       
       <Countdown />
