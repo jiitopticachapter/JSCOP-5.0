@@ -118,13 +118,13 @@
 
 .speaker-card-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 3rem;
 }
 .speaker-card {
   position: relative;
   height: 22rem;
-  background-color: lightGrey;
+  // background-color: lightGrey;
   overflow-y: hidden;
   box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.1);
   border-radius: .25rem;
