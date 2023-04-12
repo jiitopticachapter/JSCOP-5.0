@@ -4,7 +4,6 @@ import "./Register.scss"
 import PageName from '../../components/PageName/PageName'
 import { useState } from 'react'
 import registerImg from '../../assets/images/1.png'
-// import axios from 'axios'
 import "jquery-ui-dist/jquery-ui";
 import {storage} from '../../firebase'
 import {ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
@@ -13,8 +12,6 @@ import axios from "axios";
 // import ComingSoon from '../../components/ComingSoon/ComingSoon'
 
 const Register = () => {
-
-   
 
    const [uploaded, setUploaded] = useState(false);
    const [filename, setFilename] = useState("PAYMENT SCREENSHOT");
@@ -28,6 +25,8 @@ const Register = () => {
       branch: "",
       year: "",
       mobile: "",
+      setNew: "YES",
+      Verified: "NO"
    })
 
    
@@ -80,9 +79,10 @@ const Register = () => {
       mobile: data.mobile,
       Paid: imgurl,
         }
-        axios.post("https://jscop8-0.herokuapp.com/frontdata", Form) 
+        axios.post("https://backend.jiitopticachapter.in/frontdata", Form) 
    .then (function () {
-      window.location.href = "http://localhost:3000/";
+      alert('Successfully registered');
+      // window.location.href = "http://localhost:3000/";
    })
       }
    }
@@ -105,6 +105,8 @@ const Register = () => {
                   <select name="branch" id="branch" value={data.branch} onChange={handleChange} required >
                      <option className="branch_dropdown" value="" selected disabled hidden>SELECT YOUR BRANCH</option>
                      <option className="branch_dropdown" value="CSE">CSE</option>
+                     <option className="branch_dropdown" value="CSE Int">CSE Int</option> 
+                     <option className="branch_dropdown" value="ECE Int">ECE Int</option>
                      <option className="branch_dropdown" value="IT">IT</option>
                      <option className="branch_dropdown" value="ECE">ECE</option>
                      <option className="branch_dropdown" value="BIOTECHNOLOGY">BIOTECHNOLOGY</option>
