@@ -28,9 +28,6 @@ const Register = () => {
       setNew: "YES",
       Verified: "NO"
    })
-
-   
-
    const handleFileChange = (e) => {
       setFile(e.target.files[0]);
       setUploaded(true);
