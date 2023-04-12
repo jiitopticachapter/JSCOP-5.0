@@ -446,3 +446,34 @@
     padding: 1rem;
   }
 }
+.reg_button {
+color : white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 15px;
+ 
+
+  h1 {
+      font-size: 2rem;
+      font-family: 'Bebas Neue';
+      margin: 0 10px;
+  }
+
+  img {
+      margin: 0 10px;
+  }
+
+
+}
+
+.reg_button:hover {
+  cursor: pointer;
+  box-shadow: 5px 4px 8px 0px rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: 5px 4px 8px 0px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 5px 4px 8px 0px rgba(255, 255, 255, 0.5);
+  // background-image: linear-gradient(#0F5BB2,#177BF2,#3E97FF,#63ACFF,#709CCC);
+}

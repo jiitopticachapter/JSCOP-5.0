@@ -174,6 +174,17 @@ const Timeline = () => {
             </div>
           </div>
         </section>
+
+        {/* <ComingSoon /> */}
+
+        {/* download schedules
+        <Link
+          to='/images/day1.png' target='_blank' className="reg_button" download> <h1>DOWNLOAD DAY 1 SCHEDULE</h1>
+        </Link>
+        <Link
+          to='/images/day2.png' target='_blank' className="reg_button" download> <h1>DOWNLOAD DAY 2 SCHEDULE</h1>
+        </Link> */}
+
       </div>
     </>
   );
