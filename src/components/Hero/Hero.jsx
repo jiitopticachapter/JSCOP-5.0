@@ -18,7 +18,8 @@ const Hero = () => {
 
       <video autoPlay loop muted poster={Poster}
         ref={videoRef}
-        onCanPlay={() => setPlayBack()}>
+        onCanPlay={() => setPlayBack()}
+      >
         <source src={clip} type='video/mp4' />
         <source src={clip} type="video/ogg" />
       </video>
@@ -26,7 +27,8 @@ const Hero = () => {
       <p>JIIT Student conference for optics and photonics</p>
 
       <Link
-        to='https://forms.gle/7ML4ouW38yro8scz9' target='_blank' className="reg_button"> <h1>REGISTER NOW </h1>
+        // to='https://forms.gle/7ML4ouW38yro8scz9' target='_blank' className="reg_button"> <h1>REGISTER NOW </h1>
+        to='register' className="reg_button"> <h1>REGISTER NOW </h1>
       </Link>
       
       <Countdown />

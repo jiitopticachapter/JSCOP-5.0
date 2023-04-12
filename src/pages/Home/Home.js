@@ -21,7 +21,7 @@ const Home = () => {
         {/* <Heading2 title = "EVENTS"/> */}
         <Events />
         <Speakers />
-        <Timeline />
+        {/* <Timeline /> */}
         <Gallery/>
         <Sponsors />
 
