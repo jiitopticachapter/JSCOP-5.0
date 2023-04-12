@@ -1,14 +1,15 @@
-.speaker-hero-section{
-  width:100vw;
-  background-image:radial-gradient(circle,rgb(9, 19, 53,0) 0%, var(--bgColor1) 100%),url("./speaker_bg.jpg");
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:center center;
-  background-attachment:fixed;
- 
+.speaker-hero-section {
+  width: 100vw;
+  background-image: radial-gradient(circle, rgb(9, 19, 53, 0) 0%, var(--bgColor1) 100%), url("./speaker_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+
 }
-.fadein-div{
-  background-image: linear-gradient(to bottom,rgb(9, 19, 53,1),rgb(9, 19, 53,0),rgb(9, 19, 53,0),rgb(9, 19, 53,0) ,rgb(9, 19, 53,1));
+
+.fadein-div {
+  background-image: linear-gradient(to bottom, rgb(9, 19, 53, 1), rgb(9, 19, 53, 0), rgb(9, 19, 53, 0), rgb(9, 19, 53, 0), rgb(9, 19, 53, 1));
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -50,7 +51,8 @@
     letter-spacing: 3px;
     font-size: 1.5rem;
   }
-  p{
+
+  p {
     font-size: 1rem;
   }
 }
@@ -108,8 +110,14 @@
   width: 100%;
   top: 0;
   transition: transform 300ms;
-  background-color: #C1C1C1;
+  background: linear-gradient(black, rgba(0, 0, 0, 0.604));
   transform: translate3d(0, 100%, 0);
+
+  .speaker-card__content {
+    p {
+      color: white;
+    }
+  }
 }
 
 .speaker-card__content {
@@ -126,7 +134,7 @@
   text-align: justify;
   font-family: 'Genos', sans-serif;
   font-size: 18px;
-  line-height:17px;
+  line-height: 17px;
   overflow: hidden;
 
 }
@@ -137,18 +145,17 @@
   .speaker-card-container {
     display: grid;
     grid-template-columns: auto;
-    width : 90vw;
+    width: 90vw;
   }
-  
-.speaker-card__content p {
-  margin: 0;
-  text-align: justify;
-  font-family: 'Genos', sans-serif;
-  font-size: 16px;
-  line-height:15px;
-  overflow: hidden;
+
+  .speaker-card__content p {
+    margin: 0;
+    text-align: justify;
+    font-family: 'Genos', sans-serif;
+    font-size: 16px;
+    line-height: 15px;
+    overflow: hidden;
+
+  }
 
 }
-
-}
-
