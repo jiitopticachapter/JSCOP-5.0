@@ -52,9 +52,9 @@ const EventDetails = () => {
   };
 
   return (
-    <div className="EventsDetails">
+    <div className="EventsDetails" >
       <PageName page_heading={events.title} visible="block" />
-      <div className="Events_container">
+      <div className="Events_container" >
         <div className="Event_container_left">
           <div className="Events_img">
             <img src={events.imgsrc} alt={events.title} />
