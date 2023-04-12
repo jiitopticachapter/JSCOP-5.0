@@ -8,10 +8,18 @@ import registerImg from '../../assets/images/1.png'
 import "jquery-ui-dist/jquery-ui";
 import {storage} from '../../firebase'
 import {ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
+import axios from "axios";
 // import { upload } from '@testing-library/user-event/dist/upload'
 // import ComingSoon from '../../components/ComingSoon/ComingSoon'
 
 const Register = () => {
+
+   
+
+   const [uploaded, setUploaded] = useState(false);
+   const [filename, setFilename] = useState("PAYMENT SCREENSHOT");
+   const [file, setFile] = useState(null);
+   const [imgurl, setImgurl] = useState(''); //url of payment screenshot 
 
    const [data, setData] = useState({
       username: "",
@@ -22,10 +30,7 @@ const Register = () => {
       mobile: "",
    })
 
-   const [uploaded, setUploaded] = useState(false);
-   const [filename, setFilename] = useState("PAYMENT SCREENSHOT");
-   const [file, setFile] = useState(null);
-   const [imgurl, setImgurl] = useState(''); //url of payment screenshot 
+   
 
    const handleFileChange = (e) => {
       setFile(e.target.files[0]);
@@ -53,7 +58,7 @@ const Register = () => {
       event.preventDefault();
       if (data && file) {
 
-         const storageRef = ref(storage, `${data.enrol="/"}`+file.name);
+         const storageRef = ref(storage, `${data.enrol+"/"}`+file.name);
          const uploadTask = uploadBytesResumable(storageRef, file);
          uploadTask.on("state_changed", (snapshot) => {
           }, (error) => {
@@ -65,6 +70,20 @@ const Register = () => {
             });
           }
         );
+
+        const Form = {
+         username: data.username,
+      email: data.email,
+      enrol: data.enrol,
+      branch: data.branch,
+      year: data.year,
+      mobile: data.mobile,
+      Paid: imgurl,
+        }
+        axios.post("https://jscop8-0.herokuapp.com/frontdata", Form) 
+   .then (function () {
+      window.location.href = "http://localhost:3000/";
+   })
       }
    }
 
