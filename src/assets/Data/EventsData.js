@@ -159,7 +159,7 @@ const Events = [
   {
     //CCC (Create-Check-Crack It)
     id: 4,
-    title: "Create-Check-Crack It",
+    title: "Create-Code-Crack It",
     // title: "COMING SOON",
     // imgsrc: "/images/ccc.png",
     imgsrc: "https://drive.google.com/uc?export=view&id=1nsmHTZW95JfKGh8B7LcFGhrA-43mJHAV",
@@ -169,7 +169,7 @@ const Events = [
     time: "4:20 PM",
     deadline: "14-APRIL-2023,11:59 pm",
     register_link:"https://forms.gle/7ML4ouW38yro8scz9",
-    rules:"/",
+    rules:"https://docs.google.com/document/d/1OOb771_QitgOpcW19zC4fTtv3IJsQrnQ84m9CjZlTSI/edit?usp=sharing",
     faq: [
       {
         question: "Is it an individual event?",
@@ -214,7 +214,7 @@ const Events = [
     time: "1:30 pm",
     deadline: "15-APRIL-2023,11:59 pm",
     register_link:"https://forms.gle/7ML4ouW38yro8scz9",
-    rules:"/",
+    rules:"https://docs.google.com/document/d/11RnMFbzhGNpEHhPMG60rSGFS_g3SDFWUBCH1nMx3gQI/edit?usp=sharing",
     faq: [
       {
         question: "Is it an individual event?",
