@@ -213,7 +213,7 @@ const Events = [
     location: "AUDI / LT-4",
     time: "1:30 pm",
     deadline: "15-APRIL-2023,11:59 pm",
-    register_link:"https://forms.gle/7ML4ouW38yro8scz9",
+    register_link:"https://unstop.com/hackathons/ideathon-jscop-jaypee-institute-of-information-technology-jiit-noida-665370",
     rules:"https://docs.google.com/document/d/11RnMFbzhGNpEHhPMG60rSGFS_g3SDFWUBCH1nMx3gQI/edit?usp=sharing",
     faq: [
       {
