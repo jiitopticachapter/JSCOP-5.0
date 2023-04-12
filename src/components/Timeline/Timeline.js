@@ -8,7 +8,7 @@ import "./Timeline.scss";
 // import { useState } from "react";
 import Heading from "../heading/Heading";
 import ComingSoon from "../ComingSoon/ComingSoon";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 
 
