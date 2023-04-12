@@ -48,7 +48,7 @@
 .Events_img img{
    width: 400px;
    height: 500px;
-   object-fit: cover;
+   object-fit: 100% 100%;
 }
 
 .Event_container_right{

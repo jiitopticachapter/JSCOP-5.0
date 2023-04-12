@@ -67,15 +67,15 @@ const Events = [
   },
   {
     //blind coding
-    id: 2,
-    title: "COMING SOON",
-    imgsrc: "https://drive.google.com/uc?export=view&id=1IMmZAv6NeAN3lbRAbxyTsTOS-3tUd4T5",
-    description: "Dipti Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic perspiciatis nisi vero inventore. Totam deserunt repellendus eius neque a fuga officia. Maiores facere incidunt reprehenderit dolore, ipsum magnam quos, aliquam eligendi tenetur laborum laboriosam atque. Similique laborum neque maiores reprehenderit eum, libero a at dolorem dolor deleniti, rem totam veritatis ipsam illo ut voluptatibus earum nam omnis incidunt consequuntur obcaecati. Facilis mollitia autem magnam quia, nesciunt iste obcaecati vel, hic tempora excepturi soluta ipsa eaque? Possimus, a modi. Deserunt facilis harum enim totam, numquam quam nihil odio eligendi facere nisi nesciunt molestiae quo debitis, qui necessitatibus quisquam tempora quidem praesentium.",
+    id: 3,
+    title: "BLIND CODING",
+    imgsrc: "https://drive.google.com/uc?export=view&id=1Z14CbTxUeurqp5Ntf9XYXVpHMybiyLDC",
+    description: `"Talk is cheap. Show me your code!"\nAttention all the budding coders!\nAren't you all bored of the monotonous coding routines and wanna exolore something fun?\nHere's your chance as JSCOP 5.0 presents you the Blind Coding Competition in which you have to type the code with your monitors off.\nDoesn't this sound exciting?Yes it is!\nSo what are you waiting for?\nFill the registration form and join us in this crazy fun-filled event and maximize your chances of winning exciting prizes and goodies worth 25k+.\nFurther details will be revealed soon so just gear up!`,
     date: "15th April 2023",
     location: "CL 1 - CL 4",
     time: "2:00 PM",
     deadline: "14-March-2023,11:59 pm",
-    register_link:"/register",
+    register_link:"https://forms.gle/7ML4ouW38yro8scz9",
     rules:"https://docs.google.com/document/d/1gT87Tn-DF7Q76PyWmiU0CoGCfOFZD_6ETpiYsD9K1Lw/edit?usp=sharing",
     faq: [
       {
@@ -104,38 +104,36 @@ const Events = [
         imgsrc: "/images/khushichauhan.jpg",
         name: "KHUSHI CHAUHAN",
       },
+      {
+        imgsrc: "/images/naman.jpg",
+        name: "NAMAN GUPTA",
+      },
     ]
 
 
   },
   { //SQUID GAME
-    id: 3,
-    title: "COMING SOON",
+    id: 2,
+    title: "SQUID GAME",
     // imgsrc: "/images/squidgame_long.jpeg",
-    imgsrc: "https://drive.google.com/uc?export=view&id=1IMmZAv6NeAN3lbRAbxyTsTOS-3tUd4T5",
+    imgsrc: "https://drive.google.com/uc?export=view&id=1aD7N1dr8lXiSLF5nlsE6fuZNE3CP1C0s",
     description: "Are you ready for a life-and-death experience? Do you have what it takes to be a world-class champion? Optica brings to you their very first version of Squid Game. Squid game is a series of fun games where the participants need to make use of their brain, strength, and strategies. For all those risk-takers out there, join us in this thrilling chase for exciting cash prizes and many more.",
     date: "16TH APRIL 2023",
     location: "JBS",
     time: "3:00 pm",
-    deadline: "14-APRIL-2023,11:59 pm",
-    register_link:"/register",
+    deadline: "15-APRIL-2023,11:59 pm",
+    register_link:"https://forms.gle/7ML4ouW38yro8scz9",
     rules:"https://docs.google.com/document/d/1MzFBaccu_TsLL7wL-nszPANVkBuoWNtungoXdxsrVgQ/edit?usp=sharing",
     faq: [
       {
-        question: "How many rounds will be there in this event?",
-        answer:
-          "A total of 5 rounds will take place.",
-        open: false
-      },
-      {
-        question: "Who is the most awesome person?",
-        answer: "You! The viewer!",
+        question: "Is it an individual event?",
+        answer: "Yes!",
         open: false
       },
       {
         question:
-          "How many questions does it take to makes a succesful FAQ Page?",
-        answer: "This many!",
+          "Is it only for JIIT students?",
+        answer: "Yes!",
         open: false
       }
     ],
@@ -161,35 +159,29 @@ const Events = [
   {
     //CCC (Create-Check-Crack It)
     id: 4,
-    // title: "CCC (Create-Check-Crack It)",
-    title: "COMING SOON",
+    title: "Create-Check-Crack It",
+    // title: "COMING SOON",
     // imgsrc: "/images/ccc.png",
-    imgsrc: "https://drive.google.com/uc?export=view&id=1IMmZAv6NeAN3lbRAbxyTsTOS-3tUd4T5",
-    description: "Kaavya Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic perspiciatis nisi vero inventore. Totam deserunt repellendus eius neque a fuga officia. Maiores facere incidunt reprehenderit dolore, ipsum magnam quos, aliquam eligendi tenetur laborum laboriosam atque. Similique laborum neque maiores reprehenderit eum, libero a at dolorem dolor deleniti, rem totam veritatis ipsam illo ut voluptatibus earum nam omnis incidunt consequuntur obcaecati. Facilis mollitia autem magnam quia, nesciunt iste obcaecati vel, hic tempora excepturi soluta ipsa eaque? Possimus, a modi. Deserunt facilis harum enim totam, numquam quam nihil odio eligendi facere nisi nesciunt molestiae quo debitis, qui necessitatibus quisquam tempora quidem praesentium.",
+    imgsrc: "https://drive.google.com/uc?export=view&id=1nsmHTZW95JfKGh8B7LcFGhrA-43mJHAV",
+    description: `Join us for an exciting circuit building event which will be a perfect opportunity for someone wants to gain a fundamental understanding of circuit building.\nThe students in OPTICA will guide you through the process of building your own circuits and resolve any queries you might have.\nPut on your smart glasses and get ready to hone your skills, expand your knowledge and connect with other like-minded individuals in the field of electronics and communication engineering!\nDon't miss out on this opportunity and REGISTER NOW to secure your spot!`,
     date: "15TH APRIL 2023",
     location: "Communication Systems  Lab EL11",
     time: "4:20 PM",
     deadline: "14-APRIL-2023,11:59 pm",
-    register_link:"/register",
+    register_link:"https://forms.gle/7ML4ouW38yro8scz9",
     rules:"/",
     faq: [
       {
-        question: "How many programmers does it take to screw a lightbulb?",
+        question: "Is it an individual event?",
         answer:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra lorem eu dolor rhoncus, at scelerisque ligula gravida. Sed porta id mi sit amet convallis. Etiam iaculis massa sit amet lacus blandit sodales. Nulla ultrices velit a diam placerat congue. Pellentesque iaculis, ipsum quis eleifend dapibus, est dui eleifend ante, quis fermentum mi ligula quis nisl. Ut et ex dui. Integer id venenatis quam.",
+          "Yes!",
         open: false
       },
       {
-        question: "Who is the most awesome person?",
-        answer: "You! The viewer!",
+        question: "Is it only for JIIT students?",
+        answer: "Yes!",
         open: false
       },
-      {
-        question:
-          "How many questions does it take to makes a succesful FAQ Page?",
-        answer: "This many!",
-        open: false
-      }
     ],
     OrgTeam: [
       {
@@ -204,39 +196,37 @@ const Events = [
         imgsrc: "/images/Aditi.jpg",
         name: "Aditi Aggarwal",
       },
+      {
+        imgsrc: "/images/naman.jpg",
+        name: "NAMAN GUPTA",
+      },
     ]
   },
   {//ideathon
     id: 5,
-    title: "COMING SOON",
+    title: "IDEATHON",
     // imgsrc: "/images/ideathon_long.jpeg",
-    imgsrc: "https://drive.google.com/uc?export=view&id=1IMmZAv6NeAN3lbRAbxyTsTOS-3tUd4T5",
+    imgsrc: "https://drive.google.com/uc?export=view&id=1lWm5hu6GLRffrjw2HSSYAZ7By9nKiyfL",
 
-    description: "Aryan Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic perspiciatis nisi vero inventore. Totam deserunt repellendus eius neque a fuga officia. Maiores facere incidunt reprehenderit dolore, ipsum magnam quos, aliquam eligendi tenetur laborum laboriosam atque. Similique laborum neque maiores reprehenderit eum, libero a at dolorem dolor deleniti, rem totam veritatis ipsam illo ut voluptatibus earum nam omnis incidunt consequuntur obcaecati. Facilis mollitia autem magnam quia, nesciunt iste obcaecati vel, hic tempora excepturi soluta ipsa eaque? Possimus, a modi. Deserunt facilis harum enim totam, numquam quam nihil odio eligendi facere nisi nesciunt molestiae quo debitis, qui necessitatibus quisquam tempora quidem praesentium.",
+    description: `A spark which results in fire, a stream leading to a river and diamonds found in the rough. Everything big starts with something small. It takes an enormous amount of courage and and effort to take the road not taken and extreme passion to reach the other side.\nDo you have an idea that would change how things are done today? That makes you a dreamer and an inventor. Do you find yourself thinking and working on your idea in the oddest of times? That makes you a conqueror. Do you have what it takes to change the world? That makes you a wizard.\nIs the only thing standing between you and your dream money? Don’t worry, we’ve got you covered. OPTICA presents “IDEATHON”, an event where you get the opportunity to woo the judges with your ideas and win cash prizes and the really special ones will also get the chance to be funded.\n\nTime for all the brainstorming to payout!\nYou believe in your idea, we believe in your vision!`,
     date: "16th APRIL 2023",
     location: "AUDI / LT-4",
     time: "1:30 pm",
-    deadline: "14-APRIL-2023,11:59 pm",
-    register_link:"/register",
+    deadline: "15-APRIL-2023,11:59 pm",
+    register_link:"https://forms.gle/7ML4ouW38yro8scz9",
     rules:"/",
     faq: [
       {
-        question: "How many programmers does it take to screw a lightbulb?",
+        question: "Is it an individual event?",
         answer:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra lorem eu dolor rhoncus, at scelerisque ligula gravida. Sed porta id mi sit amet convallis. Etiam iaculis massa sit amet lacus blandit sodales. Nulla ultrices velit a diam placerat congue. Pellentesque iaculis, ipsum quis eleifend dapibus, est dui eleifend ante, quis fermentum mi ligula quis nisl. Ut et ex dui. Integer id venenatis quam.",
+          "You can participate individually or in a team of max 3 members.",
         open: false
       },
       {
-        question: "Who is the most awesome person?",
-        answer: "You! The viewer!",
+        question: "Is it only for JIIT?",
+        answer: "Yes",
         open: false
       },
-      {
-        question:
-          "How many questions does it take to makes a succesful FAQ Page?",
-        answer: "This many!",
-        open: false
-      }
     ],
     OrgTeam: [
       {
@@ -250,6 +240,10 @@ const Events = [
       {
         imgsrc: "/images/pallavi.jpg",
         name: "PALLAVI",
+      },
+      {
+        imgsrc: "/images/naman.jpg",
+        name: "NAMAN GUPTA",
       },
     ]
   },
