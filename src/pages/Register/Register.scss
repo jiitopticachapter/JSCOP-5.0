@@ -170,6 +170,9 @@ input[type="mob"]:focus {
     .Register-Image{
         width: 320px;
         margin : auto auto;
+        img{
+            width : 320px;
+        }
     }
     .screenshot-label{
         width: 13rem;
@@ -200,6 +203,9 @@ input[type="mob"]:focus {
         .Register-Image{
             width: 90vw;
             margin : 0 auto;
+            img{
+                width : 90vw;
+            }
         }
     }
 }
