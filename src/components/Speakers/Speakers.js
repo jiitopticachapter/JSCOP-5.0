@@ -2,7 +2,7 @@ import React from 'react'
 import Heading from '../../components/heading/Heading';
 // import ComingSoon from '../ComingSoon/ComingSoon';
 import './Speaker.scss';
-import img1 from '../../assets/images/Speakers-GK.jpg'
+import img1 from '../../assets/images/Speakers-GK.jpeg'
 import img2 from '../../assets/images/Speakers-CG.jpg'
 import img3 from '../../assets/images/Speakers-SB.jpg'
 import img4 from '../../assets/images/Speakers-RD.jpg'

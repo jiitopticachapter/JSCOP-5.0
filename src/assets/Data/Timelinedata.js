@@ -1,30 +1,32 @@
 const day1=[
+
     {
     
-        time:"9:30 AM-10:30 AM",
-        title:"Opening Ceremony",
-        venue:"Auditorium",
+        time:"10:00 AM-10:30 AM",
+        title:"Inaugration Ceremony",
+        venue:"LT-4",
         photo:"https://pyroterra.com/wp-content/uploads/2018/03/27908253_10211310702351709_2789465559696425761_o.jpg"
     },
 
     {
        
-        time:"10:30 AM-11:15 AM",
-        title:"Talk 1",
-        venue:"LT-4",
-        photo:"https://tisch.nyu.edu/content/dam/tisch/clive-davis-institute/Soundtalksession1_crop.jpg.preset.600.jpeg"
+        time:"10:30 AM-11:00 AM",
+        title:"Tea Break",
+        venue:"In front area of LT-4",
+        photo:"https://english.eastday.com/images/thumbnailimg/month_1603/201603161053075876.jpg"
         
     },
     {
         
-        time:"11:15 AM-11:35 AM",
-        title:"Tea Break",
-        photo:"https://english.eastday.com/images/thumbnailimg/month_1603/201603161053075876.jpg"
+        time:"11:00 AM-12:00 PM",
+        title:"Talk 1",
+        venue:"LT-4",
+        photo:"https://tisch.nyu.edu/content/dam/tisch/clive-davis-institute/Soundtalksession1_crop.jpg.preset.600.jpeg"
     },
 
     {
        
-        time:"11:35 AM-12:20 PM",
+        time:"12:00 PM-12:45 PM",
         title:"Talk 2",
         venue:"LT-4",
         photo:"https://tisch.nyu.edu/content/dam/tisch/clive-davis-institute/Soundtalksession1_crop.jpg.preset.600.jpeg"
@@ -33,7 +35,7 @@ const day1=[
 
     {
        
-        time:"12:20 PM-2:00 PM",
+        time:"12:45 PM-2:00 PM",
         title:"Lunch",
         photo : "https://media-cdn.tripadvisor.com/media/photo-s/19/83/1d/51/delicious-veg-and-non.jpg"
         
@@ -51,6 +53,7 @@ const day1=[
        
         time:"4:00 PM-4:20 PM",
         title:"Tea Break 2",
+        venue:"In front area of LT-4",
         photo : "https://www.munatycooking.com/wp-content/uploads/2014/04/Indian-Tea-Karak-Chai-feature-image-2022-500x500.jpg"
 
     },
@@ -77,10 +80,16 @@ const day2=[
 
     {
         
-        time:"10:45 AM-11:05 AM",
+        time:"10:45 AM-11:15 AM",
         title:"Tea Break",
         photo : "https://www.munatycooking.com/wp-content/uploads/2014/04/Indian-Tea-Karak-Chai-feature-image-2022-500x500.jpg"
        
+    },
+
+    {
+        time:"11:05 AM-12:00PM",
+        title:"Online Talk",
+        photo : "http://introtocommopensource.ridgewater.edu/ModuleVIII/ImagesModVIIISect3/audience2.jpg"
     },
     
     {
@@ -108,22 +117,24 @@ const day2=[
         photo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSorS6DK6ekAIQoii1q90l78bNPco3s4al4XQ_RfylB0I0XZiXDK7CAtjnUcOmPgP-FTVc&usqp=CAU"
         
     },
-    
+
     {
       
-        time:"4:30 PM-6:00 PM",
-        title:"Closing Ceremony",
-        venue:"Auditorium",
-        photo:"https://inspirationfeed.com/wp-content/uploads/2020/01/8-Interesting-Ideas-To-Host-A-Memorable-Award-Ceremony.jpg",
-    },
-    
-    {
-      
-        time:"6:00 PM-6:30 PM",
+        time:"4:30 PM-5:00 PM",
         title:"Tea Break",
+        venue:"In front area of LT-4",
         photo : "https://www.munatycooking.com/wp-content/uploads/2014/04/Indian-Tea-Karak-Chai-feature-image-2022-500x500.jpg"
         
     },
+    {
+      
+        time:"5:00 PM-6:30 PM",
+        title:"Closing Ceremony",
+        venue:"Audi",
+        photo:"https://inspirationfeed.com/wp-content/uploads/2020/01/8-Interesting-Ideas-To-Host-A-Memorable-Award-Ceremony.jpg",
+    },
+    
+    
     
 
 ]
