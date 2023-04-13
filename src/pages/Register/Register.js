@@ -25,7 +25,7 @@ const Register = () => {
     username: "",
     email: "",
     enrol: "",
-    branch: "",
+    branch: "CSE",
     year: "",
     mobile: "",
     setNew: "YES",
@@ -153,7 +153,7 @@ const Register = () => {
               onChange={handleChange}
               required
             >
-              <option
+              {/* <option
                 className="branch_dropdown"
                 value=""
                 selected
@@ -161,7 +161,7 @@ const Register = () => {
                 hidden
               >
                 SELECT YOUR BRANCH
-              </option>
+              </option> */}
               <option className="branch_dropdown" value="CSE">
                 CSE
               </option>
