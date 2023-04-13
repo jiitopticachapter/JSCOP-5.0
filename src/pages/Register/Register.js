@@ -11,7 +11,6 @@ import axios from "axios";
 // import { upload } from '@testing-library/user-event/dist/upload'
 // import ComingSoon from '../../components/ComingSoon/ComingSoon'
 
-const regex1 = /^\d{8}$/;
 const regex2 = /^[\w-.]+@([\w-]+\.)+[\w-]{2,}$/;
 const regex3 = /^\d{10}$/;
 
@@ -56,9 +55,6 @@ const Register = () => {
     console.log(data);
     event.preventDefault();
     if (data && file) {
-      if(!(regex1.test(data.enrol))){
-         return alert("Invalid Enrollment number");
-       }
       if(!regex2.test(data.email))
       {
          return alert("Invalid Email")
@@ -164,12 +160,6 @@ const Register = () => {
               </option> */}
               <option className="branch_dropdown" value="CSE">
                 CSE
-              </option>
-              <option className="branch_dropdown" value="CSE Int">
-                CSE Int
-              </option>
-              <option className="branch_dropdown" value="ECE Int">
-                ECE Int
               </option>
               <option className="branch_dropdown" value="IT">
                 IT
