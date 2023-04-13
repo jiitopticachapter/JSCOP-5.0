@@ -27,11 +27,7 @@ const Hero = () => {
       <p>JIIT Student conference for optics and photonics</p>
 
       <Link
-<<<<<<< HEAD
-        to='https://docs.google.com/forms/d/e/1FAIpQLSdJSbg-tJtA_agX7gJnmjZPCRtK1YWgk1YJsKTEPYIEvslYVw/viewform' target='_blank' className="reg_button"> <h1>REGISTER NOW </h1>
-=======
-        to='https://forms.gle/7ML4ouW38yro8scz9' target="_blank" className="reg_button" > <h1>REGISTER NOW </h1>
->>>>>>> 56674170369b67e186a72b69c504cf0534e69dd0
+        to='/register' target='_blank' className="reg_button"> <h1>REGISTER NOW </h1>
       </Link>
       
       <Countdown />
