@@ -5,6 +5,7 @@ import "./Timeline.scss";
 // import { useEffect } from "react";
 // import { day1, day2 } from "../../assets/Data/Timelinedata";
 // import { useState } from "react";
+// import { Link } from 'react-router-dom';
 import Heading from "../heading/Heading";
 import ComingSoon from '../ComingSoon/ComingSoon'
 
@@ -26,10 +27,10 @@ const Timeline = () => {
 
   // useEffect(() => {
   //   (function ($) {
-  //     $( () => { 
-        
+  //     $(() => {
+
   //       $(window).on("scroll", function () {
-  //         fnOnScroll() 
+  //         fnOnScroll()
   //       });
 
   //       $(window).on("resize", function () {
@@ -108,9 +109,9 @@ const Timeline = () => {
   return (
     <>
       <div className="ag-timeline-block" id="timeline">
-        
+
         <Heading title="TIMELINE" size="5rem" />
-        
+
         {/* <section className="ag-section">
           <div className='daywise_buttons'>
             <button className="day1_button" onClick={() => setDay(1)}>Day 1</button>
@@ -136,29 +137,29 @@ const Timeline = () => {
 
                         <div className="ag-timeline-card_inner">
                           <div className="ag-timeline-card_img-box">
-                            <img src={val.photo} alt="img"/>
+                            <img src={val.photo} alt="img" />
                             <h2 className="eventTitle">{val.title}</h2>
                           </div>
 
-                          <div className="ag-timeline-card_info"> */}
-                            {/* {
+                          <div className="ag-timeline-card_info">
+                            {
                               val.tagline &&
                               <h6 className="card_info_tagline">{val.tagline}</h6>
-                            } */}
-                              {/* <div className="card_info_data">
-                                <i className="fa-solid fa-clock"></i>
-                                <h6>{val.time}</h6>
-                                {
+                            }
+                            <div className="card_info_data">
+                              <i className="fa-solid fa-clock"></i>
+                              <h6>{val.time}</h6>
+                              {
                                 val.venue &&
-                                <> 
+                                <>
                                   <i className="fa-solid fa-location-dot"></i>
                                   <h6>{val.venue}</h6>
                                 </>
-                                }
-                              </div>
+                              }
+                            </div>
                           </div>
                         </div>
-                        
+
 
                       </div>
 
@@ -173,13 +174,14 @@ const Timeline = () => {
 
         <ComingSoon />
 
-        {/* download schedules
-        <Link
-          to='/images/day1.png' target='_blank' className="reg_button" download> <h1>DOWNLOAD DAY 1 SCHEDULE</h1>
-        </Link>
-        <Link
-          to='/images/day2.png' target='_blank' className="reg_button" download> <h1>DOWNLOAD DAY 2 SCHEDULE</h1>
-        </Link> */}
+        {/* <div className="download_buttons">
+          <Link
+            to='/images/day1.png' target='_blank' className="reg_button" download> <h1>DOWNLOAD DAY 1 SCHEDULE</h1>
+          </Link>
+          <Link
+            to='/images/day2.png' target='_blank' className="reg_button" download> <h1>DOWNLOAD DAY 2 SCHEDULE</h1>
+          </Link>
+        </div> */}
 
       </div>
     </>
