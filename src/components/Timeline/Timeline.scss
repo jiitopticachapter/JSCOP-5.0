@@ -109,6 +109,9 @@
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
 }
+.fa-clock,.fa-location-dot{
+  color: var(--color1);
+}
 
 .ag-timeline_item {
   margin: 0 0 50px;
@@ -244,6 +247,7 @@
   border: 1px solid white;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: white;
+  border-radius:1.5rem;
 }
 
 .ag-timeline-card_img {
@@ -252,16 +256,23 @@
 
 .ag-timeline-card_img-box{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;  
-  height: 100px;
-  overflow: hidden;
-  position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    border-bottom-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    box-shadow: 0px 4px 30px rgb(176 196 222 / 35%);
+
 }
 
 .eventTitle {
   text-transform: uppercase;
+  font-family: "genos";
+  font-size: 35px;
+  letter-spacing: 3px;
 }
 
 .ag-timeline-card_img-box img {
@@ -273,7 +284,7 @@
 }
 
 .ag-timeline-card_info {
-  padding: 20px 15px;
+  padding: 0px 15px;
   line-height: 1.2;
   font-size: 20px;
   text-align: left;
@@ -295,6 +306,9 @@
 
 .card_info_data h6{
   margin-left: 10px;
+    font-family: 'Genos';
+    font-size: 20px;
+    text-transform: uppercase;
 }
 .card_info_data i {
   margin-left: 20px;

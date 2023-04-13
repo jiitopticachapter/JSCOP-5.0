@@ -1,7 +1,7 @@
 import React from "react";
 import "./Timeline.scss";
 // import $ from "jquery";
-import "jquery-ui-dist/jquery-ui";
+// import "jquery-ui-dist/jquery-ui";
 // import { useEffect } from "react";
 // import { day1, day2 } from "../../assets/Data/Timelinedata";
 // import { useState } from "react";
@@ -83,10 +83,7 @@ const Timeline = () => {
   //           .offset().top;
 
   //         i = agTop + agPosY - $(window).scrollTop();
-  //         a =
-  //           agTimelineLineProgress.offset().top +
-  //           agPosY -
-  //           $(window).scrollTop();
+  //         a = agTimelineLineProgress.offset().top + agPosY - $(window).scrollTop();
   //         n = agPosY - a + agOuterHeight / 2;
   //         i <= agPosY + agOuterHeight / 2 && (n = i - a);
   //         agTimelineLineProgress.css({ height: n + "px" });
@@ -94,8 +91,7 @@ const Timeline = () => {
   //         agTimelineItem.each(function () {
   //           var agTop = $(this).find(agTimelinePoint).offset().top;
 
-  //           agTop + agPosY - $(window).scrollTop() <
-  //             agPosY + 0.5 * agOuterHeight
+  //           agTop + agPosY - $(window).scrollTop() < agPosY + 0.5 * agOuterHeight
   //             ? $(this).addClass("js-ag-active")
   //             : $(this).removeClass("js-ag-active");
   //         });
@@ -144,18 +140,18 @@ const Timeline = () => {
                             <h2 className="eventTitle">{val.title}</h2>
                           </div>
 
-                          <div className="ag-timeline-card_info">
-                            {
+                          <div className="ag-timeline-card_info"> */}
+                            {/* {
                               val.tagline &&
                               <h6 className="card_info_tagline">{val.tagline}</h6>
-                            }
-                              <div className="card_info_data">
-                                <i class="fa-solid fa-clock"></i>
+                            } */}
+                              {/* <div className="card_info_data">
+                                <i className="fa-solid fa-clock"></i>
                                 <h6>{val.time}</h6>
                                 {
                                 val.venue &&
                                 <> 
-                                  <i class="fa-solid fa-location-dot"></i>
+                                  <i className="fa-solid fa-location-dot"></i>
                                   <h6>{val.venue}</h6>
                                 </>
                                 }
