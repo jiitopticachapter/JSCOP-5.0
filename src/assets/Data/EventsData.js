@@ -69,13 +69,13 @@ const Events = [
     //blind coding
     id: 3,
     title: "BLIND CODING",
-    imgsrc: "https://drive.google.com/uc?export=view&id=1Z14CbTxUeurqp5Ntf9XYXVpHMybiyLDC",
+    imgsrc: "https://drive.google.com/uc?export=view&id=1UP0MKGXiwyM0zwionnPGXnjmQbAsNF2g",
     description: `"Talk is cheap. Show me your code!"\nAttention all the budding coders!\nAren't you all bored of the monotonous coding routines and wanna exolore something fun?\nHere's your chance as JSCOP 5.0 presents you the Blind Coding Competition in which you have to type the code with your monitors off.\nDoesn't this sound exciting?Yes it is!\nSo what are you waiting for?\nFill the registration form and join us in this crazy fun-filled event and maximize your chances of winning exciting prizes and goodies worth 25k+.\nFurther details will be revealed soon so just gear up!`,
     date: "15th April 2023",
     location: "CL 1 - CL 4",
     time: "2:00 PM",
     deadline: "14-March-2023,11:59 pm",
-    register_link:"https://forms.gle/7ML4ouW38yro8scz9",
+    register_link:"/register",
     rules:"https://docs.google.com/document/d/1gT87Tn-DF7Q76PyWmiU0CoGCfOFZD_6ETpiYsD9K1Lw/edit?usp=sharing",
     faq: [
       {
@@ -122,7 +122,7 @@ const Events = [
     location: "JBS",
     time: "3:00 pm",
     deadline: "15-APRIL-2023,11:59 pm",
-    register_link:"https://forms.gle/7ML4ouW38yro8scz9",
+    register_link:"/register",
     rules:"https://docs.google.com/document/d/1MzFBaccu_TsLL7wL-nszPANVkBuoWNtungoXdxsrVgQ/edit?usp=sharing",
     faq: [
       {
@@ -162,13 +162,13 @@ const Events = [
     title: "Create-Code-Crack It",
     // title: "COMING SOON",
     // imgsrc: "/images/ccc.png",
-    imgsrc: "https://drive.google.com/uc?export=view&id=1nsmHTZW95JfKGh8B7LcFGhrA-43mJHAV",
+    imgsrc: "https://drive.google.com/uc?export=view&id=1LI4mDqnhufWPFt3vYt3bMR0b8nc8uhR7",
     description: `Join us for an exciting circuit building event which will be a perfect opportunity for someone wants to gain a fundamental understanding of circuit building.\nThe students in OPTICA will guide you through the process of building your own circuits and resolve any queries you might have.\nPut on your smart glasses and get ready to hone your skills, expand your knowledge and connect with other like-minded individuals in the field of electronics and communication engineering!\nDon't miss out on this opportunity and REGISTER NOW to secure your spot!`,
     date: "15TH APRIL 2023",
     location: "Communication Systems  Lab EL11",
     time: "4:20 PM",
     deadline: "14-APRIL-2023,11:59 pm",
-    register_link:"https://forms.gle/7ML4ouW38yro8scz9",
+    register_link:"/register",
     rules:"https://docs.google.com/document/d/1OOb771_QitgOpcW19zC4fTtv3IJsQrnQ84m9CjZlTSI/edit?usp=sharing",
     faq: [
       {

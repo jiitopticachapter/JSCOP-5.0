@@ -11,6 +11,10 @@ import axios from "axios";
 // import { upload } from '@testing-library/user-event/dist/upload'
 // import ComingSoon from '../../components/ComingSoon/ComingSoon'
 
+const regex1 = /^\d{8}$/;
+const regex2 = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,}$/;
+const regex3 = /^\d{10}$/;
+
 const Register = () => {
   const [uploaded, setUploaded] = useState(false);
   const [filename, setFilename] = useState("PAYMENT SCREENSHOT");
@@ -52,6 +56,18 @@ const Register = () => {
     console.log(data);
     event.preventDefault();
     if (data && file) {
+      if(!(regex1.test(data.enrol))){
+         return alert("Invalid Enrollment number");
+       }
+      if(!regex2.test(data.email))
+      {
+         return alert("Invalid Email")
+      }
+      if(!regex3.test(data.mobile))
+      {
+         return alert("Invalid mobile number");
+      }
+
       const storageRef = ref(storage, `${data.enrol + "/"}` + file.name);
       const uploadTask = uploadBytesResumable(storageRef, file);
       uploadTask.on(
