@@ -75,7 +75,7 @@ const Events = [
     location: "CL 1 - CL 4",
     time: "2:00 PM",
     deadline: "14-March-2023,11:59 pm",
-    register_link:"/register",
+    register_link:"https://forms.gle/7ML4ouW38yro8scz9",
     rules:"https://docs.google.com/document/d/1gT87Tn-DF7Q76PyWmiU0CoGCfOFZD_6ETpiYsD9K1Lw/edit?usp=sharing",
     faq: [
       {
@@ -122,7 +122,7 @@ const Events = [
     location: "JBS",
     time: "3:00 pm",
     deadline: "15-APRIL-2023,11:59 pm",
-    register_link:"/register",
+    register_link:"https://forms.gle/7ML4ouW38yro8scz9",
     rules:"https://docs.google.com/document/d/1MzFBaccu_TsLL7wL-nszPANVkBuoWNtungoXdxsrVgQ/edit?usp=sharing",
     faq: [
       {
@@ -165,10 +165,10 @@ const Events = [
     imgsrc: "https://drive.google.com/uc?export=view&id=1LI4mDqnhufWPFt3vYt3bMR0b8nc8uhR7",
     description: `Join us for an exciting circuit building event which will be a perfect opportunity for someone wants to gain a fundamental understanding of circuit building.\nThe students in OPTICA will guide you through the process of building your own circuits and resolve any queries you might have.\nPut on your smart glasses and get ready to hone your skills, expand your knowledge and connect with other like-minded individuals in the field of electronics and communication engineering!\nDon't miss out on this opportunity and REGISTER NOW to secure your spot!`,
     date: "15TH APRIL 2023",
-    location: "Communication Systems  Lab EL11",
+    location: "Communication Systems Lab EL11",
     time: "4:20 PM",
     deadline: "14-APRIL-2023,11:59 pm",
-    register_link:"/register",
+    register_link:"https://forms.gle/7ML4ouW38yro8scz9",
     rules:"https://docs.google.com/document/d/1OOb771_QitgOpcW19zC4fTtv3IJsQrnQ84m9CjZlTSI/edit?usp=sharing",
     faq: [
       {

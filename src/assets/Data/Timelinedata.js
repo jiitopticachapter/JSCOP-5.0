@@ -1,8 +1,7 @@
 const day1=[
     {
-        
-        time:"9:30 AM",
-        tagline:`"Keep your eyes on the stage"`,
+    
+        time:"9:30 AM-10:30 AM",
         title:"Opening Ceremony",
         venue:"Auditorium",
         photo:"https://pyroterra.com/wp-content/uploads/2018/03/27908253_10211310702351709_2789465559696425761_o.jpg"
@@ -10,7 +9,7 @@ const day1=[
 
     {
        
-        time:"10:30 AM",
+        time:"10:30 AM-11:15 AM",
         title:"Talk 1",
         venue:"LT-4",
         photo:"https://tisch.nyu.edu/content/dam/tisch/clive-davis-institute/Soundtalksession1_crop.jpg.preset.600.jpeg"
@@ -18,14 +17,14 @@ const day1=[
     },
     {
         
-        time:"11:15 AM",
+        time:"11:15 AM-11:35 AM",
         title:"Tea Break",
         photo:"https://english.eastday.com/images/thumbnailimg/month_1603/201603161053075876.jpg"
     },
 
     {
        
-        time:"11:35 AM",
+        time:"11:35 AM-12:20 PM",
         title:"Talk 2",
         venue:"LT-4",
         photo:"https://tisch.nyu.edu/content/dam/tisch/clive-davis-institute/Soundtalksession1_crop.jpg.preset.600.jpeg"
@@ -34,7 +33,21 @@ const day1=[
 
     {
        
-        time:"12:20 PM",
+        time:"12:20 PM-2:00 PM",
+        title:"Lunch",
+        photo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKd2wW5HpcPi3svDSBIBYhvshuGL5iCoovkAlD0qXUbOLYhQLDA5CAf6TBIxWdXWSB5mM"
+
+    },
+    {
+       
+        time:"12:20 PM-2:00 PM",
+        title:"Blind Coding",
+        photo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKd2wW5HpcPi3svDSBIBYhvshuGL5iCoovkAlD0qXUbOLYhQLDA5CAf6TBIxWdXWSB5mM"
+
+    },
+    {
+       
+        time:"12:20 PM-2:00 PM",
         title:"Lunch",
         photo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKd2wW5HpcPi3svDSBIBYhvshuGL5iCoovkAlD0qXUbOLYhQLDA5CAf6TBIxWdXWSB5mM"
 
