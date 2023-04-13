@@ -19,13 +19,6 @@
     height: 100%;
     margin: auto;
     margin-bottom: 20px;
-    //margin-right: 100px;
-    // position: absolute;
-    // top: 0;
-    // left: 0;
-    // right: 0;
-    // bottom: 0;
-
 }
 
 form{
@@ -166,17 +159,6 @@ input[type="mob"]:focus {
     color: #d3d3d3;
 }
 
-// input[type="text"]:focus::-webkit-input-placeholder,
-// input[type="email"]:focus::-webkit-input-placeholder,
-// input[type="enroll"]:focus::-webkit-input-placeholder,
-// input[type="branch"]:focus::-webkit-input-placeholder,
-// input[type="year"]:focus::-webkit-input-placeholder,
-// input[type="mob"]:focus::-webkit-input-placeholder{
-//     color:transparent;
-// }
-
-
-
 /*Media queries */
 @media screen and (max-width:976px){
     input{
@@ -185,11 +167,18 @@ input[type="mob"]:focus {
     select{
         width: 13rem;
     }
+    .Register-Image{
+        width: 320px;
+        margin : auto auto;
+        img{
+            width : 320px;
+        }
+    }
     .screenshot-label{
         width: 13rem;
     }
 }
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 768px) {
     .register-form-container {
         margin-top: 10%;
         margin-bottom: 10%;
@@ -212,10 +201,11 @@ input[type="mob"]:focus {
             width: 18rem;
         }
         .Register-Image{
-            // display: none;
-            width: 100%;
-            align-items: center;
-            margin-left:0
+            width: 90vw;
+            margin : 0 auto;
+            img{
+                width : 90vw;
+            }
         }
     }
 }

@@ -107,6 +107,10 @@ const Register = () => {
                      <option className="branch_dropdown" value="IT">IT</option>
                      <option className="branch_dropdown" value="ECE">ECE</option>
                      <option className="branch_dropdown" value="BIOTECHNOLOGY">BIOTECHNOLOGY</option>
+                     <option className="branch_dropdown" value="CSE_INT">CSE INTEGRATED</option>
+                     <option className="branch_dropdown" value="ECE_INT">ECE INTEGRATED</option>
+                     <option className="branch_dropdown" value="BBA">BBA</option>
+                     <option className="branch_dropdown" value="OTHER">OTHER</option>
                   </select>
                   <br />
                   <input type="text" name="year" id="year" value={data.year} onChange={handleChange} placeholder="YEAR" required />
