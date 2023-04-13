@@ -12,7 +12,7 @@ import axios from "axios";
 // import ComingSoon from '../../components/ComingSoon/ComingSoon'
 
 const regex1 = /^\d{8}$/;
-const regex2 = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,}$/;
+const regex2 = /^[\w-.]+@([\w-]+\.)+[\w-]{2,}$/;
 const regex3 = /^\d{10}$/;
 
 const Register = () => {
