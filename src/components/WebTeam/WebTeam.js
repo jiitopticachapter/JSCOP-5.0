@@ -26,13 +26,13 @@ function WebTeam() {
         </div>
         <ul className="WebTeam_sci">
           <li>
-            <a href={val.insta} target="_blank" rel="noreferrer" ><i class="fa-brands fa-instagram"></i> </a>
+            <a href={val.insta} target="_blank" rel="noreferrer" ><i className="fa-brands fa-instagram"></i> </a>
           </li>
           {/* <li>
-            <a href="#/"><i class="fa-brands fa-github"></i> </a>
+            <a href="#/"><i className="fa-brands fa-github"></i> </a>
           </li> */}
           <li>
-            <a href={val.linkedin} target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i> </a>
+            <a href={val.linkedin} target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i> </a>
           </li>
         </ul>
       </div>
