@@ -34,15 +34,15 @@ const WebTeamData=[
       },
     {
         name:"Deepti Jain",
-        photo:"/",
+        photo:"/images/WebTeam/Deepti_jain.jpeg",
         linkedin:"https://www.linkedin.com/in/deepti1028/",
         insta:"https://www.instagram.com/deept_i1028/?igshid=ZDdkNTZiNTM%3D",
     },
     {
         name:"Nancy Soni",
-        photo:"/",
-        linkedin:"/",
-        insta:"/",
+        photo:"/images/WebTeam/Nancy_soni.jpg",
+        linkedin:"https://www.linkedin.com/in/nancy-soni-3038b31b3/",
+        insta:"https://www.instagram.com/nancyysonii/?igshid=ZDdkNTZiNTM%3D",
     },
     { 
          name:"Aryan Goyal",

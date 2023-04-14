@@ -5,7 +5,7 @@ import Timeline from '../../components/Timeline/Timeline'
 import Speakers from '../../components/Speakers/Speakers'
 import Hero from '../../components/Hero/Hero'
 import Gallery from '../../components/Gallery/Gallery'
-// import WebTeam from '../../components/WebTeam/WebTeam'
+import WebTeam from '../../components/WebTeam/WebTeam'
 import './Home.scss'
 import Sponsors from '../../components/Sponsors/Sponsors'
 
@@ -24,7 +24,7 @@ const Home = () => {
         <Speakers />
         <Timeline />
         <Gallery/>
-        {/* <WebTeam /> */}
+        <WebTeam />
         <Sponsors />
 
         
