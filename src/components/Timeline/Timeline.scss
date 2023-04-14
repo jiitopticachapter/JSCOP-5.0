@@ -38,6 +38,18 @@
   --color1: #1c97d4;
 }
 
+.eventTitle {
+  text-transform: uppercase;
+  font-family: "genos";
+  font-size: 27px;
+  letter-spacing: 0px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+} 
+
 .daywise_buttons {
   margin: auto;
   display: flex;
