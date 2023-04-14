@@ -50,7 +50,7 @@
 .day2_button {
   background: transparent;
   padding: 0;
-  font-family: "ESL Legend", sans-serif;
+  font-family: "Genos";
   border-color: transparent;
   color: white;
   height: 42px;
@@ -272,8 +272,8 @@
 .eventTitle {
   text-transform: uppercase;
   font-family: "genos";
-  font-size: 35px;
-  letter-spacing: 3px;
+  font-size:  27px;
+  letter-spacing: 0px;
 }
 
 .ag-timeline-card_img-box img {
@@ -308,12 +308,14 @@
 .card_info_data h6 {
   margin-left: 10px;
   font-family: 'Genos';
+  width:50%;
   font-size: 20px;
   text-transform: uppercase;
 }
 
 .card_info_data i {
   margin-left: 20px;
+  overflow: visible;
 }
 
 .ag-timeline-card_title {
@@ -410,7 +412,7 @@
   }
 
   .ag-timeline-card_info {
-    padding: 20px 15px;
+    padding: 20px 0px;
   }
 
   .ag-timeline-card_info {
@@ -437,7 +439,7 @@
   }
 
   .ag-timeline-card_info {
-    padding: 10px 15px;
+    padding: 10px 0px;
   }
 
   .ag-timeline-card_desc {
