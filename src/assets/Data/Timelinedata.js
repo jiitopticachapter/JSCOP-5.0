@@ -1,7 +1,6 @@
 const day1=[
 
     {
-    
         time:"10:00 AM-10:30 AM",
         title:"Inaugration Ceremony",
         venue:"LT-4",
@@ -74,7 +73,7 @@ const day2=[
         time:"10:00 AM-10:45 AM",
         title:"Talk 3",
         venue:"LT-4",
-        photo :"http://introtocommopensource.ridgewater.edu/ModuleVIII/ImagesModVIIISect3/audience2.jpg"
+        photo :"https://tisch.nyu.edu/content/dam/tisch/clive-davis-institute/Soundtalksession1_crop.jpg.preset.600.jpeg"
         
     },
 
@@ -89,7 +88,7 @@ const day2=[
     {
         time:"11:05 AM-12:00PM",
         title:"Online Talk",
-        photo : "http://introtocommopensource.ridgewater.edu/ModuleVIII/ImagesModVIIISect3/audience2.jpg"
+        photo : "https://tisch.nyu.edu/content/dam/tisch/clive-davis-institute/Soundtalksession1_crop.jpg.preset.600.jpeg"
     },
     
     {

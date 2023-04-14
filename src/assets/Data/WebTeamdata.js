@@ -40,7 +40,7 @@ const WebTeamData=[
     },
     {
         name:"Nancy Soni",
-        photo:"/images/WebTeam/Nancy_soni.jpg",
+        photo:"/images/WebTeam/Nancy.jpeg",
         linkedin:"https://www.linkedin.com/in/nancy-soni-3038b31b3/",
         insta:"https://www.instagram.com/nancyysonii/?igshid=ZDdkNTZiNTM%3D",
     },
