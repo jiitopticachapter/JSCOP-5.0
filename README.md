@@ -1,31 +1,36 @@
 <div align = "center">
 
-
 <img height=100px src= "/src/assets/images/JSCOP_LOGO.png">
-
-<a href=""><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a>
-<a href="https://www.linkedin.com/company/thapar-acm-student-chapter"><img src="https://github.com/aritraroy/social-icons/blob/master/linkedin-icon.png?raw=true" width="60"></a>
-<a href=""><img src="https://github.com/aritraroy/social-icons/blob/master/facebook-icon.png?raw=true" width="60"></a>
-<a href="https://instagram.com/acmthapar?igshid=1r2k6z9w5926o"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
-
+</div>
+# JSCOP 5.0 - OFFICIAL WEBSITE
+<div align = "center">
+<a href="https://twitter.com/jiitoptica"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a>
+<a href="https://www.linkedin.com/company/jiitopticachapter/mycompany/"><img src="https://github.com/aritraroy/social-icons/blob/master/linkedin-icon.png?raw=true" width="60"></a>
+<a href="https://www.facebook.com/jiitopticachapter/"><img src="https://github.com/aritraroy/social-icons/blob/master/facebook-icon.png?raw=true" width="60"></a>
+<a href="https://www.instagram.com/jiitopticachapter"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
 </div>
 
+
+---
+
 ## Purpose
-An official website is the face of any organization. This website has been built to act as a point of contact between JIIT Optica Chapter and all the students who are interested in being a part of it in the future. This website also provides the details of past events to our sponsors.
+This website has been built to effectively share all information regarding our annual flagship event, JSCOP, to all the students. This website also provides the in-depth details of all the actvities conducted in the event.
 
 ## Technologies Used
 - React
 - SASS
+- Firebase
+- jQuery
 
-## Packages Used
+<!-- ## Packages Used
 - Animate On Scroll (AOS) Library
 - react-bootstrap
 - react-image-gallery
 - react-router-dom
-- react-icons
+- react-icons -->
 
 ## View The Project
-The website is up and running on [www.jiitopticachapter.in](https://jiitopticachapter.in/)
+The website is up and running on [www.jscop.jiitopticachapter.in](https://jscop.jiitopticachapter.in/)
 
 ---
 
@@ -37,5 +42,6 @@ The website is up and running on [www.jiitopticachapter.in](https://jiitopticach
 - [Harsh Sharma](https://github.com/HarshSharma20503)
 - [Kaavya Baranwal](https://github.com/kaavyabaranwal)
 - [Aryan Arora](https://github.com/Aryan5167)
+- [Aryan Goyal](https://github.com/AryanAg08)
 - [Deepti Jain](https://github.com/deepti1028)
 - [Nancy Soni](https://github.com/Nanncyy)
