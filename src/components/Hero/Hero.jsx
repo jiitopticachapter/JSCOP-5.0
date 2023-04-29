@@ -2,7 +2,7 @@ import { React, useRef } from 'react'
 import "./Hero.scss"
 import clip from './vid-bg1.mp4';
 import Poster from './bg5.jpg';
-import Countdown from '../Clock/Countdown';
+// import Countdown from '../Clock/Countdown';
 import { Link } from 'react-router-dom'
 // import Hackathon from '../Hackathon/Hackathon';
 
@@ -27,10 +27,10 @@ const Hero = () => {
       <p>JIIT Student conference for optics and photonics</p>
 
       <Link
-        to='https://forms.gle/7ML4ouW38yro8scz9' target='_blank' className="reg_button"> <h1>REGISTER NOW </h1>
+        to='/register' target='_blank' className="reg_button"> <h1>REGISTER NOW </h1>
       </Link>
       
-      <Countdown />
+      {/* <Countdown /> */}
       
 
     </div>
