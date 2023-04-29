@@ -2,7 +2,7 @@
 
 <img height=100px src= "/src/assets/images/JSCOP_LOGO.png">
 </div>
-# JSCOP 5.0 - OFFICIAL WEBSITE
+
 <div align = "center">
 <a href="https://twitter.com/jiitoptica"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a>
 <a href="https://www.linkedin.com/company/jiitopticachapter/mycompany/"><img src="https://github.com/aritraroy/social-icons/blob/master/linkedin-icon.png?raw=true" width="60"></a>
@@ -12,7 +12,7 @@
 
 
 ---
-
+# JSCOP 5.0 - OFFICIAL WEBSITE
 ## Purpose
 This website has been built to effectively share all information regarding our annual flagship event, JSCOP, to all the students. This website also provides the in-depth details of all the actvities conducted in the event.
 
