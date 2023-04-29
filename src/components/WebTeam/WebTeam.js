@@ -23,18 +23,19 @@ function WebTeam() {
       <div className="WebTeam_content">
         <div className="WebTeam_contentBx">
           <h3>{val.name} <br /></h3>
+          <h2>{val.designation} <br /></h2>
         </div>
-        <ul className="WebTeam_sci">
+        {/* <ul className="WebTeam_sci">
           <li>
             <a href={val.insta} target="_blank" rel="noreferrer" ><i className="fa-brands fa-instagram"></i> </a>
-          </li>
+          </li> */}
           {/* <li>
             <a href="#/"><i className="fa-brands fa-github"></i> </a>
           </li> */}
-          <li>
+          {/* <li>
             <a href={val.linkedin} target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i> </a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   </div>
