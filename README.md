@@ -43,5 +43,6 @@ The website is up and running on [www.jscop.jiitopticachapter.in](https://jscop.
 - [Kaavya Baranwal](https://github.com/kaavyabaranwal)
 - [Aryan Arora](https://github.com/Aryan5167)
 - [Aryan Goyal](https://github.com/AryanAg08)
-- [Deepti Jain](https://github.com/deepti1028)
 - [Nancy Soni](https://github.com/Nanncyy)
+- [Deepti Jain](https://github.com/deepti1028)
+
